@@ -20,7 +20,79 @@ body {
 
 header {
     background-color: orange;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    
 }
+
+header a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+.logo {
+    font-size: 250%;
+    padding: 0 1rem;
+    
+}
+
+.active {
+    border-bottom: 1px solid #000;
+}
+
+.menu {
+    font-size: 110%;
+    letter-spacing: 2px;
+    list-style-type: none;
+}
+
+.menu li {
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    
+}
+
+.menu a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* Navbar styles with dropdown toggle */
+
+nav {
+    
+    background-color: peru;
+    width: 100%;
+    left: 0;
+    justify-content: space-between;
+    display: none;
+    top: 100%;
+    padding-left: 1px;
+    font-size: smaller;
+}
+
+/* Nav Toggle */
+
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+    
+}
+
 
 /* main content */
 
@@ -28,6 +100,7 @@ main {
     background-color: aquamarine;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
+    margin-top: 47px;
 }
 
 /* Footer */ 
