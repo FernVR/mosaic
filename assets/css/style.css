@@ -94,7 +94,7 @@ nav {
 }
 
 .nav-toggle-label {
-    font-size: 2rem;
+    font-size: 1.5em;
     
 }
 
@@ -112,5 +112,6 @@ main {
 
 footer {
     background-color: violet;
+    
 }
 
