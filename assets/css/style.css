@@ -27,7 +27,8 @@ body {
 header {
     background-color: #ECCA9E;
     display: flex;
-    align-items: baseline;
+    align-items: center;
+    width: 100%;
 
 }
 
@@ -48,14 +49,16 @@ header a {
 }
 
 .menu {
-    font-size: 110%;
+    font-size: 90%;
     letter-spacing: 2px;
     list-style-type: none;
+    
 }
 
 .menu li {
-    padding-bottom: 10px;
+    padding: 10px;
     text-transform: uppercase;
+    text-align: right;
 
 }
 
@@ -71,14 +74,12 @@ nav {
     background-color: #ECCA9E;
     display: flex;
     align-items: baseline;
-    ;
     width: 100%;
-    left: 0;
     justify-content: space-between;
     display: none;
     top: 100%;
-    padding: 10px;
-    font-size: smaller;
+    
+    
 }
 
 /* Nav Toggle */
@@ -94,6 +95,8 @@ nav {
 .nav-toggle-label {
     font-size: 2em;
     color: #ffffff;
+    font-weight: 100;
+    
 
 }
 
@@ -112,7 +115,7 @@ main {
 
 
 
-}
+
 
 /* Footer */
 
@@ -140,12 +143,12 @@ footer {
         box-shadow: none;
         width: fit-content;
         padding-right: 1rem;
-        text-align: right;
+        align-self: auto;
     }
 
     .menu {
         display: flex;
-        padding-left: 15em;
+        
     }
 
     .menu > li {
