@@ -18,7 +18,7 @@ body {
     flex-direction: column;
     /* Generic project styles */
     color: #ffffff;
-    
+
 }
 
 
@@ -28,7 +28,7 @@ header {
     background-color: #ECCA9E;
     display: flex;
     align-items: baseline;
-    
+
 }
 
 header a {
@@ -40,7 +40,7 @@ header a {
 .logo {
     font-size: 250%;
     padding: 0 1rem;
-    
+
 }
 
 .active {
@@ -56,7 +56,7 @@ header a {
 .menu li {
     padding-bottom: 10px;
     text-transform: uppercase;
-    
+
 }
 
 .menu a {
@@ -67,10 +67,11 @@ header a {
 /* Navbar styles with dropdown toggle */
 
 nav {
-    
+
     background-color: #ECCA9E;
     display: flex;
-    align-items: baseline;;
+    align-items: baseline;
+    ;
     width: 100%;
     left: 0;
     justify-content: space-between;
@@ -93,7 +94,7 @@ nav {
 .nav-toggle-label {
     font-size: 2em;
     color: #ffffff;
-    
+
 }
 
 
@@ -104,14 +105,20 @@ main {
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     color: #B17560;
-    
+
 }
 
-/* Footer */ 
+
+
+
+
+}
+
+/* Footer */
 
 footer {
     background-color: #B17560;
-    
+
 }
 
 
@@ -120,7 +127,7 @@ footer {
 /* Media query: tablets and larger (768px and up) */
 
 @media screen and (min-width: 768px) {
- 
+
     /* Header */
 
     header {
@@ -133,11 +140,16 @@ footer {
         box-shadow: none;
         width: fit-content;
         padding-right: 1rem;
+        text-align: right;
     }
 
     .menu {
         display: flex;
-        gap: 15px;
+        padding-left: 15em;
+    }
+
+    .menu > li {
+        padding-left: 1em;
     }
 
     .nav-toggle-label {
@@ -146,16 +158,15 @@ footer {
 
 
 
-  
-
-  
 
 
-  /* Main Content */
 
-   main {
-    padding-top: 25px;
-   }
+
+    /* Main Content */
+
+    main {
+        padding-top: 25px;
+    }
 
     #creator-section {
         display: flex;
@@ -163,5 +174,5 @@ footer {
     }
 
 
-    
+
 }
