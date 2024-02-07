@@ -17,6 +17,7 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic project styles */
+    color: #ffffff;
     
 }
 
@@ -24,21 +25,15 @@ body {
 /* header */
 
 header {
-    background-color: orange;
-    padding: 0 1rem;
-    position: fixed;
-    z-index: 99;
-    width: 100%;
-    box-shadow: 0 2px 2px #3a3a3a;
+    background-color: #ECCA9E;
     display: flex;
-    justify-content: space-between;
     align-items: baseline;
     
 }
 
 header a {
     text-decoration: none;
-    color: #000;
+    color: #ffffff;
 }
 
 
@@ -49,7 +44,7 @@ header a {
 }
 
 .active {
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid #ffffff;
 }
 
 .menu {
@@ -66,20 +61,22 @@ header a {
 
 .menu a {
     text-decoration: none;
-    color: #000;
+    color: #ffffff;
 }
 
 /* Navbar styles with dropdown toggle */
 
 nav {
     
-    background-color: orange;
+    background-color: #ECCA9E;
+    display: flex;
+    align-items: baseline;;
     width: 100%;
     left: 0;
     justify-content: space-between;
     display: none;
     top: 100%;
-    padding-left: 1px;
+    padding: 10px;
     font-size: smaller;
 }
 
@@ -94,7 +91,8 @@ nav {
 }
 
 .nav-toggle-label {
-    font-size: 1.5em;
+    font-size: 2em;
+    color: #ffffff;
     
 }
 
@@ -102,16 +100,17 @@ nav {
 /* main content */
 
 main {
-    background-color: aquamarine;
+    background-color: #FFECE3;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 47px;
+    color: #B17560;
+    
 }
 
 /* Footer */ 
 
 footer {
-    background-color: violet;
+    background-color: #B17560;
     
 }
 
