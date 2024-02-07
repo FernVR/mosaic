@@ -115,3 +115,54 @@ footer {
     
 }
 
+
+
+
+/* Media query: tablets and larger (768px and up) */
+
+@media screen and (min-width: 768px) {
+ 
+    /* Header */
+
+    header {
+        padding: 10px;
+    }
+
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    .menu {
+        display: flex;
+        gap: 15px;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+
+
+  
+
+  
+
+
+  /* Main Content */
+
+   main {
+    padding-top: 25px;
+   }
+
+    #creator-section {
+        display: flex;
+        flex-direction: row;
+    }
+
+
+    
+}
