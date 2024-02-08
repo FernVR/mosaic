@@ -122,9 +122,9 @@ main {
 
 button {
     width: 200px;
-    padding: 15px 0;
+    padding: 12px 0;
     text-align: center;
-    margin: 20px 10px;
+    margin: 40px 10px;
     border-radius: 25px;
     border: 2px solid #fff;
     background: transparent; 
@@ -140,6 +140,10 @@ button {
 button > a {
     text-decoration: none;
     color: #B17560;
+}
+
+button:hover {
+    border: 2px solid #B17560;
 }
 
 
