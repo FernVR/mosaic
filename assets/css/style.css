@@ -14,8 +14,8 @@
 /* General styles */
 body {
     min-height: 100vh;
-    display: flex;
     flex-direction: column;
+    display: flex;
     /* Generic project styles */
     color: #ffffff;
 
@@ -74,7 +74,7 @@ nav {
 
     background-color: #ECCA9E;
     display: flex;
-    align-items: baseline;
+    align-items: center;
     width: 100%;
     justify-content: space-between;
     display: none;
@@ -82,6 +82,9 @@ nav {
     
     
 }
+
+
+
 
 /* Nav Toggle */
 
@@ -150,6 +153,7 @@ button > a {
 
 button:hover {
     border: 2px solid #B17560;
+    
 }
 
 .creator-img > img {
@@ -157,9 +161,16 @@ button:hover {
     height: auto;
     padding-left: 25px;
     padding-top: 30px;
-    max-width: 500px
-    
+    max-width: 768px
 
+}
+
+.creator-letter {
+    text-align: center;
+}
+
+.creator-letter > h2 {
+    padding: 20px 10px;
 }
 
 
@@ -196,6 +207,9 @@ footer {
         align-self: auto;
     }
 
+
+  
+
     .menu {
         display: flex;
         
@@ -209,6 +223,7 @@ footer {
         display: none;
     }
 
+   
 
  /* Main Content */
 
