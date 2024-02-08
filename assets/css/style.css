@@ -185,6 +185,27 @@ footer {
 
 }
 
+footer ul {
+    text-align: right;
+    width: 55%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    font-size: larger;
+
+}
+
+footer ul li {
+    list-style-type: none;
+}
+
+footer ul a {
+    color: #FFECE3;
+    font-size: 2em;
+}
+
 
 
 
