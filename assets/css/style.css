@@ -191,6 +191,22 @@ button:hover {
 
 
 
+/* Quote */
+
+#quote {
+    background-color: #000;
+    color: #FFECE3;
+    padding: 15px;
+}
+
+#quote > h2 {
+    text-align: center;
+    text-transform: uppercase;
+    justify-content: space-between;
+}
+
+
+
 
 
 
