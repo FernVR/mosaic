@@ -258,6 +258,21 @@ footer ul a {
 
 
 
+/* Media query: tablets and larger (481px and up) */
+
+@media screen and (min-width: 481px) {
+
+    header {
+        gap: 45%;
+    }
+
+    .creator-img {
+        padding-left: 20px;
+    }
+}
+
+
+
 
 /* Media query: tablets and larger (768px and up) */
 
@@ -351,13 +366,15 @@ footer ul a {
 @media screen and (min-width: 1024px) {
 
     header {
-        gap: 55%;
+        gap: 45%;
 
     }
 
+    
+
     .menu li {
-        padding-left: 15px;
-        letter-spacing: 2px;
+        padding-right: 15px;
+        letter-spacing: 5px;
     }
 
     .logo {
