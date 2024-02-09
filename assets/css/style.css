@@ -370,5 +370,11 @@ footer ul a {
         gap: 65%;
     }
 
+    #creator-section {
+        gap : 10px;
+    }
+
+
+ 
 
 }
