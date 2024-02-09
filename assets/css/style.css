@@ -127,7 +127,7 @@ main {
 
 .banner {
     text-align: center;
-    padding: 20px 5px;
+    background-image: url(/assets/images/pp1-books-2.avif);
 }
 
 .banner h2 {
@@ -290,9 +290,7 @@ footer ul a {
 
  /* Main Content */
 
-    main {
-        padding-top: 25px;
-    }
+    
 
 
     .banner {
