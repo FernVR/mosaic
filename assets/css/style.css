@@ -178,7 +178,7 @@ button:hover {
     height: auto;
     padding-left: 25px;
     padding-top: 30px;
-    max-width: 768px;
+    max-width: 500px;
     
 }
 
@@ -302,8 +302,11 @@ footer ul a {
     #creator-section {
         display: flex;
         flex-direction: row;
-        gap: 5rem;
+        gap: 10rem;
+        padding: 7.5%;
     }
+
+    
 
 
     /* Footer */
