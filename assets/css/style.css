@@ -361,9 +361,9 @@ footer ul a {
 
 
 
-/* Media query: tablets and larger (1024px and up) */
+/* Media query: tablets and larger (992px and up) */
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 992px) {
 
     header {
         gap: 45%;
