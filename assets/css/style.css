@@ -206,7 +206,7 @@ button:hover {
 }
 
 .creator-letter > p {
-    padding: 12px;
+    padding: 15px;
     line-height: 30px;
 }
 
@@ -313,8 +313,8 @@ footer ul a {
     }
 
     .creator-letter > p {
-        
-        line-height: 45px;
+        padding: 0;
+        line-height: 30px;
     }
 
     
@@ -365,6 +365,11 @@ footer ul a {
     }
 
 
+    .creator-letter > p {
+        line-height: 45px;
+    }
+
+
 }
 
 
@@ -381,6 +386,11 @@ footer ul a {
 
     #creator-section {
         gap : 10px;
+    }
+
+    .creator-letter > p {
+        line-height: 60px;
+        padding-top: 50px;
     }
 
 
