@@ -30,6 +30,8 @@ header {
     align-items: center;
     width: 100%;
     padding: 5px 0;
+    gap: 5%;
+    
 
 }
 
@@ -42,12 +44,15 @@ header a {
 .logo {
     
     padding: 2px 5px;
-
     height: fit-content;
-    width: 43%;
+    width: 60px;
     max-width: 200px;
 
 }
+
+
+
+
 
 
 
@@ -56,18 +61,20 @@ header a {
    color: #B17560;
 }
 
+
+
 .menu {
     font-size: 60%;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     list-style-type: none;
-    
+    display: flex;
     
 }
 
 .menu li {
-    padding: 10px;
+    padding: 5px;
     text-transform: uppercase;
-    text-align: right;
+    
 
 }
 
@@ -75,6 +82,8 @@ header a {
     text-decoration: none;
     color: #ffffff;
 }
+
+
 
 
 
@@ -265,32 +274,29 @@ footer ul a {
 
     header {
         padding: 10px;
+        gap: 45%;
+
     }
 
-    nav {
-        display: block;
-        position: relative;
-        box-shadow: none;
-        width: fit-content;
-        padding-right: 1rem;
-        align-self: auto;
+    .logo {
+        width: 85px;
     }
+
+    .menu {
+        font-size: 75%;
+
+    }
+
+    .menu li {
+        padding-right: 10px;
+    }
+
+ 
 
 
   
 
-    .menu {
-        display: flex;
-        
-    }
-
-    .menu > li {
-        padding-left: 1em;
-    }
-
-    .nav-toggle-label {
-        display: none;
-    }
+  
 
    
 
