@@ -382,6 +382,16 @@ footer ul a {
         gap: 65%;
     }
 
+    .logo {
+        width: 110px;
+        
+    }
+
+
+    .banner {
+        padding: 120px 0;
+    }
+
     
 
     #creator-section {
