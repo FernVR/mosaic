@@ -44,7 +44,7 @@ header a {
     padding: 2px 5px;
 
     height: fit-content;
-    width: 55%;
+    width: 43%;
     max-width: 200px;
 
 }
@@ -56,9 +56,10 @@ header a {
 }
 
 .menu {
-    font-size: 90%;
+    font-size: 60%;
     letter-spacing: 2px;
     list-style-type: none;
+    
     
 }
 
@@ -74,7 +75,9 @@ header a {
     color: #ffffff;
 }
 
-/* Navbar styles with dropdown toggle */
+
+
+/* Navbar styles with dropdown toggle -- not sure if we will bother with this burger icon!!!
 
 nav {
 
@@ -92,7 +95,7 @@ nav {
 
 
 
-/* Nav Toggle */
+/* Nav Toggle 
 
 #nav-toggle:checked~nav {
     display: block;
@@ -108,7 +111,7 @@ nav {
     font-weight: 100;
     
 
-}
+}  */
 
 
 /* Main content */
@@ -128,6 +131,7 @@ main {
 .banner {
     text-align: center;
     background-image: url(/assets/images/pp1-books-2.avif);
+    padding: 8% 10px;
 }
 
 .banner h2 {
