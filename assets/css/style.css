@@ -294,6 +294,11 @@ footer ul a {
         padding-top: 25px;
     }
 
+
+    .banner {
+        padding: 100px;
+    }
+
     #creator-section {
         display: flex;
         flex-direction: row;
