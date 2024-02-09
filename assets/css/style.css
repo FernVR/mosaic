@@ -2,7 +2,7 @@
 
 
 
-/* Wild card selector (default) */
+/* Wild card selector */
 
 * {
     margin: 0;
@@ -11,14 +11,14 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+
 /* General styles */
+
 body {
     min-height: 100vh;
     flex-direction: column;
     display: flex;
-    /* Generic project styles */
     color: #ffffff;
-
 }
 
 
@@ -31,8 +31,6 @@ header {
     width: 100%;
     padding: 5px 0;
     gap: 5%;
-    
-
 }
 
 header a {
@@ -40,88 +38,33 @@ header a {
     color: #ffffff;
 }
 
-
 .logo {
-    
     padding: 0 4px;
     height: fit-content;
     width: 60px;
     max-width: 200px;
-
 }
-
-
-
-
-
-
 
 #active {
-   /* border-bottom: 1px solid #ffffff; */
-   color: #B17560;
+    color: #B17560;
 }
-
-
 
 .menu {
     font-size: 60%;
     letter-spacing: 1px;
     list-style-type: none;
     display: flex;
-    
 }
 
 .menu li {
     padding: 5px;
     text-transform: uppercase;
-    
-
 }
 
 .menu a {
     text-decoration: none;
     color: #ffffff;
 }
-
-
-
-
-
-/* Navbar styles with dropdown toggle -- not sure if we will bother with this burger icon!!!
-
-nav {
-
-    background-color: #ECCA9E;
-    display: flex;
-    align-items: center;
-    width: 100%;
-    justify-content: space-between;
-    display: none;
-    top: 100%;
-    
-    
-}
-
-
-
-
-/* Nav Toggle 
-
-#nav-toggle:checked~nav {
-    display: block;
-}
-
-#nav-toggle {
-    display: none;
-}
-
-.nav-toggle-label {
-    font-size: 2em;
-    color: #ffffff;
-    font-weight: 100;
-    
-
-}  */
 
 
 /* Main content */
@@ -131,9 +74,7 @@ main {
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     color: #B17560;
-
 }
-
 
 
 /* Banner */
@@ -149,11 +90,10 @@ main {
     padding-top: 20px;
 }
 
-.banner > p {
+.banner>p {
     padding-top: 20px;
     padding-bottom: 30px;
 }
-
 
 
 /* Button */
@@ -165,7 +105,7 @@ button {
     margin: 20px 10px;
     border-radius: 25px;
     border: 2px solid #fff;
-    background: transparent; 
+    background: transparent;
     color: #fff;
     cursor: pointer;
     position: relative;
@@ -175,41 +115,38 @@ button {
     text-transform: uppercase;
 }
 
-button > a {
+button>a {
     text-decoration: none;
     color: #fff;
 }
 
 button:hover {
     border: 2px solid #B17560;
-    
 }
 
 
 /* Creator Letter Section */
 
-.creator-img > img {
+.creator-img>img {
     width: 88%;
     height: auto;
     padding-left: 25px;
     padding-top: 30px;
     max-width: 500px;
-    
 }
 
 .creator-letter {
     text-align: center;
 }
 
-.creator-letter > h2 {
+.creator-letter>h2 {
     padding: 20px 10px;
 }
 
-.creator-letter > p {
+.creator-letter>p {
     padding: 15px;
     line-height: 30px;
 }
-
 
 
 /* Quote */
@@ -227,23 +164,16 @@ button:hover {
 }
 
 
-
-
-
-
 /* Footer */
 
 footer {
     background-color: #B17560;
-
 }
 
 footer ul {
-    
     display: flex;
     justify-content: center;
     padding: 20px 0;
-
 }
 
 footer ul li {
@@ -272,25 +202,19 @@ footer ul a {
 }
 
 
-
-
 /* Media query: tablets and larger (768px and up) */
 
 @media screen and (min-width: 768px) {
 
-    
-
     body {
         font-size: 125%;
     }
-    
-    
+
+
     /* Header */
 
     header {
-        
         gap: 45%;
-
     }
 
     .logo {
@@ -300,17 +224,14 @@ footer ul a {
 
     .menu {
         font-size: 75%;
-
     }
 
     .menu li {
         padding-right: 10px;
     }
-   
+
+
     /* Main Content */
-
-    
-
 
     .banner {
         padding: 100px;
@@ -319,7 +240,6 @@ footer ul a {
     #creator-section {
         display: flex;
         flex-direction: row;
-        
         padding: 5%;
     }
 
@@ -327,18 +247,14 @@ footer ul a {
         width: 50%;
     }
 
-    .creator-letter > p {
+    .creator-letter>p {
         padding: 0;
         line-height: 30px;
     }
 
-    
-
     .creator-img {
         width: 50%;
     }
-
-    
 
 
     /* Footer */
@@ -350,15 +266,10 @@ footer ul a {
         padding: 35px 0;
         display: flex;
         align-items: center;
-        justify-content: space-between; 
+        justify-content: space-between;
         font-size: larger;
-    
     }
-
-
-
 }
-
 
 
 /* Media query: tablets and larger (992px and up) */
@@ -367,10 +278,7 @@ footer ul a {
 
     header {
         gap: 45%;
-
     }
-
-    
 
     .menu li {
         padding-right: 15px;
@@ -381,14 +289,10 @@ footer ul a {
         padding: 0;
     }
 
-
-    .creator-letter > p {
+    .creator-letter>p {
         line-height: 45px;
     }
-
-
 }
-
 
 
 /* Media query: tablets and larger (1280px and up) */
@@ -401,26 +305,19 @@ footer ul a {
 
     .logo {
         width: 110px;
-        
     }
-
 
     .banner {
         padding: 120px 0;
     }
 
-    
 
     #creator-section {
-        gap : 10px;
+        gap: 10px;
     }
 
-    .creator-letter > p {
+    .creator-letter>p {
         line-height: 60px;
         padding-top: 50px;
     }
-
-
- 
-
 }
