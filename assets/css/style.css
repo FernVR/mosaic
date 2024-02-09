@@ -133,6 +133,7 @@ main {
     text-align: center;
     background-image: url(../images/pp1-books-2.avif);
     padding: 8% 10px;
+    color: #fff;
 }
 
 .banner h2 {
@@ -167,7 +168,7 @@ button {
 
 button > a {
     text-decoration: none;
-    color: #B17560;
+    color: #fff;
 }
 
 button:hover {
