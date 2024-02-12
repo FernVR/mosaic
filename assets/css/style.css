@@ -106,7 +106,7 @@ main {
 
 .banner {
     text-align: center;
-    background-image: url(../images/pp1-books-2.avif);
+    background-image: url(../images/bg-image-7.avif);
     padding: 10px;
     color: #fff;
 }
@@ -130,7 +130,7 @@ button {
     border-radius: 25px;
     border: 2px solid #fff;
     background: transparent;
-    color: #fff;
+    color: #ffffff;
     cursor: pointer;
     position: relative;
     overflow: hidden;
@@ -141,12 +141,17 @@ button {
 
 button > a {
     text-decoration: none;
-    color: #fff;
+    color: #ffffff;
+    
 }
 
 button:hover {
-    border: 2px solid #B17560;
+    border: 3px solid #c29585;
+    
 }
+
+
+
 
 
 /* Creator Letter Section */
@@ -358,6 +363,13 @@ footer ul a {
 
     .logo {
         padding: 0;
+    }
+
+    
+
+    button {
+        margin: 80px 10px;
+        padding: 12px 3px;
     }
 
     .creator-letter>p {
