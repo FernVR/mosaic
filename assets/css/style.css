@@ -183,12 +183,28 @@ button:hover {
     background-color: #000;
     color: #FFECE3;
     padding: 15px;
+    text-align: center;
 }
 
 #quote > h2 {
-    text-align: center;
+    
     text-transform: uppercase;
     justify-content: space-between;
+    padding: 10px 0;
+}
+
+#quote > p {
+    padding: 10px;
+    line-height: 30px;
+}
+
+#quote p a {
+    color: #ECCA9E;
+    text-decoration: none;
+}
+
+#quote p a:hover {
+    color: #B17560;
 }
 
 
@@ -346,6 +362,11 @@ footer ul a {
 
     .creator-letter>p {
         line-height: 45px;
+    }
+
+    #quote > p {
+        padding: 50px 100px;
+        line-height: 60px;
     }
 }
 
