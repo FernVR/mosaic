@@ -30,7 +30,7 @@ header {
     align-items: center;
     width: 100%;
     padding: 5px 0;
-    gap: 5%;
+    gap: 1%;
     position: fixed;
 }
 
@@ -52,7 +52,7 @@ header a {
 }
 
 .menu {
-    font-size: 60%;
+    font-size: 60.5%;
     letter-spacing: 1px;
     list-style-type: none;
     display: flex;
@@ -62,6 +62,8 @@ header a {
 .menu li {
     padding: 5px;
     text-transform: uppercase;
+    display: inline-block;
+    position: relative;
 }
 
 .menu a {
@@ -198,8 +200,21 @@ footer ul a {
     /* Header */
 
     header {
-        gap: 20%;
+        gap: 15%;
         
+        
+    }
+} 
+
+/* Media query: larger phone screens (420px and up) */
+
+@media screen and (min-width: 420px) {
+
+    /* Header */
+
+    header {
+        gap: 30%;
+          
     }
 } 
 
@@ -210,7 +225,7 @@ footer ul a {
 @media screen and (min-width: 481px) {
 
     header {
-        gap: 45%;
+        gap: 35%;
     }
 
     .creator-img {
@@ -325,7 +340,15 @@ footer ul a {
     }
 
     .banner {
-        padding: 120px 0;
+        padding: 200px 0;
+    }
+
+    .banner>h2 {
+        padding: 100px;
+    }
+
+    .banner>p {
+        padding: 0 100px;
     }
 
 
