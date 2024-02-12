@@ -136,9 +136,10 @@ button:hover {
 }
 
 .creator-img > img {
-    width: 245px;
+    width: 85%;
     height: auto;
     max-width: 500px;
+    padding-left: 30px;
 
 }
 
