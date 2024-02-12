@@ -294,6 +294,35 @@ footer ul a {
 }
 
 
+/* Media query: landscape phone screen and small tablet (650px and up) */
+
+@media screen and (min-width: 650px) {
+
+    header {
+        gap: 50%;
+    }
+
+    #creator-section {
+        display: flex;
+    }
+
+   .creator-img {
+        width: 400px;
+        margin-top: 50px;
+
+    }
+
+    .creator-letter {
+        width: 50%;
+    }
+
+    
+}
+
+
+
+
+
 /* Media query: tablets and larger (768px and up) */
 
 @media screen and (min-width: 768px) {
