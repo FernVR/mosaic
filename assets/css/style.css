@@ -18,7 +18,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    
+
 }
 
 
@@ -46,7 +46,7 @@ header a {
     width: 60px;
     max-width: 170px;
     max-height: 200px;
-    
+
 }
 
 #active {
@@ -56,7 +56,7 @@ header a {
 
 /* Nav hover styles - DONT FORGET TO ADD CREDIT HERE AND IN README */
 
-nav ul li::after{
+nav ul li::after {
     content: '';
     height: 1.7px;
     width: 0;
@@ -67,7 +67,7 @@ nav ul li::after{
     transition: 0.5s;
 }
 
-nav ul li:hover::after{
+nav ul li:hover::after {
     width: 92%;
 }
 
@@ -76,7 +76,7 @@ nav ul li:hover::after{
     letter-spacing: 1px;
     list-style-type: none;
     display: flex;
-    
+
 }
 
 .menu li {
@@ -109,7 +109,7 @@ main {
     text-align: center;
 
     /* This code needs a credit to youtube video - same as buttons and nav */
-    background-image: linear-gradient(rgba(0,0,0,0.25),  rgba(0,0,0,0.25)), url(../images/bg-image-7.avif);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../images/bg-image-7.avif);
     padding: 10px;
     color: #fff;
 }
@@ -142,15 +142,15 @@ button {
     text-transform: uppercase;
 }
 
-button > a {
+button>a {
     text-decoration: none;
     color: #ffffff;
-    
+
 }
 
 button:hover {
     border: 3px solid #deb37b;
-    
+
 }
 
 button>a:hover {
@@ -167,7 +167,7 @@ button>a:hover {
     padding: 20px;
 }
 
-.creator-img > img {
+.creator-img>img {
     width: 85%;
     height: auto;
     max-width: 500px;
@@ -184,7 +184,7 @@ button>a:hover {
 }
 
 .creator-letter>p {
-    
+
     line-height: 30px;
 }
 
@@ -198,14 +198,14 @@ button>a:hover {
     text-align: center;
 }
 
-#quote > h2 {
-    
+#quote>h2 {
+
     text-transform: uppercase;
     justify-content: space-between;
     padding: 10px 0;
 }
 
-#quote > p {
+#quote>p {
     padding: 10px;
     line-height: 30px;
 }
@@ -243,15 +243,14 @@ footer ul a {
 }
 
 
-/* Review Page */ 
+/* Review Page */
 
-#banner-review {
-    background-image: linear-gradient(rgba(0,0,0,0.25),  rgba(0,0,0,0.25)), url(../images/pp1-books-2.avif);
+#review-banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../images/pp1-books-2.avif);
+    padding: 50px;
 }
 
-#banner-review > h2 {
-    size: 200%;
-}
+
 
 
 /* Media query: larger phone screens (390px and up) */
@@ -262,10 +261,10 @@ footer ul a {
 
     header {
         gap: 18%;
-        
-        
+
+
     }
-} 
+}
 
 /* Media query: larger phone screens (420px and up) */
 
@@ -275,9 +274,9 @@ footer ul a {
 
     header {
         gap: 30%;
-          
+
     }
-} 
+}
 
 
 
@@ -311,7 +310,7 @@ footer ul a {
         display: flex;
     }
 
-   .creator-img {
+    .creator-img {
         width: 400px;
         margin-top: 50px;
 
@@ -321,13 +320,13 @@ footer ul a {
         width: 50%;
     }
 
-    #quote > p {
+    #quote>p {
         padding: 20px 50px;
     }
 
-     /* Footer */
+    /* Footer */
 
-     footer ul {
+    footer ul {
         text-align: right;
         width: 55%;
         margin: auto;
@@ -338,7 +337,16 @@ footer ul a {
         font-size: larger;
     }
 
-    
+
+    /* Review page */
+
+    #review-banner {
+        padding: 100px;
+    }
+
+
+
+
 }
 
 
@@ -421,7 +429,7 @@ footer ul a {
         padding: 0;
     }
 
-    
+
 
     button {
         margin: 80px 10px;
@@ -432,10 +440,14 @@ footer ul a {
         line-height: 45px;
     }
 
-    #quote > p {
+    #quote>p {
         padding: 50px 100px;
         line-height: 60px;
     }
+
+    /* Review page */
+
+
 }
 
 
