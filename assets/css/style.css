@@ -32,6 +32,7 @@ header {
     padding: 5px 0;
     gap: 1%;
     position: fixed;
+    z-index: 99;
 }
 
 header a {
@@ -196,14 +197,14 @@ footer ul a {
 
 
 
-/* Media query: larger phone screens (330px and up) */
+/* Media query: larger phone screens (390px and up) */
 
-@media screen and (min-width: 330px) {
+@media screen and (min-width: 390px) {
 
     /* Header */
 
     header {
-        gap: 15%;
+        gap: 18%;
         
         
     }
