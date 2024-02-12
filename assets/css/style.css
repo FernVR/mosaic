@@ -40,9 +40,10 @@ header a {
 
 .logo {
     padding: 0 4px;
-    height: fit-content;
+    height: 60px;
     width: 60px;
     max-width: 200px;
+    max-height: 200px;
 }
 
 #active {
