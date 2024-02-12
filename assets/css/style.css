@@ -25,7 +25,7 @@ body {
 /* Header */
 
 header {
-    background-color: #ECCA9E;
+    background-color: #deb37b;
     display: flex;
     align-items: center;
     width: 100%;
@@ -106,7 +106,7 @@ main {
 
 .banner {
     text-align: center;
-    background-image: url(../images/bg-image-7.avif);
+    background-image: linear-gradient(rgba(0,0,0,0.25),  rgba(0,0,0,0.25)), url(../images/bg-image-7.avif);
     padding: 10px;
     color: #fff;
 }
