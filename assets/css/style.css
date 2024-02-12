@@ -41,7 +41,7 @@ header a {
 
 .logo {
     padding: 0 4px;
-    height: 60px;
+    height: auto;
     width: 60px;
     max-width: 170px;
     max-height: 200px;
@@ -56,6 +56,7 @@ header a {
     letter-spacing: 1px;
     list-style-type: none;
     display: flex;
+    
 }
 
 .menu li {
@@ -117,7 +118,7 @@ button {
     text-transform: uppercase;
 }
 
-button>a {
+button > a {
     text-decoration: none;
     color: #fff;
 }
@@ -129,7 +130,7 @@ button:hover {
 
 /* Creator Letter Section */
 
-.creator-img>img {
+.creator-img > img {
     width: 88%;
     height: auto;
     padding-left: 25px;
@@ -190,7 +191,21 @@ footer ul a {
 
 
 
-/* Media query: tablets and larger (481px and up) */
+/* Media query: larger phone screens (330px and up) */
+
+@media screen and (min-width: 330px) {
+
+    /* Header */
+
+    header {
+        gap: 20%;
+        
+    }
+} 
+
+
+
+/* Media query: landscape phone screen and small tablet (481px and up) */
 
 @media screen and (min-width: 481px) {
 
@@ -274,7 +289,7 @@ footer ul a {
 }
 
 
-/* Media query: tablets and larger (992px and up) */
+/* Media query: large tablets and laptop (992px and up) */
 
 @media screen and (min-width: 992px) {
 
@@ -297,7 +312,7 @@ footer ul a {
 }
 
 
-/* Media query: tablets and larger (1280px and up) */
+/* Media query: large laptop and desktop (1280px and up) */
 
 @media screen and (min-width: 1280px) {
 
