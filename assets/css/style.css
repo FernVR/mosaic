@@ -303,6 +303,10 @@ footer ul a {
         gap: 50%;
     }
 
+    .banner {
+        padding: 15px 70px;
+    }
+
     #creator-section {
         display: flex;
     }
@@ -315,6 +319,23 @@ footer ul a {
 
     .creator-letter {
         width: 50%;
+    }
+
+    #quote > p {
+        padding: 20px 50px;
+    }
+
+     /* Footer */
+
+     footer ul {
+        text-align: right;
+        width: 55%;
+        margin: auto;
+        padding: 15px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: larger;
     }
 
     
@@ -379,18 +400,7 @@ footer ul a {
     }
 
 
-    /* Footer */
 
-    footer ul {
-        text-align: right;
-        width: 55%;
-        margin: auto;
-        padding: 15px 0;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        font-size: larger;
-    }
 }
 
 
