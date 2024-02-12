@@ -18,7 +18,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    color: #ffffff;
+    
 }
 
 
@@ -241,6 +241,16 @@ footer ul a {
     font-size: 1.5em;
 }
 
+
+/* Review Page */ 
+
+#banner-review {
+    background-image: linear-gradient(rgba(0,0,0,0.25),  rgba(0,0,0,0.25)), url(../images/pp1-books-2.avif);
+}
+
+#banner-review > h2 {
+    size: 200%;
+}
 
 
 /* Media query: larger phone screens (390px and up) */
