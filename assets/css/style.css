@@ -16,8 +16,8 @@
 
 body {
     min-height: 100vh;
-    flex-direction: column;
     display: flex;
+    flex-direction: column;
     color: #ffffff;
 }
 
@@ -46,10 +46,29 @@ header a {
     width: 60px;
     max-width: 170px;
     max-height: 200px;
+    
 }
 
 #active {
     color: #B17560;
+}
+
+
+/* Nav hover styles - DONT FORGET TO ADD CREDIT HERE AND IN README */
+
+nav ul li::after{
+    content: '';
+    height: 1.75px;
+    width: 0;
+    background: #B17560;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+nav ul li:hover::after{
+    width: 92%;
 }
 
 .menu {
@@ -182,7 +201,7 @@ footer {
 footer ul {
     display: flex;
     justify-content: center;
-    padding: 20px 0;
+    padding: 2%;
 }
 
 footer ul li {
@@ -192,7 +211,7 @@ footer ul li {
 
 footer ul a {
     color: #FFECE3;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 
@@ -299,7 +318,7 @@ footer ul a {
         text-align: right;
         width: 55%;
         margin: auto;
-        padding: 35px 0;
+        padding: 15px 0;
         display: flex;
         align-items: center;
         justify-content: space-between;
