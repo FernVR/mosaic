@@ -58,7 +58,7 @@ header a {
 
 nav ul li::after{
     content: '';
-    height: 1.75px;
+    height: 1.7px;
     width: 0;
     background: #B17560;
     position: absolute;
