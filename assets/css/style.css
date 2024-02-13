@@ -298,9 +298,14 @@ footer ul a {
 
 @media screen and (min-width: 650px) {
 
+
+    /* Header */
+
     header {
         gap: 50%;
     }
+
+    /* Main Content */
 
     .banner {
         padding: 15px 70px;
@@ -384,6 +389,10 @@ footer ul a {
 
     /* Main Content */
 
+    main {
+        margin-top: 75px;
+    }
+
     .banner {
         padding: 100px;
     }
@@ -416,6 +425,9 @@ footer ul a {
 
 @media screen and (min-width: 992px) {
 
+
+    /* Header */
+
     header {
         gap: 45%;
     }
@@ -429,7 +441,11 @@ footer ul a {
         padding: 0;
     }
 
+    /* Main Content */
 
+    main {
+        margin-top: 85px;
+    }
 
     button {
         margin: 80px 10px;
@@ -459,12 +475,20 @@ footer ul a {
         font-size: x-large;
     }
 
+    /* Header */
+
     header {
         gap: 55%;
     }
 
     .logo {
         width: 110px;
+    }
+
+    /* Main Content */
+
+    main {
+        margin-top: 105px;
     }
 
     .banner {
