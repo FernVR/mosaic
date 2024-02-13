@@ -519,11 +519,13 @@ footer ul a {
         font-size: 125%;
     }
 
-    /* Header */
+    
 
-    header {
-        gap: 68%;
-    }
+   /* Header */
+
+   header {
+    gap: 63%;
+}
 
    
 
