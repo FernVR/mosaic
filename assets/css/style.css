@@ -63,12 +63,12 @@ nav ul li::after {
     background: #B17560;
     position: absolute;
     left: 0;
-    bottom: -2px;
+    bottom: -1.5px;
     transition: 0.5s;
 }
 
 nav ul li:hover::after {
-    width: 92%;
+    width: 88%;
 }
 
 .menu {
@@ -88,6 +88,10 @@ nav ul li:hover::after {
 .menu a {
     text-decoration: none;
     color: #ffffff;
+}
+
+.menu a:hover {
+    color: #B17560;
 }
 
 
@@ -154,12 +158,11 @@ button>a {
 
 button:hover {
     border: 3px solid #deb37b;
+    
 
 }
 
-button>a:hover {
-    color: #deb37b;
-}
+
 
 
 
