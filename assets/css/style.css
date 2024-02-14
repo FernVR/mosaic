@@ -63,7 +63,7 @@ nav ul li::after {
     background: #B17560;
     position: absolute;
     left: 0;
-    bottom: -1.5px;
+    bottom: -1.01px;
     transition: 0.5s;
 }
 
@@ -153,20 +153,11 @@ button {
 button>a {
     text-decoration: none;
     color: #ffffff;
-
 }
 
 button:hover {
     border: 3px solid #deb37b;
-    
-
 }
-
-
-
-
-
-
 
 /* Creator Letter Section */
 
@@ -260,12 +251,16 @@ footer ul a {
 
 /* Form Page */
 
-#form-box>form {
-    
-    
-    gap: 10px;
-    letter-spacing: 2px;
+#form-box {
+    padding: 10px;
 }
+
+textarea {
+    height: 70px;
+    width: 250px;
+}
+
+
 
 
 
@@ -522,6 +517,11 @@ footer ul a {
         gap: 50%;
     }
 
+    .menu a {
+        font-weight: 500;
+        
+    }
+
 
 }
 
@@ -544,6 +544,11 @@ footer ul a {
 
     .logo {
         margin-left: 10px;
+    }
+
+    .menu a {
+        font-weight: 600;
+        
     }
 
 
