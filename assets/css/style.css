@@ -122,7 +122,7 @@ main {
 }
 
 .banner>p {
-    
+
     line-height: 25px;
 }
 
@@ -257,14 +257,14 @@ footer ul a {
 
 
 
-/* Media query: larger phone screens (390px and up) */
+/* Media query: larger phone screens (350px and up) */
 
-@media screen and (min-width: 390px) {
+@media screen and (min-width: 350px) {
 
     /* Header */
 
     header {
-        gap: 25%;
+        gap: 22%;
 
 
     }
@@ -282,7 +282,7 @@ footer ul a {
 
 /* Media query: larger phone screens (420px and up) */
 
-@media screen and (min-width: 420px) {
+@media screen and (min-width: 400px) {
 
     /* Header */
 
@@ -389,7 +389,7 @@ footer ul a {
 
     .logo {
         width: 85px;
-        padding-left: 10px;
+        
     }
 
     .menu {
@@ -411,7 +411,7 @@ footer ul a {
         padding: 50px;
     }
 
-    .banner > p {
+    .banner>p {
         padding-bottom: 10px;
         line-height: 35px;
     }
@@ -419,7 +419,7 @@ footer ul a {
     #creator-section {
         display: flex;
         flex-direction: row;
-        
+
     }
 
     .creator-letter {
@@ -458,6 +458,8 @@ footer ul a {
 
     .logo {
         padding: 0;
+        margin-left: 5px;
+        
     }
 
     /* Main Content */
@@ -471,7 +473,7 @@ footer ul a {
         letter-spacing: 3px;
     }
 
-    .banner > h2 {
+    .banner>h2 {
         letter-spacing: 3px;
         line-height: 45px;
     }
@@ -486,7 +488,7 @@ footer ul a {
     }
 
     #quote>p {
-        
+
         line-height: 45px;
     }
 
@@ -499,8 +501,8 @@ footer ul a {
 /* Media query: large tablet and laptop (1024px and up) */
 
 @media screen and (min-width: 1024px) {
-    
-    
+
+
     /* Header */
 
     header {
@@ -519,15 +521,19 @@ footer ul a {
         font-size: 125%;
     }
 
-    
 
-   /* Header */
 
-   header {
-    gap: 63%;
-}
+    /* Header */
 
-   
+    header {
+        gap: 61%;
+    }
+
+    .logo {
+        margin-left: 10px;
+    }
+
+
 
     /* Main Content */
 
