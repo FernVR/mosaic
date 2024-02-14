@@ -251,13 +251,20 @@ footer ul a {
 
 /* Form Page */
 
+
+.form-banner {
+    background-image: url(../images/pp1-banner-pic-1.avif);
+    padding: 30px 10px;
+}
+
 .form-banner h2 {
     padding: 10px;
     text-align: center;
 }
 
 #form-box {
-    padding: 10px;
+    margin: 7px;
+    padding: 10px 0;
     background-color: #f0cfc0;
 }
 
