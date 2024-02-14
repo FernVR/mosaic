@@ -255,6 +255,16 @@ footer ul a {
 }
 
 
+/* Form Page */
+
+#form-box>form {
+    
+    
+    gap: 10px;
+    letter-spacing: 2px;
+}
+
+
 
 
 /* Media query: larger phone screens (350px and up) */
