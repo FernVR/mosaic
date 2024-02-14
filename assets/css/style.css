@@ -251,8 +251,14 @@ footer ul a {
 
 /* Form Page */
 
+.form-banner h2 {
+    padding: 10px;
+    text-align: center;
+}
+
 #form-box {
     padding: 10px;
+    background-color: #f0cfc0;
 }
 
 textarea {
