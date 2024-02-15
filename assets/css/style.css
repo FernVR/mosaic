@@ -53,17 +53,17 @@ header a {
 
 nav ul li::after {
     content: '';
-    height: 1.5px;
+    height: 2px;
     width: 0;
     background: #B17560;
     position: absolute;
     left: 0;
-    bottom: 0.5px;
+    bottom: -3px;
     transition: 0.5s;
 }
 
 nav ul li:hover::after {
-    width: 80%;
+    width: 88.5%;
 }
 
 .menu {
@@ -323,6 +323,10 @@ textarea {
         gap: 50%;
     }
 
+    .menu li {
+        margin-right: 12px;
+    }
+
     /* Main Content */
 
     .banner {
@@ -379,7 +383,7 @@ textarea {
     /* Header */
 
     header {
-        gap: 45%;
+        gap: 42%;
     }
 
     .logo {
@@ -392,6 +396,7 @@ textarea {
 
     .menu li {
         margin-bottom: 5px;
+        margin-right: 15px;
     }
 
     /* Main Content */
@@ -508,8 +513,6 @@ textarea {
 
     /* Header */
 
-    
-
     .menu a {
         font-weight: 400;
     }
@@ -519,10 +522,8 @@ textarea {
     /* Home Banner */
 
     .banner>h2 {
-        line-height: 55px;
-        
+        line-height: 55px; 
     }
-
 }
 
 
@@ -537,7 +538,7 @@ textarea {
     /* Header */
 
     header {
-        gap: 58%;
+        gap: 55%;
     }
 
     .logo {
