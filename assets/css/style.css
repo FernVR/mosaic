@@ -150,18 +150,21 @@ button:hover {
 /* Creator Letter Section */
 
 #creator-section {
-    margin: 20px;
+    margin: 20px 0;
 }
 
 .creator-img>img {
     width: 85%;
     height: auto;
     max-width: 500px;
-    padding-left: 30px;
+    margin-left: 20px;
+    margin-top: 30px;
+    
 }
 
 .creator-letter {
     text-align: center;
+    padding: 12px;
 }
 
 .creator-letter>h2 {
@@ -281,7 +284,7 @@ textarea {
     }
 
     .creator-img {
-        padding-left: 25px;
+       margin-left: 12px;
     }
 }
 
@@ -308,7 +311,7 @@ textarea {
     }
 
     .creator-img {
-        padding-left: 20px;
+        
     }
 }
 
@@ -424,11 +427,11 @@ textarea {
 
     #creator-section {
         display: flex;
-        flex-direction: row;
+        flex-direction: column; 
     }
 
     .creator-letter {
-        width: 50%;
+        width: 100%;
     }
 
     .creator-letter>p {
@@ -437,7 +440,7 @@ textarea {
     }
 
     .creator-img {
-        width: 50%;
+        width: 100%;
     }
 }
 
