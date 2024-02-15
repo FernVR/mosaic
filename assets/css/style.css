@@ -159,7 +159,7 @@ button:hover {
     max-width: 500px;
     margin-left: 20px;
     margin-top: 30px;
-    
+
 }
 
 .creator-letter {
@@ -284,7 +284,7 @@ textarea {
     }
 
     .creator-img {
-       margin-left: 12px;
+        margin-left: 12px;
     }
 }
 
@@ -310,9 +310,7 @@ textarea {
         gap: 35%;
     }
 
-    .creator-img {
-        
-    }
+    .creator-img {}
 }
 
 
@@ -342,7 +340,7 @@ textarea {
 
     .creator-img {
         width: 400px;
-        margin-top: 50px;
+       /* margin-top: 50px; */
         padding: 0;
     }
 
@@ -379,9 +377,7 @@ textarea {
 
 @media screen and (min-width: 768px) {
 
-    body {
-        font-size: 125%;
-    }
+    
 
     /* Header */
 
@@ -427,11 +423,11 @@ textarea {
 
     #creator-section {
         display: flex;
-        flex-direction: column; 
+        flex-direction: row;
     }
 
     .creator-letter {
-        width: 100%;
+        width: 50%;
     }
 
     .creator-letter>p {
@@ -440,7 +436,9 @@ textarea {
     }
 
     .creator-img {
-        width: 100%;
+        width: 50%;
+        align-items: baseline;
+
     }
 }
 
@@ -456,7 +454,7 @@ textarea {
     }
 
     .menu li {
-        
+
         letter-spacing: 5px;
     }
 
@@ -491,6 +489,7 @@ textarea {
     /* Creator Section */
 
     .creator-letter>p {
+
         line-height: 45px;
     }
 
@@ -525,7 +524,7 @@ textarea {
     /* Home Banner */
 
     .banner>h2 {
-        line-height: 55px; 
+        line-height: 55px;
     }
 }
 
