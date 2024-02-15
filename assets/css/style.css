@@ -53,17 +53,17 @@ header a {
 
 nav ul li::after {
     content: '';
-    height: 1.7px;
+    height: 1.5px;
     width: 0;
     background: #B17560;
     position: absolute;
     left: 0;
-    bottom: -1.01px;
+    bottom: 0.5px;
     transition: 0.5s;
 }
 
 nav ul li:hover::after {
-    width: 88%;
+    width: 80%;
 }
 
 .menu {
@@ -74,7 +74,7 @@ nav ul li:hover::after {
 }
 
 .menu li {
-    padding: 5px;
+    margin: 0 5px;
     display: inline-block;
     position: relative;
 }
@@ -105,11 +105,11 @@ main {
     /* This code needs a credit to youtube video - same as buttons and nav */
     background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../images/bg-image-7.avif);
     color: #fff;
-    padding-top: 35px;
+    padding: 35px 0;
 }
 
 .banner h2 {
-    padding: 15px;
+    margin: 15px;
     letter-spacing: .5px;
     line-height: 35px;
     font-weight: 600;
@@ -150,7 +150,7 @@ button:hover {
 /* Creator Letter Section */
 
 #creator-section {
-    padding: 20px;
+    margin: 20px;
 }
 
 .creator-img>img {
@@ -263,13 +263,21 @@ textarea {
     /* Header */
 
     header {
-        gap: 22%;
+        gap: 13.5%;
+    }
+
+    .menu a {
+        font-size: larger;
     }
 
     /* Main Content */
 
     .banner {
-        padding: 30px;
+        padding: 40px;
+    }
+
+    .banner>p {
+        margin: 25px 0;
     }
 
     .creator-img {
@@ -285,7 +293,7 @@ textarea {
     /* Header */
 
     header {
-        gap: 30%;
+        gap: 23.5%;
 
     }
 }
@@ -376,7 +384,6 @@ textarea {
 
     .logo {
         width: 85px;
-
     }
 
     .menu {
@@ -384,7 +391,6 @@ textarea {
     }
 
     .menu li {
-        padding-right: 10px;
         margin-bottom: 5px;
     }
 
@@ -442,7 +448,7 @@ textarea {
     }
 
     .menu li {
-        padding-right: 15px;
+        
         letter-spacing: 5px;
     }
 
@@ -502,13 +508,21 @@ textarea {
 
     /* Header */
 
-    header {
-        gap: 50%;
-    }
+    
 
     .menu a {
-        font-weight: 500;
+        font-weight: 400;
     }
+
+    /* Main Content */
+
+    /* Home Banner */
+
+    .banner>h2 {
+        line-height: 55px;
+        
+    }
+
 }
 
 
@@ -523,7 +537,7 @@ textarea {
     /* Header */
 
     header {
-        gap: 61%;
+        gap: 58%;
     }
 
     .logo {
@@ -531,7 +545,8 @@ textarea {
     }
 
     .menu a {
-        font-weight: 600;
+        font-weight: 450;
+        margin-right: 15px;
     }
 
     /* Main Content */
@@ -547,7 +562,8 @@ textarea {
     }
 
     .banner>h2 {
-        padding: 100px;
+        letter-spacing: 5px;
+        padding: 30px 200px;
     }
 
     .banner>p {
