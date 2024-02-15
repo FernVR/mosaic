@@ -237,6 +237,11 @@ footer ul a {
     padding: 50px;
 }
 
+.bg-contrast {
+    background-color: #B17560;
+    color: #FFECE3
+}
+
 /* Form Page */
 
 .form-banner {
@@ -317,8 +322,6 @@ textarea {
     header {
         gap: 35%;
     }
-
-    .creator-img {}
 }
 
 
