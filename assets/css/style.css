@@ -1,6 +1,6 @@
+/* Google Fonts Link */
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;500;700;900&display=swap');
-
-
 
 /* Wild card selector */
 
@@ -11,16 +11,13 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-
 /* General styles */
 
 body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-
 }
-
 
 /* Header */
 
@@ -46,13 +43,11 @@ header a {
     width: 60px;
     max-width: 170px;
     max-height: 200px;
-
 }
 
 #active {
     color: #B17560;
 }
-
 
 /* Nav hover styles - DONT FORGET TO ADD CREDIT HERE AND IN README */
 
@@ -76,7 +71,6 @@ nav ul li:hover::after {
     letter-spacing: 1px;
     list-style-type: none;
     display: flex;
-
 }
 
 .menu li {
@@ -94,7 +88,6 @@ nav ul li:hover::after {
     color: #B17560;
 }
 
-
 /* Main content */
 
 main {
@@ -105,12 +98,10 @@ main {
     margin-top: 55px;
 }
 
-
 /* Banner */
 
 .banner {
     text-align: center;
-
     /* This code needs a credit to youtube video - same as buttons and nav */
     background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../images/bg-image-7.avif);
     color: #fff;
@@ -122,14 +113,11 @@ main {
     letter-spacing: .5px;
     line-height: 35px;
     font-weight: 600;
-
 }
 
 .banner>p {
-
     line-height: 25px;
 }
-
 
 /* Button */
 
@@ -170,7 +158,6 @@ button:hover {
     height: auto;
     max-width: 500px;
     padding-left: 30px;
-
 }
 
 .creator-letter {
@@ -182,10 +169,8 @@ button:hover {
 }
 
 .creator-letter>p {
-
     line-height: 30px;
 }
-
 
 /* Quote */
 
@@ -197,7 +182,6 @@ button:hover {
 }
 
 #quote>h2 {
-
     text-transform: uppercase;
     justify-content: space-between;
     padding: 10px 0;
@@ -216,7 +200,6 @@ button:hover {
 #quote p a:hover {
     color: #B17560;
 }
-
 
 /* Footer */
 
@@ -240,7 +223,6 @@ footer ul a {
     font-size: 1.5em;
 }
 
-
 /* Review Page */
 
 #review-banner {
@@ -248,15 +230,11 @@ footer ul a {
     padding: 50px;
 }
 
-
 /* Form Page */
-
 
 .form-banner {
     background-image: url(../images/pp1-books-2.avif);
     padding: 40px 10px;
-    
-
 }
 
 .form-banner h2 {
@@ -278,9 +256,6 @@ textarea {
 
 
 
-
-
-
 /* Media query: larger phone screens (350px and up) */
 
 @media screen and (min-width: 350px) {
@@ -289,8 +264,6 @@ textarea {
 
     header {
         gap: 22%;
-
-
     }
 
     /* Main Content */
@@ -304,6 +277,7 @@ textarea {
     }
 }
 
+
 /* Media query: larger phone screens (420px and up) */
 
 @media screen and (min-width: 400px) {
@@ -315,7 +289,6 @@ textarea {
 
     }
 }
-
 
 
 /* Media query: landscape phone screen and small tablet (481px and up) */
@@ -336,7 +309,6 @@ textarea {
 
 @media screen and (min-width: 650px) {
 
-
     /* Header */
 
     header {
@@ -356,7 +328,7 @@ textarea {
     .creator-img {
         width: 400px;
         margin-top: 50px;
-
+        padding: 0;
     }
 
     .creator-letter {
@@ -380,20 +352,12 @@ textarea {
         font-size: larger;
     }
 
-
     /* Review page */
 
     #review-banner {
         padding: 100px;
     }
-
-
-
-
 }
-
-
-
 
 
 /* Media query: tablets and larger (768px and up) */
@@ -404,7 +368,6 @@ textarea {
         font-size: 125%;
     }
 
-
     /* Header */
 
     header {
@@ -413,7 +376,7 @@ textarea {
 
     .logo {
         width: 85px;
-        
+
     }
 
     .menu {
@@ -425,26 +388,32 @@ textarea {
         margin-bottom: 5px;
     }
 
-
     /* Main Content */
 
     main {
         margin-top: 75px;
     }
 
+    /* Home Banner */
+
     .banner {
-        padding: 50px;
+        padding: 55px;
+    }
+
+    .banner>h2 {
+        line-height: 45px;
     }
 
     .banner>p {
-        padding-bottom: 10px;
+        padding-bottom: 15px;
         line-height: 35px;
     }
+
+    /* Creator Section */
 
     #creator-section {
         display: flex;
         flex-direction: row;
-
     }
 
     .creator-letter {
@@ -459,16 +428,12 @@ textarea {
     .creator-img {
         width: 50%;
     }
-
-
-
 }
 
 
 /* Media query: large tablets and laptop (992px and up) */
 
 @media screen and (min-width: 992px) {
-
 
     /* Header */
 
@@ -484,7 +449,6 @@ textarea {
     .logo {
         padding: 0;
         margin-left: 5px;
-        
     }
 
     /* Main Content */
@@ -492,6 +456,8 @@ textarea {
     main {
         margin-top: 85px;
     }
+
+    /* Home Banner */
 
     .banner {
         padding-top: 90px;
@@ -508,34 +474,31 @@ textarea {
         padding: 10px 0;
     }
 
+    /* Creator Section */
+
     .creator-letter>p {
         line-height: 45px;
     }
 
     #quote>p {
-
         line-height: 45px;
     }
 
     /* Review page */
 
-
     /* Form Page */
 
-    
+    /* Form Banner */
 
     .form-banner>h2 {
         padding: 30px 0;
     }
-
-
 }
 
 
 /* Media query: large tablet and laptop (1024px and up) */
 
 @media screen and (min-width: 1024px) {
-
 
     /* Header */
 
@@ -545,10 +508,7 @@ textarea {
 
     .menu a {
         font-weight: 500;
-        
     }
-
-
 }
 
 
@@ -559,8 +519,6 @@ textarea {
     body {
         font-size: 125%;
     }
-
-
 
     /* Header */
 
@@ -574,16 +532,15 @@ textarea {
 
     .menu a {
         font-weight: 600;
-        
     }
-
-
 
     /* Main Content */
 
     main {
         margin-top: 85px;
     }
+
+    /* Home Banner */
 
     .banner {
         padding: 50px;
@@ -597,6 +554,7 @@ textarea {
         padding: 0 100px;
     }
 
+    /* Creator Section */
 
     #creator-section {
         gap: 10px;
