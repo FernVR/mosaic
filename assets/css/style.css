@@ -160,13 +160,11 @@ button:hover {
     margin-left: 20px;
     margin-top: 30px;
     padding-bottom: 10px;
-
 }
 
 .creator-letter {
     text-align: center;
     padding: 0 12px;
-    
 }
 
 .creator-letter>h2 {
@@ -175,8 +173,7 @@ button:hover {
 
 .creator-letter>p {
     line-height: 30px;
-    margin: 10px 5px;
-    
+    margin: 10px 5px; 
 }
 
 /* Quote */
@@ -234,6 +231,7 @@ footer ul a {
 #review-banner {
     background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../images/pp1-books-2.avif);
     padding: 50px;
+    color: #FFECE3;
 }
 
 .bg-contrast {
@@ -244,8 +242,9 @@ footer ul a {
 /* Form Page */
 
 .form-banner {
-    background-image: url(../images/pp1-books-2.avif);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../images/pp1-books-2.avif);
     padding: 40px 10px;
+    color: #FFECE3;
 }
 
 .form-banner h2 {
@@ -258,6 +257,7 @@ footer ul a {
     padding: 10px;
     background-color: #f0cfc0;
     max-width: 400px;
+    color: #B17560;
 }
 
 textarea {
@@ -297,6 +297,10 @@ textarea {
 
     .creator-img {
         margin-left: 12px;
+    }
+
+    .creator-letter {
+        padding: 15px;
     }
 
     #quote {
