@@ -184,19 +184,18 @@ button:hover {
 #quote {
     background-color: #000;
     color: #FFECE3;
-    padding: 15px;
     text-align: center;
 }
 
 #quote>h2 {
     text-transform: uppercase;
     justify-content: space-between;
-    padding: 10px 0;
+    padding: 10px 0; 
 }
 
 #quote>p {
-    padding: 10px;
-    line-height: 30px;
+    line-height: 35px;
+    padding-bottom: 15px;
 }
 
 #quote p a {
@@ -285,7 +284,7 @@ textarea {
     /* Main Content */
 
     .banner {
-        padding: 40px;
+        padding: 40px 10px;
     }
 
     .banner>h2 {
@@ -298,6 +297,10 @@ textarea {
 
     .creator-img {
         margin-left: 12px;
+    }
+
+    #quote {
+        padding: 15px;
     }
 }
 
