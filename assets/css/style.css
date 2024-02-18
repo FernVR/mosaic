@@ -173,7 +173,7 @@ button:hover {
 
 .creator-letter>p {
     line-height: 30px;
-    margin: 10px 5px; 
+    margin: 10px 5px;
 }
 
 /* Quote */
@@ -187,7 +187,7 @@ button:hover {
 #quote>h2 {
     text-transform: uppercase;
     justify-content: space-between;
-    padding: 10px 0; 
+    padding: 10px 0;
 }
 
 #quote>p {
@@ -262,7 +262,7 @@ footer ul a {
     letter-spacing: 2px;
     line-height: 40px;
     border-radius: 10%;
-    
+
 }
 
 textarea {
@@ -363,8 +363,8 @@ textarea {
 
     .creator-img {
         width: 300px;
-       /* margin-top: 50px; */
-        
+        /* margin-top: 50px; */
+
     }
 
     .creator-letter {
@@ -401,7 +401,7 @@ textarea {
 
 @media screen and (min-width: 768px) {
 
-    
+
 
     /* Header */
 
@@ -472,17 +472,21 @@ textarea {
 
 @media screen and (min-width: 850px) {
 
+    header {
+        gap: 50%;
+    }
+
     .creator-letter {
         line-height: 40px;
     }
 }
 
-/* Media query: tablets and larger (850px and up) */
+/* Media query: tablets and larger (925px and up) */
 
 @media screen and (min-width: 925px) {
 
     .creator-letter {
-        line-height: 50px;
+        line-height: 55px;
     }
 }
 
@@ -532,9 +536,6 @@ textarea {
 
     /* Creator Section */
 
-    .creator-img {
-        
-    }
     .creator-letter>p {
         line-height: 45px;
         font-size: 80%;
