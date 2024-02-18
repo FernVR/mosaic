@@ -369,6 +369,7 @@ textarea {
 
     .creator-letter {
         width: 50%;
+        font-size: 60%;
     }
 
     #quote>p {
@@ -451,6 +452,7 @@ textarea {
 
     .creator-letter {
         width: 50%;
+        font-size: 100%;
     }
 
     .creator-letter>p {
@@ -462,6 +464,25 @@ textarea {
         width: 50%;
         align-items: baseline;
 
+    }
+}
+
+
+/* Media query: tablets and larger (850px and up) */
+
+@media screen and (min-width: 850px) {
+
+    .creator-letter {
+        line-height: 40px;
+    }
+}
+
+/* Media query: tablets and larger (850px and up) */
+
+@media screen and (min-width: 925px) {
+
+    .creator-letter {
+        line-height: 50px;
     }
 }
 
@@ -511,9 +532,12 @@ textarea {
 
     /* Creator Section */
 
+    .creator-img {
+        
+    }
     .creator-letter>p {
-
         line-height: 45px;
+        font-size: 80%;
     }
 
     #quote>p {
