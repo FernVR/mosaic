@@ -162,6 +162,10 @@ button:hover {
     padding-bottom: 10px;
 }
 
+#creator-img-3 {
+    display: none;
+}
+
 .creator-letter {
     text-align: center;
     padding: 0 12px;
@@ -357,19 +361,24 @@ textarea {
         padding: 15px 70px;
     }
 
+    /* Creator Section */
+
     #creator-section {
         display: flex;
     }
 
     .creator-img {
-        width: 300px;
+        width: 50%;
         /* margin-top: 50px; */
+    }
 
+    #creator-img-3 {
+        display: block;
     }
 
     .creator-letter {
         width: 50%;
-        font-size: 60%;
+        font-size: 80%;
     }
 
     #quote>p {
@@ -393,6 +402,17 @@ textarea {
 
     #review-banner {
         padding: 100px;
+    }
+}
+
+/* Media query: tablets and larger (700px and up) */
+
+@media screen and (min-width: 700px) {
+
+    /* Creator-Section */ 
+    
+    #creator-img-3 {
+        display: none;
     }
 }
 
@@ -452,18 +472,20 @@ textarea {
 
     .creator-letter {
         width: 50%;
-        font-size: 100%;
+        font-size: 85%;
     }
 
     .creator-letter>p {
-        padding: 0;
-        line-height: 30px;
+        line-height: 35px;
     }
 
     .creator-img {
         width: 50%;
         margin: 20px 0;
+    }
 
+    #creator-img-3 {
+        display: none;
     }
 }
 
@@ -478,6 +500,7 @@ textarea {
 
     .creator-letter {
         line-height: 50px;
+        font-size: 95%;
     }
 }
 
