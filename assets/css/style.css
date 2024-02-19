@@ -103,8 +103,8 @@ main {
 .banner {
     text-align: center;
     /* This code needs a credit to youtube video - same as buttons and nav */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../images/bg-image-7.avif);
-    color: #fff;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/bg-image-7.avif);
+    color: #FFECE3;
     padding: 35px 0;
 }
 
