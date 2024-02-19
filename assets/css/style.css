@@ -27,7 +27,7 @@ header {
     align-items: baseline;
     width: 100%;
     padding: 5px 0;
-    gap: 1%;
+    gap: 30%;
     position: fixed;
     z-index: 99;
 }
@@ -306,7 +306,7 @@ textarea {
     /* Header */
 
     header {
-        gap: 13.5%;
+        gap: 40%;
     }
 
     .menu a {
@@ -341,14 +341,14 @@ textarea {
 }
 
 
-/* Media query: larger phone screens (420px and up) */
+/* Media query: larger phone screens (400px and up) */
 
 @media screen and (min-width: 400px) {
 
     /* Header */
 
     header {
-        gap: 23.5%;
+        gap: 48%;
 
     }
 }
@@ -359,7 +359,7 @@ textarea {
 @media screen and (min-width: 481px) {
 
     header {
-        gap: 35%;
+        gap: 53%;
     }
 }
 
@@ -371,7 +371,7 @@ textarea {
     /* Header */
 
     header {
-        gap: 50%;
+        gap: 63%;
     }
 
     .menu li {
@@ -447,7 +447,7 @@ textarea {
     /* Header */
 
     header {
-        gap: 42%;
+        gap: 65%;
     }
 
     .logo {
@@ -526,7 +526,7 @@ textarea {
 @media screen and (min-width: 850px) {
 
     header {
-        gap: 50%;
+        gap: 68%;
     }
 
     .creator-letter {
@@ -550,10 +550,6 @@ textarea {
 @media screen and (min-width: 992px) {
 
     /* Header */
-
-    header {
-        gap: 45%;
-    }
 
     .menu li {
 
@@ -676,7 +672,7 @@ textarea {
     /* Header */
 
     header {
-        gap: 55%;
+        gap: 70%;
     }
 
     .logo {
