@@ -222,12 +222,31 @@ footer ul a {
 
 #review-banner {
     background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../images/pp1-books-2.avif);
-    padding: 50px;
+    padding-top: 20px;
     color: #FFECE3;
+    text-align: center;
+}
+
+#review-banner-nav ul li{
+    text-align: center;
+    list-style: none;   
+}
+
+#review-banner-nav a {
+    text-decoration: none;
+    color: #FFECE3;
+}
+
+#review-banner-nav a:hover {
+    color: #B17560;
 }
 
 .review-section {
     text-align: center;
+}
+
+.review-section>h2 {
+    margin-top: 45px;
 }
 
 .review-box {
@@ -629,6 +648,7 @@ textarea {
 
     .review-box {
         margin: 25px;
+        background-color: #f0cfc0;
     }
 
     .review-description {
