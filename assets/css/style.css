@@ -232,6 +232,7 @@ footer ul a {
 
 .review-box {
     padding: 10px 0;
+    
 }
 
 .review-description {
@@ -490,6 +491,12 @@ textarea {
 
     #creator-img-3 {
         display: none;
+    }
+
+    /* Review Page*/
+    
+    .review-box {
+        display: flex;
     }
 }
 
