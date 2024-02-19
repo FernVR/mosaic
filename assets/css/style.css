@@ -218,46 +218,47 @@ footer ul a {
     font-size: 1.5em;
 }
 
-/* Review Page */
 
-#review-banner {
+/* Media Page */
+
+#media-banner {
     background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../images/pp1-books-2.avif);
     padding-top: 20px;
     color: #FFECE3;
     text-align: center;
 }
 
-#review-banner-nav ul li{
+#media-banner-nav ul li{
     text-align: center;
     list-style: none;   
 }
 
-#review-banner-nav a {
+#media-banner-nav a {
     text-decoration: none;
     color: #FFECE3;
 }
 
-#review-banner-nav a:hover {
+#media-banner-nav a:hover {
     color: #B17560;
 }
 
-.review-section {
+.media-section {
     text-align: center;
 }
 
-.review-section>h2 {
+.media-section>h2 {
     margin-top: 45px;
 }
 
-.review-box {
+.media-box {
     padding: 10px 0;
 }
 
-.review-description {
+.media-description {
     margin: 0 12px;
 }
 
-.review-img {
+.media-img {
     max-width: 200px;
 }
 
@@ -289,7 +290,6 @@ footer ul a {
     letter-spacing: 2px;
     line-height: 40px;
     border-radius: 10%;
-
 }
 
 textarea {
@@ -421,11 +421,9 @@ textarea {
         font-size: larger;
     }
 
-    /* Review page */
+    /* Media page */
 
-    #review-banner {
-        padding: 100px;
-    }
+    
 }
 
 /* Media query: tablets and larger (700px and up) */
@@ -511,13 +509,13 @@ textarea {
         display: none;
     }
 
-    /* Review Page*/
+    /* Media Page*/
 
-   .review-description {
+   .media-description {
     font-size: 70%;
    }
 
-    .review-box {
+    .media-box {
         display: flex;
     }
 }
@@ -609,7 +607,7 @@ textarea {
         line-height: 40px;
     }
 
-    /* Review page */
+    /* Media page */
 
     /* Form Page */
 
@@ -639,25 +637,25 @@ textarea {
         line-height: 55px;
     }
 
-    /* Review Page */
+    /* Media Page */
 
     .bg-contrast {
         background-color: #FFECE3;
         color: #B17560;
     }
 
-    .review-box {
+    .media-box {
         margin: 25px;
         background-color: #f0cfc0;
     }
 
-    .review-description {
+    .media-description {
         max-width: 400px;
         font-size: 60%;
         letter-spacing: 1px;
     }
 
-    .review-description>a {
+    .media-description>a {
         display: none;
     }
 
@@ -760,10 +758,10 @@ textarea {
         display: none;
     }
 
-    /* Review Page */
+    /* Media Page */
 
 
-    .review-box {
+    .media-box {
         margin-bottom: 50px;
     }
 
@@ -771,7 +769,7 @@ textarea {
         gap: 50px;
     }
 
-    .review-description {
+    .media-description {
         max-width: 450px;
         max-height: 450px;
         overflow:auto;
