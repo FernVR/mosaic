@@ -657,6 +657,10 @@ textarea {
         letter-spacing: 1px;
     }
 
+    .review-description>a {
+        display: none;
+    }
+
     .large-display {
         display: flex;
     }
