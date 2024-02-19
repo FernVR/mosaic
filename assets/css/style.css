@@ -462,7 +462,7 @@ textarea {
 
     .creator-img {
         width: 50%;
-        align-items: baseline;
+        margin: 20px 0;
 
     }
 }
@@ -477,7 +477,7 @@ textarea {
     }
 
     .creator-letter {
-        line-height: 40px;
+        line-height: 50px;
     }
 }
 
@@ -536,13 +536,21 @@ textarea {
 
     /* Creator Section */
 
+    #creator-img-2 {
+        display: none;
+    }
+
     .creator-letter>p {
-        line-height: 45px;
+        line-height: 35px;
         font-size: 80%;
     }
 
+    #letter-signoff {
+        margin-top: 50px;
+    }
+
     #quote>p {
-        line-height: 45px;
+        line-height: 40px;
     }
 
     /* Review page */
@@ -629,8 +637,25 @@ textarea {
         padding-top: 50px;
     }
 
+    .creator-img {
+        width: 50%;
+        margin-left: 50px;
+    }
+
+    .creator-letter {
+        margin-right: 50px;
+    }
+
+    #letter-signoff {
+        padding: 0;
+    }
+
     .creator-letter>p {
-        line-height: 60px;
-        padding: 50px;
+        line-height: 40px;
+        margin: 0 50px;
+    }
+
+    #creator-img-2 {
+        display: none;
     }
 }
