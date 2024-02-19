@@ -49,22 +49,6 @@ header a {
     color: #B17560;
 }
 
-/* Nav hover styles - DONT FORGET TO ADD CREDIT HERE AND IN README */
-
-nav ul li::after {
-    content: '';
-    height: 2px;
-    width: 0;
-    background: #B17560;
-    position: absolute;
-    left: 0;
-    bottom: -3px;
-    transition: 0.5s;
-}
-
-nav ul li:hover::after {
-    width: 88.5%;
-}
 
 .menu {
     font-size: 68%;
@@ -409,8 +393,8 @@ textarea {
 
 @media screen and (min-width: 700px) {
 
-    /* Creator-Section */ 
-    
+    /* Creator-Section */
+
     #creator-img-3 {
         display: none;
     }
@@ -629,6 +613,23 @@ textarea {
     .menu a {
         font-weight: 450;
         margin-right: 15px;
+    }
+
+    /* Nav hover styles - DONT FORGET TO ADD CREDIT HERE AND IN README */
+
+    nav ul li::after {
+        content: '';
+        height: 2px;
+        width: 0;
+        background: #B17560;
+        position: absolute;
+        left: 0;
+        bottom: -3px;
+        transition: 0.5s;
+    }
+
+    nav ul li:hover::after {
+        width: 88.5%;
     }
 
     /* Main Content */
