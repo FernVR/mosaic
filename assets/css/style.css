@@ -111,9 +111,9 @@ button {
     text-align: center;
     margin: 10px 5px;
     border-radius: 25px;
-    border: 2px solid #fff;
+    border: 2px solid #FFECE3;
     background: transparent;
-    color: #ffffff;
+    color: #FFECE3;
     cursor: pointer;
     position: relative;
     overflow: hidden;
@@ -124,11 +124,15 @@ button {
 
 button>a {
     text-decoration: none;
-    color: #ffffff;
+    color: #FFECE3;
 }
 
 button:hover {
-    border: 3px solid #deb37b;
+    border: 3px solid #B17560;
+}
+
+button a:hover {
+    color: #B17560;
 }
 
 /* Creator Letter Section */
@@ -220,6 +224,10 @@ footer ul a {
     background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../images/pp1-books-2.avif);
     padding: 50px;
     color: #FFECE3;
+}
+
+.review-img {
+    max-width: 200px;
 }
 
 .bg-contrast {
