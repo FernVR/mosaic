@@ -41,13 +41,58 @@
 
     <!-- Main Content -->
     <main>
-        <!-- Banner -->
-        <section id="community-banner">
-            <h2> Welcome to our Community </h2>
+        <section class="form-banner">
+            <h2>Subscribe to our monthly newsletter today</h2>
+
+            <section id="form-box">
+                <!-- Sign Up Form -->
+                <form method="get" action="thankyou.html" id="signup-form">
+
+                    <!-- Maybe think of doing a mockup newsletter? -->
+                    <div id="contact-info">
+                        <label for="first-name">First Name</label>
+                        <input type="text" id="first-name" name="first-name" required>
+                        <br>
+                        <label for="last-name">Last Name</label>
+                        <input type="text" id="last-name" name="last-name" required>
+                        <br>
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required>
+                        <br>
+                        <label for="phone">Mobile Number</label>
+                        <input type="number" id="phone" name="phone">
+                    </div>
+
+                    <div id="radio">
+                        <p>Your favourite?</p>
+                        <label for="books">Books</label>
+                        <input type="radio" name="preference" id="books">
+                        <label for="music">Music</label>
+                        <input type="radio" name="preference" id="music">
+                        <br>
+                        <label for="films">Films</label>
+                        <input type="radio" name="preference" id="films">
+                        <label for="tv-series">Tv-Series</label>
+                        <input type="radio" name="preference" id="tv-series">
+
+                    </div>
+                    <div id="feedback">
+                        <p>Let us know how we're doing?</p>
+                        <textarea></textarea>
+                    </div>
+                    <div id="form-button">
+                        <input type="submit" value="Send">
+                        <input type="reset" value="Clear">
+                    </div>
+                </form>
+            </section>
         </section>
+        <!-- Banner -->
+        
 
         <!-- Community Picks (title and fake name and icon, title and photo of cover)-->
         <section id="community-picks">
+            <h2>Community Picks</h2>
             <div>
                 <div>img of book</div>
                 <div>
@@ -74,7 +119,8 @@
         <!-- Culture section -->
         <section id="culture">
             <!-- 4 Local events film, theatre, activism -->
-            <div class="events">
+
+           <!-- <div class="events">
                 <h2>Local Cultural Events</h2>
                 <div>
                     <div></div>
@@ -160,7 +206,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <section id="book-club">
             <div id="description">
                 <h3>Our Book Club</h3>
