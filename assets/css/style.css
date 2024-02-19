@@ -299,6 +299,12 @@ textarea {
     width: 233px;
 }
 
+/* Community Picks */
+
+.community-picks-img>img {
+    max-width: 250px;
+}
+
 /* Book Club */
 
 #map>img {
