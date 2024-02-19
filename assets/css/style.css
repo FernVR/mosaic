@@ -228,9 +228,9 @@ footer ul a {
     text-align: center;
 }
 
-#media-banner-nav ul li{
+#media-banner-nav ul li {
     text-align: center;
-    list-style: none;   
+    list-style: none;
 }
 
 #media-banner-nav a {
@@ -267,7 +267,9 @@ footer ul a {
     color: #FFECE3
 }
 
-/* Form Page */
+/* Community */
+
+/* Form */
 
 .form-banner {
     background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../images/pp1-books-2.avif);
@@ -294,6 +296,12 @@ footer ul a {
 textarea {
     height: 70px;
     width: 233px;
+}
+
+/* Book Club */
+
+#map>img {
+    max-width: 200px;
 }
 
 
@@ -422,7 +430,7 @@ textarea {
 
     /* Media page */
 
-    
+
 }
 
 /* Media query: tablets and larger (700px and up) */
@@ -510,9 +518,9 @@ textarea {
 
     /* Media Page*/
 
-   .media-description {
-    font-size: 70%;
-   }
+    .media-description {
+        font-size: 70%;
+    }
 
     .media-box {
         display: flex;
@@ -608,7 +616,7 @@ textarea {
 
     /* Form Banner */
 
-    
+
 }
 
 
@@ -656,7 +664,7 @@ textarea {
         display: flex;
     }
 
-    
+
 }
 
 
@@ -765,6 +773,24 @@ textarea {
     .media-description {
         max-width: 450px;
         max-height: 450px;
-        overflow:auto;
+        overflow: auto;
+    }
+
+    /* Book Club */
+
+    #book-club {
+        display: flex;
+        margin-top: 50px;
+        
+    }
+
+    #book-club>div {
+        width: 33%;
+        background-color: #f0cfc0;
+        padding: 45px 0;
+    }
+
+    #map>img {
+        max-width: 370px;
     }
 }
