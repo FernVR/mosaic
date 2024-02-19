@@ -291,6 +291,7 @@ footer ul a {
     text-align: center;
     letter-spacing: 2px;
     line-height: 40px;
+    font-size: 60%;
 }
 
 textarea {
@@ -302,6 +303,11 @@ textarea {
 
 #map>img {
     max-width: 200px;
+}
+
+#book-club>div {
+    background-color: #f0cfc0;
+    font-size: 60%;
 }
 
 
