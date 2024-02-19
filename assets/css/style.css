@@ -226,6 +226,18 @@ footer ul a {
     color: #FFECE3;
 }
 
+#review-section {
+    text-align: center;
+}
+
+.review-box {
+    padding: 10px 0;
+}
+
+.review-description {
+    margin: 0 12px;
+}
+
 .review-img {
     max-width: 200px;
 }
