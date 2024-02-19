@@ -226,13 +226,12 @@ footer ul a {
     color: #FFECE3;
 }
 
-#review-section {
+.review-section {
     text-align: center;
 }
 
 .review-box {
     padding: 10px 0;
-    
 }
 
 .review-description {
@@ -494,7 +493,11 @@ textarea {
     }
 
     /* Review Page*/
-    
+
+   .review-description {
+    font-size: 70%;
+   }
+
     .review-box {
         display: flex;
     }
@@ -616,6 +619,29 @@ textarea {
     .banner>h2 {
         line-height: 55px;
     }
+
+    /* Review Page */
+
+    .bg-contrast {
+        background-color: #FFECE3;
+        color: #B17560;
+    }
+
+    .review-box {
+        margin: 25px;
+    }
+
+    .review-description {
+        max-width: 400px;
+        font-size: 60%;
+        letter-spacing: 1px;
+    }
+
+    .large-display {
+        display: flex;
+    }
+
+    
 }
 
 
@@ -708,5 +734,22 @@ textarea {
 
     #creator-img-2 {
         display: none;
+    }
+
+    /* Review Page */
+
+
+    .review-box {
+        margin-bottom: 50px;
+    }
+
+    .large-display {
+        gap: 50px;
+    }
+
+    .review-description {
+        max-width: 450px;
+        max-height: 450px;
+        overflow:auto;
     }
 }
