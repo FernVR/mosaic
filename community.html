@@ -42,52 +42,53 @@
     <main>
         <section id="form-banner" class="form-banner">
             <h2>Subscribe to our monthly newsletter today</h2>
+            <div id="form">
+                <section id="form-box">
+                    <!-- Sign Up Form -->
+                    <form method="get" action="thankyou.html" id="signup-form">
 
-            <section id="form-box">
-                <!-- Sign Up Form -->
-                <form method="get" action="thankyou.html" id="signup-form">
+                        <!-- Maybe think of doing a mockup newsletter? -->
+                        <div id="contact-info">
+                            <label for="first-name">First Name</label>
+                            <input type="text" id="first-name" name="first-name" required>
+                            <br>
+                            <label for="last-name">Last Name</label>
+                            <input type="text" id="last-name" name="last-name" required>
+                            <br>
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                            <br>
+                            <label for="phone">Mobile Number</label>
+                            <input type="number" id="phone" name="phone">
+                        </div>
 
-                    <!-- Maybe think of doing a mockup newsletter? -->
-                    <div id="contact-info">
-                        <label for="first-name">First Name</label>
-                        <input type="text" id="first-name" name="first-name" required>
-                        <br>
-                        <label for="last-name">Last Name</label>
-                        <input type="text" id="last-name" name="last-name" required>
-                        <br>
-                        <label for="email">Email Address</label>
-                        <input type="email" id="email" name="email" required>
-                        <br>
-                        <label for="phone">Mobile Number</label>
-                        <input type="number" id="phone" name="phone">
-                    </div>
+                        <div id="radio">
+                            <p>Your favourite?</p>
+                            <label for="books">Books</label>
+                            <input type="radio" name="preference" id="books">
+                            <label for="music">Music</label>
+                            <input type="radio" name="preference" id="music">
+                            <br>
+                            <label for="films">Films</label>
+                            <input type="radio" name="preference" id="films">
+                            <label for="tv-series">Tv-Series</label>
+                            <input type="radio" name="preference" id="tv-series">
 
-                    <div id="radio">
-                        <p>Your favourite?</p>
-                        <label for="books">Books</label>
-                        <input type="radio" name="preference" id="books">
-                        <label for="music">Music</label>
-                        <input type="radio" name="preference" id="music">
-                        <br>
-                        <label for="films">Films</label>
-                        <input type="radio" name="preference" id="films">
-                        <label for="tv-series">Tv-Series</label>
-                        <input type="radio" name="preference" id="tv-series">
-
-                    </div>
-                    <div id="feedback">
-                        <p>Let us know how we're doing?</p>
-                        <textarea></textarea>
-                    </div>
-                    <div id="form-button">
-                        <input type="submit" value="Send">
-                        <input type="reset" value="Clear">
-                    </div>
-                </form>
-            </section>
+                        </div>
+                        <div id="feedback">
+                            <p>Let us know how we're doing?</p>
+                            <textarea></textarea>
+                        </div>
+                        <div id="form-button">
+                            <input type="submit" value="Send">
+                            <input type="reset" value="Clear">
+                        </div>
+                    </form>
+                </section>
+            </div>
         </section>
         <!-- Banner -->
-        
+
 
         <!-- Community Picks (title and fake name and icon, title and photo of cover)-->
         <section id="community-picks">
@@ -125,7 +126,7 @@
         <section id="culture">
             <!-- 4 Local events film, theatre, activism -->
 
-           <!-- <div class="events">
+            <!-- <div class="events">
                 <h2>Local Cultural Events</h2>
                 <div>
                     <div></div>
@@ -212,34 +213,34 @@
                 </div>
             </div>
         </section> -->
-        <section id="book-club">
-            <div id="description">
-                <h3>Our Book Club</h3>
-                <p>description of the club</p>
-            </div>
-            <div id="map">
-                <img src="./assets/images/community-map.png">
-            </div>
-            <div id="club-details">
-                <h3>Details</h3>
-                <ul>
-                    <li>The first and last Friday of everymonth</li>
-                    <li>5-7pm</li>
-                    <li>Cafe Address - iframe </li>
-                    <li>Free Tea and Coffee</li>
-                </ul>
-                <p>all are welcome to join in on the fun</p>
-            </div>
-        
-        </section>
-        <section id="quote">
-            <h2>Don't wait for inspiration</h2>
-            <p><a href="#form-banner">Subscribe</a> to our monthly newsletter today if you want to connect with our
-                coeterie, discover new favourites and participate in events happening around you.<br>
-                <a href="#form-banner">Here</a>, you can also
-                contribute titles of your own and share works you've connected to.
-            </p>
-        </section>
+            <section id="book-club">
+                <div id="description">
+                    <h3>Our Book Club</h3>
+                    <p>description of the club</p>
+                </div>
+                <div id="map">
+                    <img src="./assets/images/community-map.png">
+                </div>
+                <div id="club-details">
+                    <h3>Details</h3>
+                    <ul>
+                        <li>The first and last Friday of everymonth</li>
+                        <li>5-7pm</li>
+                        <li>Cafe Address - iframe </li>
+                        <li>Free Tea and Coffee</li>
+                    </ul>
+                    <p>all are welcome to join in on the fun</p>
+                </div>
+
+            </section>
+            <section id="quote">
+                <h2>Don't wait for inspiration</h2>
+                <p><a href="#form-banner">Subscribe</a> to our monthly newsletter today if you want to connect with our
+                    coeterie, discover new favourites and participate in events happening around you.<br>
+                    <a href="#form-banner">Here</a>, you can also
+                    contribute titles of your own and share works you've connected to.
+                </p>
+            </section>
 
     </main>
 
