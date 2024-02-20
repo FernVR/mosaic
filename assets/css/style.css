@@ -405,6 +405,7 @@ textarea {
 
     #quote>p {
         padding: 20px 50px;
+        font-size: 75%;
     }
 
     /* Footer */
@@ -477,18 +478,15 @@ textarea {
 
     /* Creator Section */
 
-    #creator-section {
-        display: flex;
-        flex-direction: row;
-    }
-
     .creator-letter {
         width: 50%;
-        font-size: 85%;
+        
     }
 
     .creator-letter>p {
         line-height: 35px;
+        font-size: 85%;
+        letter-spacing: 1px;
     }
 
     .creator-img {
@@ -516,20 +514,12 @@ textarea {
 
 @media screen and (min-width: 850px) {
 
-    .creator-letter {
+    .creator-letter>p {
         line-height: 50px;
-        font-size: 95%;
+        font-size: 100%;
     }
 }
 
-/* Media query: tablets and larger (925px and up) */
-
-@media screen and (min-width: 925px) {
-
-    .creator-letter {
-        line-height: 55px;
-    }
-}
 
 
 /* Media query: large tablets and laptop (992px and up) */
@@ -539,7 +529,6 @@ textarea {
     /* Header */
 
     .menu li {
-
         letter-spacing: 5px;
     }
 
@@ -578,8 +567,8 @@ textarea {
     }
 
     .creator-letter>p {
-        line-height: 35px;
-        font-size: 80%;
+        line-height: 30px;
+        
     }
 
     #letter-signoff {
@@ -642,9 +631,8 @@ textarea {
 
     .large-display {
         display: flex;
+        justify-content: space-evenly;
     }
-
-
 }
 
 
@@ -708,18 +696,16 @@ textarea {
     /* Creator Section */
 
     #creator-section {
-        gap: 10px;
-        font-size: smaller;
+        margin: 0 50px;
         padding-top: 50px;
     }
 
     .creator-img {
         width: 50%;
-        margin-left: 50px;
     }
 
-    .creator-letter {
-        margin-right: 50px;
+    .creator-letter>p {
+        font-size: 95%;l
     }
 
     #letter-signoff {
