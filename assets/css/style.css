@@ -7,7 +7,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -24,10 +24,10 @@ body {
 header {
     background-color: #deb37b;
     display: flex;
+    justify-content: space-between;
     align-items: baseline;
     width: 100%;
     padding: 5px 0;
-    gap: 30%;
     position: fixed;
     z-index: 99;
 }
@@ -228,6 +228,11 @@ footer ul a {
     text-align: center;
 }
 
+#media-banner-nav ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 #media-banner-nav ul li {
     text-align: center;
     list-style: none;
@@ -329,10 +334,6 @@ textarea {
 
     /* Header */
 
-    header {
-        gap: 40%;
-    }
-
     .menu a {
         font-size: larger;
     }
@@ -365,38 +366,11 @@ textarea {
 }
 
 
-/* Media query: larger phone screens (400px and up) */
-
-@media screen and (min-width: 400px) {
-
-    /* Header */
-
-    header {
-        gap: 48%;
-
-    }
-}
-
-
-/* Media query: landscape phone screen and small tablet (481px and up) */
-
-@media screen and (min-width: 481px) {
-
-    header {
-        gap: 53%;
-    }
-}
-
-
 /* Media query: landscape phone screen and small tablet (650px and up) */
 
 @media screen and (min-width: 650px) {
 
     /* Header */
-
-    header {
-        gap: 63%;
-    }
 
     .menu li {
         margin-right: 12px;
@@ -446,8 +420,6 @@ textarea {
     }
 
     /* Media page */
-
-
 }
 
 /* Media query: tablets and larger (700px and up) */
@@ -466,13 +438,7 @@ textarea {
 
 @media screen and (min-width: 768px) {
 
-
-
     /* Header */
-
-    header {
-        gap: 65%;
-    }
 
     .logo {
         width: 85px;
@@ -548,10 +514,6 @@ textarea {
 /* Media query: tablets and larger (850px and up) */
 
 @media screen and (min-width: 850px) {
-
-    header {
-        gap: 68%;
-    }
 
     .creator-letter {
         line-height: 50px;
@@ -690,14 +652,10 @@ textarea {
 @media screen and (min-width: 1280px) {
 
     body {
-        font-size: 125%;
+        font-size: 110%;
     }
 
     /* Header */
-
-    header {
-        gap: 70%;
-    }
 
     .logo {
         margin-left: 10px;
@@ -797,8 +755,7 @@ textarea {
 
     #book-club {
         display: flex;
-        margin-top: 50px;
-        
+        margin-top: 50px;  
     }
 
     #book-club>div {
