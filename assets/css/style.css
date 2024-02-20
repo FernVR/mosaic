@@ -732,12 +732,11 @@ textarea {
     /* Home Banner */
 
     .banner {
-        padding: 50px;
+        padding: 100px;
     }
 
     .banner>h2 {
         letter-spacing: 5px;
-        padding: 30px 200px;
     }
 
     .banner>p {
@@ -814,7 +813,7 @@ textarea {
 
 /* Media query: wide screen (1850px and up) */
 
-@media screen and (min-width: 1850px) {
+@media screen and (min-width: 1500px) {
 
     /* Header */
 
