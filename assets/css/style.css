@@ -655,7 +655,7 @@ textarea {
     /* Header */
 
     .menu a {
-        font-weight: 400;
+        font-weight: 300;
     }
 
     /* Main Content */
@@ -668,14 +668,13 @@ textarea {
 
     /* Media Page */
 
-    .bg-contrast {
-        background-color: #FFECE3;
-        color: #B17560;
+    #media-banner {
+        padding: 100px;
     }
 
     .media-box {
         margin: 25px;
-        background-color: #f0cfc0;
+        font-size: 90%;
     }
 
     .media-description {
@@ -719,7 +718,7 @@ textarea {
     }
 
     .menu a {
-        font-weight: 450;
+        font-weight: 300;
         margin-right: 15px;
     }
 
