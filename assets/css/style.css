@@ -249,6 +249,7 @@ footer ul a {
 
 .media-section {
     text-align: center;
+    padding-top: 30px;
 }
 
 .media-section>h2 {
@@ -705,7 +706,7 @@ textarea {
     }
 
     .creator-letter>p {
-        font-size: 95%;l
+        font-size: 95%;
     }
 
     #letter-signoff {
