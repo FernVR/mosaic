@@ -223,14 +223,16 @@ footer ul a {
 
 #media-banner {
     background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../images/pp1-books-2.avif);
-    padding-top: 20px;
+    padding: 20px;
     color: #FFECE3;
     text-align: center;
 }
 
 #media-banner-nav ul {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
 }
 
 #media-banner-nav ul li {
@@ -247,21 +249,31 @@ footer ul a {
     color: #B17560;
 }
 
+.media-banner-content {
+    padding: 30px;
+}
+
+.media-banner-content p {
+    margin: 20px 0;
+}
+
 .media-section {
     text-align: center;
-    padding-top: 30px;
 }
 
 .media-section>h2 {
-    margin-top: 45px;
+    padding: 50px;
 }
 
 .media-box {
     padding: 10px 0;
+    font-size: 70%;
+    letter-spacing: 1px;
+    line-height: 25px;
 }
 
 .media-description {
-    margin: 0 12px;
+    margin: 20px;
 }
 
 .media-img {
@@ -269,11 +281,16 @@ footer ul a {
 }
 
 .bg-contrast {
-    background-color: #B17560;
-    color: #FFECE3
+    background-color: #f0cfc0;
+    color: #9f644f;
+    margin: 30px;
 }
 
 /* Community */
+
+#community {
+    text-align: center;
+}
 
 /* Form */
 
