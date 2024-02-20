@@ -387,7 +387,7 @@ textarea {
 
     #creator-section {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: center;
     }
 
     .creator-img {
@@ -715,7 +715,7 @@ textarea {
 
     .creator-letter>p {
         line-height: 40px;
-        margin: 0 50px;
+        
     }
 
     #creator-img-2 {
@@ -758,4 +758,41 @@ textarea {
     #map>img {
         max-width: 370px;
     }
+}
+
+/* Media query: wide screen (1850px and up) */
+
+@media screen and (min-width: 1850px) {
+
+    /* Header */
+
+    .logo {
+        width: 100px;
+    }
+
+    .menu {
+        font-size: 100%;
+    }
+
+    .banner {
+        padding: 100px 200px;
+    }
+
+
+
+    /*Creator section */
+
+    #creator-section {
+        gap: 100px;
+    }
+
+    .creator-letter {
+        margin-top: 120px;
+    }
+
+    .creator-img {
+        max-width: 600px;
+        padding-bottom: 50px;
+    }
+
 }
