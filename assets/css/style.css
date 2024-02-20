@@ -545,6 +545,10 @@ textarea {
     .community-picks>div {
         width: 30%;
     }
+
+    /* Events */
+
+    
 }
 
 
@@ -670,6 +674,14 @@ textarea {
     .large-display {
         display: flex;
         justify-content: space-evenly;
+    }
+
+    /* Community */
+
+    /* Events */
+
+    .events>.large-display {
+        
     }
 }
 
