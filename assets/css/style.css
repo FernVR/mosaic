@@ -680,8 +680,9 @@ textarea {
 
     /* Events */
 
-    .events>.large-display {
-        
+    .events>.large-display>div {
+        width: 40%;
+        margin: 50px;
     }
 }
 
