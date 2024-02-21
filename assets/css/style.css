@@ -255,15 +255,9 @@ footer ul a {
 
 .media-banner-content p {
     margin: 20px 0;
+    text-align: left;
 }
 
-.media-section {
-    text-align: center;
-}
-
-.media-section>h2 {
-    padding: 50px;
-}
 
 .media-box {
     padding: 10px 0;
@@ -274,6 +268,10 @@ footer ul a {
 
 .media-description {
     margin: 20px;
+}
+
+.media-description h2 {
+    text-align: center;
 }
 
 .media-img {
