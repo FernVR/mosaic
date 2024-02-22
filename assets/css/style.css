@@ -283,51 +283,25 @@ footer ul a {
     margin: 30px;
 }
 
-/* Community */
+/* Community Page */
 
 #community {
     text-align: center;
 }
 
-/* Form */
-
-#form {
-    display: flex;
-    justify-content: center;
-}
-
-.form-banner {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../images/pp1-books-2.avif);
-    padding: 40px 10px;
-    color: #FFECE3;
-}
-
-.form-banner h2 {
-    padding: 10px;
-    text-align: center;
-}
-
-#form-box {
-    margin: 7px;
-    padding: 15px 5px;
-    background-color: #f0cfc0;
-    max-width: 420px;
-    color: #B17560;
-    text-align: center;
-    letter-spacing: 2px;
-    line-height: 30px;
-    font-size: 60%; 
-}
-
-textarea {
-    height: 70px;
-    width: 233px;
-}
-
-/* Community Page */
-
 .community-section {
     padding: 30px 0;
+}
+
+/* Community Picks */
+
+#community-picks {
+    background-color: #f0cfc0;
+    background-image: url("../images/")
+}
+
+.community-img>img {
+    max-width: 200px;
 }
 
 /* Book Club */
@@ -352,22 +326,86 @@ textarea {
     padding-bottom: 10px;
 }
 
-/* Community Picks */
+/* Form */
 
-#community-picks {
+form>div {
+    margin-bottom: 15px;
+}
+
+#form {
+    display: flex;
+    justify-content: center;
+}
+
+.form-banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../images/pp1-books-2.avif);
+    padding: 40px 10px;
+    color: #FFECE3;
+}
+
+.form-banner h2 {
+    margin-top: 20px;
+    padding: 20px 7px;
+    text-align: center;
+}
+
+#form-box {
+    padding: 15px 5px;
     background-color: #f0cfc0;
-    background-image: url("../images/")
+    max-width: 420px;
+    color: #9f644f;
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 25px;
+    font-size: 75%;
+    font-weight: 500; 
+    border-radius: 2%;
 }
 
-
-.community-img>img {
-    max-width: 200px;
+label>span, #radio>p>span {
+    color: #ffffff;
+    font-size: larger;
 }
 
-/* Events */
+#radio>p {
+    margin-bottom: 10px;
+}
 
+input[type=text], input[type=number], input[name=email] {
+    background-color: #FFECE3;
+    padding: 5px;
+    border: none;
+    color: #9f644f;
+    margin-bottom: 10px;
+    border-radius: 1%;
+    letter-spacing: 2px;
+}
 
+textarea {
+    height: 85px;
+    width: 233px;
+    background-color: #FFECE3;
+    color: #9f644f;
+    border: none;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    line-height: 25px;
+    border-radius: 3%;
+}
 
+input[type=submit], input[type=reset] {
+    color: #9f644f;
+    background-color: #FFECE3;
+    border: none;
+    padding: 5px 10px;
+    margin: 0 10px;
+    border-radius: 5%;
+}
+
+input[type=submit]:hover, input[type=reset]:hover {
+    color: #FFECE3;
+    background-color: #9f644f;
+}
 
 
 /* Media query: larger phone screens (350px and up) */
