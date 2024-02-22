@@ -560,6 +560,7 @@ input[type=submit]:hover, input[type=reset]:hover {
 
     .creator-letter {
         width: 50%;
+        margin-top: 30px;
     }
 
     .creator-letter>p {
@@ -619,6 +620,33 @@ input[type=submit]:hover, input[type=reset]:hover {
 
     .community-picks>div {
         width: 30%;
+    }
+
+    /* Form */
+
+    .form-banner>h2 {
+        padding: 20px 0;
+        margin-top: 50px;
+        margin-bottom: 10px;
+    }
+
+    #form-box {
+        padding: 20px;
+        line-height: 35px;
+    }
+
+    #contact-info {
+        margin-top: 15px;
+    }
+
+    input[type=radio] {
+        margin: 0 7px;
+    }
+
+    textarea {
+        width: 300px;
+        height: 100px;
+        margin-top: 20px;
     }
 
     /* Events */
