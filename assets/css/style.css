@@ -258,7 +258,6 @@ footer ul a {
     text-align: left;
 }
 
-
 .media-box {
     padding: 10px 0;
     font-size: 70%;
@@ -333,13 +332,29 @@ textarea {
 
 /* Book Club */
 
+#book-club {
+    margin-top: 30px;
+}
+
 #map>img {
     max-width: 200px;
 }
 
-#book-club>div {
+.book-club>div {
     background-color: #f0cfc0;
-    font-size: 60%;
+    font-size: 70%;
+    padding: 10px;
+    margin: 10px;
+}
+
+.club-details li {
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+
+.community-img>img {
+    max-width: 200px;
 }
 
 
@@ -496,7 +511,6 @@ textarea {
 
     .creator-letter {
         width: 50%;
-        
     }
 
     .creator-letter>p {
@@ -530,27 +544,24 @@ textarea {
     /* Book Club */
 
     #book-club {
-        display: flex;
-        justify-content: center;
-        gap: 10px;  
+        padding: 20px;
     }
 
-    #book-club>div {
-        margin-top: 30px;
-        background-color: #f0cfc0;
-        width: 30%;
-        text-align: center;
-    }
-
-    #map>img {
+    .map>img {
         max-width: 370px;
     }
 
-    /* Community Picks */
-
-    .community-picks-img>img {
-        max-width: 180px;
+    .book-club {
+        display: flex;
+        justify-content: space-evenly;
+        gap: 10px;
     }
+
+    .club-box {
+        width: 30%;
+    }
+
+    /* Community Picks */
 
     .community-picks {
         display: flex;
@@ -807,22 +818,15 @@ textarea {
 
     /* Book Club */
 
-    #book-club {
-        display: flex;
-        justify-content: center;
-        gap: 10px;  
-    }
-
-    #book-club>div {
-        margin-top: 30px;
-        background-color: #f0cfc0;
-        width: 30%;
-        text-align: center;
+    #map {
+        background-color: #FFECE3;
     }
 
     #map>img {
-        max-width: 370px;
+        max-width: 450px;
     }
+
+   
 }
 
 /* Media query: wide screen (1850px and up) */
