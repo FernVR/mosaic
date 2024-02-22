@@ -347,6 +347,7 @@ form>div {
     margin-top: 20px;
     padding: 20px 7px;
     text-align: center;
+    font-weight: 400;
 }
 
 #form-box {
@@ -624,10 +625,15 @@ input[type=submit]:hover, input[type=reset]:hover {
 
     /* Form */
 
+    .form-banner{
+        padding-bottom: 100px;
+    }
+
     .form-banner>h2 {
         padding: 20px 0;
         margin-top: 50px;
         margin-bottom: 10px;
+        font-size: 170%;
     }
 
     #form-box {
@@ -780,6 +786,17 @@ input[type=submit]:hover, input[type=reset]:hover {
 
     /* Community */
 
+    /* Form */
+
+    .form-banner>h2 {
+        font-weight: 400;
+        font-size: 200%;
+    }
+
+    #contact-info {
+        line-height: 50px;
+    }
+
     /* Events */
 
     .events>.large-display>div {
@@ -910,7 +927,7 @@ input[type=submit]:hover, input[type=reset]:hover {
    
 }
 
-/* Media query: wide screen (1850px and up) */
+/* Media query: wide screen (1550px and up) */
 
 @media screen and (min-width: 1500px) {
 
