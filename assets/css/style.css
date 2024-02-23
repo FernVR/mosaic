@@ -7,7 +7,6 @@
 * {
     margin: 0;
     padding: 0;
-    /* box-sizing: border-box; */
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -22,10 +21,10 @@ body {
 /* Header */
 
 header {
-    background-color: #deb37b;
+    background-color: #bd8d4d;
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: baseline;
     width: 100%;
     padding: 5px 0;
     position: fixed;
@@ -41,12 +40,12 @@ header a {
     padding: 0 4px;
     height: auto;
     width: 60px;
-    max-width: 170px;
+    max-width: 150px;
     max-height: 200px;
 }
 
 #active {
-    color: #B17560;
+    color: #803e26;
 }
 
 
@@ -69,7 +68,7 @@ header a {
 }
 
 .menu a:hover {
-    color: #B17560;
+    color: #803e26;
 }
 
 /* Main content */
@@ -78,7 +77,7 @@ main {
     background-color: #FFECE3;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    color: #B17560;
+    color: #a25a40;
     margin-top: 55px;
 }
 
@@ -87,7 +86,7 @@ main {
 .banner {
     text-align: center;
     /* This code needs a credit to youtube video - same as buttons and nav */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/bg-image-7.avif);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(../images/bg-image-7.avif);
     color: #FFECE3;
     padding: 35px 0;
 }
@@ -128,11 +127,11 @@ button>a {
 }
 
 button:hover {
-    border: 2px solid #B17560;
+    border: 2px solid #f6ad93;
 }
 
 button a:hover {
-    color: #B17560;
+    color: #f6ad93;
 }
 
 /* Creator Letter Section */
@@ -184,16 +183,16 @@ button a:hover {
 
 #quote>p {
     line-height: 35px;
-    padding-bottom: 15px;
+    padding-bottom: 5px;
 }
 
 #quote p a {
-    color: #ECCA9E;
+    color: #fac98a;
     text-decoration: none;
 }
 
 #quote p a:hover {
-    color: #B17560;
+    color: #f4b6a0;
 }
 
 /* Footer */
@@ -231,13 +230,16 @@ footer ul a {
 #media-banner-nav ul {
     display: flex;
     justify-content: center;
-    gap: 15px;
+    gap: 10px;
     margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #FFECE3;
 }
 
 #media-banner-nav ul li {
     text-align: center;
     list-style: none;
+    font-size: 85%;
 }
 
 #media-banner-nav a {
@@ -250,12 +252,11 @@ footer ul a {
 }
 
 .media-banner-content {
-    padding: 30px;
+    padding: 10px;
 }
 
 .media-banner-content p {
     margin: 20px 0;
-    text-align: left;
 }
 
 .media-box {
@@ -821,7 +822,7 @@ input[type=submit]:hover, input[type=reset]:hover {
     }
 
     .menu a {
-        font-weight: 300;
+        font-weight: 400;
         margin-right: 15px;
     }
 
@@ -831,7 +832,7 @@ input[type=submit]:hover, input[type=reset]:hover {
         content: '';
         height: 2px;
         width: 0;
-        background: #B17560;
+        background: #803e26;
         position: absolute;
         left: 0;
         bottom: -3px;
