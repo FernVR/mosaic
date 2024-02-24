@@ -269,13 +269,9 @@ footer ul a {
 
 .media-box {
     padding: 10px 0;
-    font-size: 70%;
+    font-size: 70%; 
     letter-spacing: 1px;
     line-height: 25px;
-}
-
-.media-description {
-    
 }
 
 .media-description h2 {
