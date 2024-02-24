@@ -221,7 +221,7 @@ footer ul a {
 /* Media Page */
 
 #media-banner {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../images/pp1-books-2.avif);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../images/banner.media.avif);
     padding: 20px;
     color: #FFECE3;
     text-align: center;
@@ -252,7 +252,8 @@ footer ul a {
 }
 
 .media-banner-content {
-    padding: 10px;
+    padding: 0 5px;
+    margin-top: 30px;
 }
 
 .media-banner-content p {
@@ -267,7 +268,7 @@ footer ul a {
 }
 
 .media-description {
-    margin: 20px;
+    
 }
 
 .media-description h2 {
