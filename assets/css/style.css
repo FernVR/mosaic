@@ -86,13 +86,15 @@ main {
 .banner {
     text-align: center;
     /* This code needs a credit to youtube video - same as buttons and nav */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(../images/bg-image-7.avif);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(../images/home-banner1.jpg);
+    background-position: center; 
     color: #FFECE3;
     padding: 35px 0;
+    font-size: 85%;
 }
 
 .banner h2 {
-    margin: 15px;
+    margin: 20px 5px;
     letter-spacing: .5px;
     line-height: 35px;
     font-weight: 600;
@@ -100,6 +102,7 @@ main {
 
 .banner>p {
     line-height: 25px;
+    margin: 10px ;
 }
 
 /* Button */
@@ -108,7 +111,7 @@ button {
     width: 200px;
     padding: 12px 0;
     text-align: center;
-    margin: 10px 5px;
+    margin: 30px 5px;
     border-radius: 25px;
     border: 2px solid #FFECE3;
     background: transparent;
@@ -138,6 +141,7 @@ button a:hover {
 
 #creator-section {
     margin: 20px 0;
+    padding-top: 20px;
 }
 
 .creator-img>img {
@@ -147,6 +151,7 @@ button a:hover {
     margin-left: 20px;
     margin-top: 30px;
     padding-bottom: 10px;
+    display: none;
 }
 
 #creator-img-3 {
@@ -155,7 +160,8 @@ button a:hover {
 
 .creator-letter {
     text-align: center;
-    padding: 0 12px;
+    margin: 10px;
+    font-size: 70%;
 }
 
 .creator-letter>h2 {
@@ -221,7 +227,8 @@ footer ul a {
 /* Media Page */
 
 #media-banner {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../images/banner.media.avif);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../images/banner.media1.jpg);
+    background-position: center;
     padding: 20px;
     color: #FFECE3;
     text-align: center;
@@ -293,6 +300,15 @@ footer ul a {
 
 .community-section {
     padding: 30px 0;
+}
+
+/* Community Banner */
+
+#community-banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../images/community-banner1.jpg);
+    background-position: center;
+    padding: 40px 10px;
+    color: #FFECE3;
 }
 
 /* Community Picks */
