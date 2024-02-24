@@ -304,12 +304,40 @@ footer ul a {
 
 /* Community Banner */
 
-#community-banner {
+.community-banner {
     background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../images/community-banner1.jpg);
     background-position: center;
-    padding: 40px 10px;
+    padding: 100px 0;
     color: #FFECE3;
 }
+
+.community-banner h2 {
+    margin: 20px 0;
+}
+
+.community-banner>nav {
+    font-size: 60%;
+}
+
+.community-banner>nav>ul {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2px;
+    margin: 20px 5px;
+    border-top: 1px solid #FFECE3;
+    padding-top: 20px;
+}
+
+.community-banner li {
+    list-style: none;
+}
+
+.community-banner a {
+    text-decoration: none;
+    color: #FFECE3;
+}
+
+
 
 /* Community Picks */
 
