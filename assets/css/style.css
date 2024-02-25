@@ -383,34 +383,96 @@ footer ul a {
 /* Community Picks */
 
 #community-picks {
-    background-color: #f0cfc0;
-    background-image: url("../images/")
+    background-color: #FFECE3;
+    background-image: url("../images/");
+    color: #803e26;
+}
+
+.community-section h2 {
+    padding: 25px ;
+    margin: 30px ;
+    border-bottom: 1px solid #a25a40;
+}
+
+.community-box {
+    background-color: #f6ad93;
+    margin: 20px 10px;
+    border-radius: 2rem;
+    color: #fff;
 }
 
 .community-img>img {
     max-width: 200px;
+    margin-top: 20px;
+    border-radius: 2rem;
+}
+
+.community-title {
+    margin-top: 20px;
+    font-size: 90%;
+    padding: 10px 5px;
+}
+
+.community-title>h3 {
+    font-weight: 500;
+}
+
+.community-title>h4 {
+    padding-top: 10px;
+    font-weight: 400;
 }
 
 /* Book Club */
 
 #book-club {
-    background-color: #B17560;
+    background-color: #be6e51;
     color: #fff;
 }
 
-#map>img {
-    max-width: 200px;
+#book-club-heading {
+    border-bottom: 1px solid #FFECE3;
+}
+
+.club-box {
+    font-size: 90%;
+}
+
+#map{
+    width: 220px;
 }
 
 .book-club>div {
-    font-size: 75%;
+    font-size: 90%;
     padding: 10px;
     margin: 10px;
+    letter-spacing: 1px;
+}
+
+.club-details ul {
+    margin-top: 20px;
 }
 
 .club-details li {
     list-style: none;
     padding-bottom: 10px;
+}
+
+/* Event Section */
+
+.event-description {
+    background-color: #f0cfc0;
+    margin: 20px 10px;
+    padding: 10px ;
+}
+
+.event-description h3, .event-description h4, .event-description h5 {
+    margin-bottom: 20px;
+} 
+
+
+
+.event-description p {
+    font-size: 80%;
 }
 
 /* Form */
@@ -422,12 +484,14 @@ form>div {
 #form {
     display: flex;
     justify-content: center;
+    margin: 25px 0;
 }
 
 .form-banner {
     background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../images/pp1-books-2.avif);
     padding: 40px 10px;
     color: #FFECE3;
+    background-size: cover;
 }
 
 .form-banner h2 {
@@ -595,6 +659,36 @@ input[type=submit]:hover, input[type=reset]:hover {
         justify-content: space-between;
         font-size: larger;
     }
+
+    /* Community Page */
+
+    /* Community Picks */
+
+    .community-picks {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .community-picks>div {
+        width: 30%;
+    }
+
+    .community-img>img {
+        width: 80%;
+    }
+
+    /* Book Club */
+
+    .book-club {
+        display: flex;
+        justify-content: space-evenly;
+        gap: 10px;
+        font-size: 75%;
+    }
+
+    .club-box {
+        width: 30%;
+    }
 }
 
 /* Media query: tablets and larger (700px and up) */
@@ -706,6 +800,10 @@ input[type=submit]:hover, input[type=reset]:hover {
 
     .club-box {
         width: 30%;
+    }
+
+    .description p {
+        line-height: 20px;
     }
 
     /* Community Picks */
@@ -910,6 +1008,10 @@ input[type=submit]:hover, input[type=reset]:hover {
 
     /* Events */
 
+    .events>div {
+        display: flex;
+    }
+
     .events>.large-display>div {
         width: 40%;
         margin: 50px;
@@ -977,8 +1079,7 @@ input[type=submit]:hover, input[type=reset]:hover {
 
     #creator-section {
         margin: 0 50px;
-        gap: 50px;
-        
+        gap: 50px;   
     }
 
     .creator-img {
@@ -1021,17 +1122,11 @@ input[type=submit]:hover, input[type=reset]:hover {
         overflow: auto;
     }
 
+    /* Community Page */
+
     /* Book Club */
 
-    .club-box {
-        
-    }
-
     #map {
-        background-color: #FFECE3;
-    }
-
-    #map>img {
         max-width: 400px;
     }
 
