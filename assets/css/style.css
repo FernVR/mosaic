@@ -469,7 +469,9 @@ footer ul a {
     margin-bottom: 20px;
 } 
 
-
+.event-img {
+    width: 250px;
+}
 
 .event-description p {
     font-size: 80%;
