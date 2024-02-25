@@ -89,7 +89,7 @@ main {
     background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(../images/home-banner1.jpg);
     background-position: center; 
     color: #FFECE3;
-    padding: 35px 0;
+    padding: 60px 0;
     font-size: 85%;
 }
 
@@ -235,7 +235,7 @@ footer ul a {
 .media-banner {
     background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(../images/banner.media1.jpg);
     background-position: center;
-    padding: 60px 0;
+    padding: 100px 0;
     color: #FFECE3;
     text-align: center;
 }
@@ -657,6 +657,10 @@ input[type=submit]:hover, input[type=reset]:hover {
 
     /* Media Page*/
 
+   .media-banner {
+        font-size: 100%;
+   }
+
     .media-description {
         font-size: 70%;
     }
@@ -875,6 +879,10 @@ input[type=submit]:hover, input[type=reset]:hover {
 
     /* Community */
 
+    .community-banner {
+        padding: 100px;
+    }
+
     /* Form */
 
     .form-banner>h2 {
@@ -1068,7 +1076,7 @@ input[type=submit]:hover, input[type=reset]:hover {
 
 }
 
-/* Media query: wide screen (1550px and up) */
+/* Media query: wide screen (1900px and up) */
 
 @media screen and (min-width: 1900px) {
 
@@ -1091,6 +1099,15 @@ input[type=submit]:hover, input[type=reset]:hover {
     }
 
     #quote h2 {
+        font-size: 200%;
+    }
+
+    
+    .media-banner, .community-banner {
+        padding: 200px;
+    }
+
+    .media-banner h2, .community-banner h2 {
         font-size: 200%;
     }
 
