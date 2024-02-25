@@ -232,6 +232,11 @@ footer ul a {
 
 /* Media Page */
 
+.media-section>h2 {
+    text-align: center;
+    margin-top: 50px;
+}
+
 .media-banner {
     background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(../images/banner.media1.jpg);
     background-position: center;
@@ -287,6 +292,15 @@ footer ul a {
     font-size: 70%; 
     letter-spacing: 1px;
     line-height: 25px;
+    background-color: #f4b6a0;
+    border-radius: 2rem;
+}
+
+.media-description {
+    background-color: #FFECE3;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 2rem;
 }
 
 .media-description h2 {
@@ -297,12 +311,14 @@ footer ul a {
 
 .media-img {
     max-width: 200px;
+    margin: 0 10px;
+    border-radius: 2rem;
 }
 
 .bg-contrast {
-    background-color: #f0cfc0;
-    color: #9f644f;
+    
     margin: 30px;
+
 }
 
 /* Community Page */
@@ -860,6 +876,7 @@ input[type=submit]:hover, input[type=reset]:hover {
     .media-box {
         margin: 25px;
         font-size: 90%;
+        justify-content: center;
     }
 
     .media-description {
@@ -872,10 +889,7 @@ input[type=submit]:hover, input[type=reset]:hover {
         display: none;
     }
 
-    .large-display {
-        display: flex;
-        justify-content: space-evenly;
-    }
+
 
     /* Community */
 
@@ -996,6 +1010,8 @@ input[type=submit]:hover, input[type=reset]:hover {
     }
 
     .large-display {
+            display: flex;
+            justify-content: space-evenly;
         gap: 50px;
     }
 
