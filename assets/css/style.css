@@ -232,41 +232,50 @@ footer ul a {
 
 /* Media Page */
 
-#media-banner {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../images/banner.media1.jpg);
+.media-banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(../images/banner.media1.jpg);
     background-position: center;
-    padding: 20px;
+    padding: 60px 0;
     color: #FFECE3;
     text-align: center;
 }
 
-#media-banner-nav ul {
+.media-banner-nav ul {
     display: flex;
     justify-content: center;
-    gap: 10px;
-    margin-top: 20px;
+    gap: 15px;
+    margin: 30px 15px;
     padding-top: 20px;
     border-top: 1px solid #FFECE3;
+    
 }
 
-#media-banner-nav ul li {
+.media-banner-nav ul li {
     text-align: center;
     list-style: none;
-    font-size: 85%;
+    font-size: 75%;
 }
 
-#media-banner-nav a {
+.media-banner-nav a {
     text-decoration: none;
     color: #FFECE3;
 }
 
-#media-banner-nav a:hover {
-    color: #B17560;
+.media-banner-nav a:hover {
+    color: #bd8d4d;
 }
 
 .media-banner-content {
     padding: 0 5px;
-    margin-top: 30px;
+    margin-top: 30px; 
+    margin: 20px 5px;
+    font-size: 85%;
+}
+
+.media-banner-content h2 {
+    letter-spacing: .5px;
+    line-height: 35px;
+    font-weight: 600;
 }
 
 .media-banner-content p {
@@ -282,6 +291,8 @@ footer ul a {
 
 .media-description h2 {
     text-align: center;
+    margin: 20px 5px;
+    
 }
 
 .media-img {
@@ -307,7 +318,7 @@ footer ul a {
 /* Community Banner */
 
 .community-banner {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../images/community-banner1.jpg);
+    background-image: url(../images/community-banner1.jpg);
     background-position: center;
     padding: 100px 0;
     color: #FFECE3;
@@ -315,16 +326,24 @@ footer ul a {
 
 .community-banner h2 {
     margin: 20px 0;
+    letter-spacing: .5px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.community-banner p {
+    margin: 10px;
 }
 
 .community-banner>nav {
-    font-size: 60%;
+    font-size: 75%;
+    padding: 15px;
 }
 
 .community-banner>nav>ul {
     display: flex;
-    justify-content: space-evenly;
-    gap: 2px;
+    justify-content: center;
+    gap: 15px;
     margin: 20px 5px;
     border-top: 1px solid #FFECE3;
     padding-top: 20px;
@@ -337,6 +356,10 @@ footer ul a {
 .community-banner a {
     text-decoration: none;
     color: #FFECE3;
+}
+
+.community-banner a:hover {
+    color: #bd8d4d;
 }
 
 
@@ -556,8 +579,6 @@ input[type=submit]:hover, input[type=reset]:hover {
         justify-content: space-between;
         font-size: larger;
     }
-
-    /* Media page */
 }
 
 /* Media query: tablets and larger (700px and up) */
@@ -728,8 +749,6 @@ input[type=submit]:hover, input[type=reset]:hover {
         font-size: 90%;
         line-height: 40px;
     }
-
-    
 }
 
 
@@ -830,7 +849,7 @@ input[type=submit]:hover, input[type=reset]:hover {
 
     /* Media Page */
 
-    #media-banner {
+    .media-banner {
         padding: 100px;
     }
 
@@ -1010,7 +1029,7 @@ input[type=submit]:hover, input[type=reset]:hover {
     }
 
     .banner {
-        padding: 200px;
+        padding: 120px;
     }
 
 
@@ -1035,8 +1054,16 @@ input[type=submit]:hover, input[type=reset]:hover {
     }
 
     #quote p {
-        font-size: 85%;
+        font-size: 70%;
         margin: 20px 100px;
+    }
+
+    .media-banner {
+        padding: 175px;
+    }
+
+    .community-banner {
+        padding: 175px;
     }
 
 }
@@ -1044,6 +1071,15 @@ input[type=submit]:hover, input[type=reset]:hover {
 /* Media query: wide screen (1550px and up) */
 
 @media screen and (min-width: 1900px) {
+
+
+    .banner {
+        padding: 175px;
+    }
+
+    .banner h2 {
+        font-size: 200%;
+    }
 
 
     .creator-letter {
@@ -1057,4 +1093,6 @@ input[type=submit]:hover, input[type=reset]:hover {
     #quote h2 {
         font-size: 200%;
     }
+
+    
 }
