@@ -42,3 +42,26 @@ Happy coding!
 
 
 
+
+# Mosaic Media
+
+I created this site to act as a community and blog for reviewing and recommending art and media that celebrates inclusivity and diversity through LGBT+ and POC writers and creators. I had the idea for this project when I first decided to pursue coding. I wanted to use this idea for this project as it is a concept close to my heart, and I feel it reflects the kind of work I want to do within this industry in the future. I want to do everything I can to create positive and inclusive change to the world around me through the everyday technologies that we use.
+
+You can find the live site [here](https://fernvr.github.io/mosaic/)
+
+(image of site on  all screen sizes)
+
+## Contents
+
+* User Story
+
+### User Story
+
+I created this site with the goal of connecting people through the books, music and cinema they connect to. The title 'Mosaic' is taken from the metaphor of beautiful art being made up of many different contrasting colours and sizes, altogether creating something new. The idea is that we are connected through our differences and we can always find connection no matter our differences.
+
+The site has a number of different categories and titles, as well as a community page where users can access local events and a book club gathering. 
+
+
+
+
+
