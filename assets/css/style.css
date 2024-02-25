@@ -141,7 +141,7 @@ button a:hover {
 
 #creator-section {
     margin: 20px 0;
-    padding-top: 20px;
+    padding: 20px 0;
 }
 
 .creator-img>img {
@@ -151,7 +151,7 @@ button a:hover {
     margin-left: 20px;
     margin-top: 30px;
     padding-bottom: 10px;
-    display: none;
+    
 }
 
 #creator-img-3 {
@@ -161,16 +161,19 @@ button a:hover {
 .creator-letter {
     text-align: center;
     margin: 10px;
-    font-size: 70%;
+    font-size: 80%;
+    color: #803e26;
 }
 
 .creator-letter>h2 {
-    padding: 20px 0;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #803e26;
+    padding-bottom: 20px;
 }
 
 .creator-letter>p {
-    line-height: 30px;
-    margin: 10px 5px;
+    line-height: 25px;
+    letter-spacing: 1px;
 }
 
 /* Quote */
@@ -190,6 +193,9 @@ button a:hover {
 #quote>p {
     line-height: 35px;
     padding-bottom: 5px;
+    font-size: 80%;
+    margin: 0 10px;
+    padding-bottom: 20px;
 }
 
 #quote p a {
@@ -524,7 +530,14 @@ input[type=submit]:hover, input[type=reset]:hover {
     .creator-letter {
         width: 50%;
         font-size: 80%;
+        margin-top: 50px;
     }
+
+    .creator-letter p {
+        line-height: 30px;
+    }
+
+    /* Quote */
 
     #quote>p {
         padding: 20px 50px;
@@ -703,14 +716,20 @@ input[type=submit]:hover, input[type=reset]:hover {
 }
 
 
-/* Media query: tablets and larger (850px and up) */
+/* Media query: tablets and larger (820px and up) */
 
-@media screen and (min-width: 850px) {
+@media screen and (min-width: 820px) {
+
+    .creator-letter {
+        margin-top: 50px;
+    }
 
     .creator-letter>p {
-        line-height: 50px;
-        font-size: 100%;
+        font-size: 90%;
+        line-height: 40px;
     }
+
+    
 }
 
 
@@ -760,12 +779,11 @@ input[type=submit]:hover, input[type=reset]:hover {
     }
 
     .creator-letter>p {
-        line-height: 30px;
-        
+        line-height: 30px;   
     }
 
-    #letter-signoff {
-        margin-top: 50px;
+    .letter-signoff {
+        margin-top: 25px;
     }
 
     #quote>p {
@@ -798,6 +816,16 @@ input[type=submit]:hover, input[type=reset]:hover {
 
     .banner>h2 {
         line-height: 55px;
+    }
+
+    /* Creator Section */
+
+    #creator-section {
+        gap: 20px;
+    }
+
+    .creator-letter {
+        margin-top: 90px;
     }
 
     /* Media Page */
@@ -908,24 +936,22 @@ input[type=submit]:hover, input[type=reset]:hover {
 
     #creator-section {
         margin: 0 50px;
-        padding-top: 50px;
+        gap: 50px;
+        
     }
 
     .creator-img {
         width: 50%;
+        margin: 50px 0;
     }
 
     .creator-letter>p {
         font-size: 95%;
+        line-height: 40px;
     }
 
     #letter-signoff {
         padding: 0;
-    }
-
-    .creator-letter>p {
-        line-height: 40px;
-        
     }
 
     #creator-img-2 {
@@ -984,9 +1010,8 @@ input[type=submit]:hover, input[type=reset]:hover {
     }
 
     .banner {
-        padding: 100px 200px;
+        padding: 200px;
     }
-
 
 
     /*Creator section */
@@ -996,12 +1021,40 @@ input[type=submit]:hover, input[type=reset]:hover {
     }
 
     .creator-letter {
-        margin-top: 120px;
+        margin: 130px 0;
+    }
+
+    .creator-letter>p {
+        font-size: 110%;
+        line-height: 45px;
     }
 
     .creator-img {
         max-width: 600px;
-        padding-bottom: 50px;
+        margin-bottom: 50px;
     }
 
+    #quote p {
+        font-size: 85%;
+        margin: 20px 100px;
+    }
+
+}
+
+/* Media query: wide screen (1550px and up) */
+
+@media screen and (min-width: 1900px) {
+
+
+    .creator-letter {
+        margin-top: 150px;
+    }
+
+    #quote p {
+        font-size: 100%;
+    }
+
+    #quote h2 {
+        font-size: 200%;
+    }
 }
