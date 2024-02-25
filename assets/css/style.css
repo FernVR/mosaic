@@ -31,11 +31,6 @@ header {
     z-index: 99;
 }
 
-header a {
-    text-decoration: none;
-    color: #ffffff;
-}
-
 .logo {
     padding: 0 4px;
     height: auto;
@@ -44,10 +39,14 @@ header a {
     max-height: 200px;
 }
 
+header a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
 #active {
     color: #803e26;
 }
-
 
 .menu {
     font-size: 68%;
@@ -151,7 +150,6 @@ button a:hover {
     margin-left: 20px;
     margin-top: 30px;
     padding-bottom: 10px;
-    
 }
 
 #creator-img-3 {
@@ -229,7 +227,6 @@ footer ul a {
     font-size: 1.5em;
 }
 
-
 /* Media Page */
 
 .media-section>h2 {
@@ -252,7 +249,6 @@ footer ul a {
     margin: 30px 15px;
     padding-top: 20px;
     border-top: 1px solid #FFECE3;
-    
 }
 
 .media-banner-nav ul li {
@@ -305,8 +301,7 @@ footer ul a {
 
 .media-description h2 {
     text-align: center;
-    margin: 20px 5px;
-    
+    margin: 20px 5px; 
 }
 
 .media-img {
@@ -316,9 +311,7 @@ footer ul a {
 }
 
 .bg-contrast {
-    
     margin: 30px;
-
 }
 
 /* Community Page */
@@ -377,8 +370,6 @@ footer ul a {
 .community-banner a:hover {
     color: #bd8d4d;
 }
-
-
 
 /* Community Picks */
 
@@ -459,14 +450,23 @@ footer ul a {
 
 /* Event Section */
 
+.event-box {
+    margin-bottom: 70px;
+}
+
 .event-description {
-    background-color: #f0cfc0;
+    background-color: #f6ad93;
+    color: #fff;
     margin: 20px 10px;
-    padding: 10px ;
+    padding: 20px ;
+    border-radius: 2rem;
+    line-height: 30px;
+    letter-spacing: 1px;
 }
 
 .event-description h3, .event-description h4, .event-description h5 {
     margin-bottom: 20px;
+    font-weight: 650;
 } 
 
 .event-img {
@@ -475,6 +475,7 @@ footer ul a {
 
 .event-description p {
     font-size: 80%;
+    font-weight: 400;
 }
 
 /* Form */
@@ -779,10 +780,23 @@ input[type=submit]:hover, input[type=reset]:hover {
 
     .media-box {
         display: flex;
+        margin: 50px;
+        padding: 30px ;
+        align-items: center;
     }
 
     /* Community */
 
+     /* Community Picks */
+
+     .community-picks {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .community-picks>div {
+        width: 30%;
+    }
 
     /* Book Club */
 
@@ -790,10 +804,7 @@ input[type=submit]:hover, input[type=reset]:hover {
         padding: 20px;
     }
 
-    .map>img {
-        max-width: 370px;
-    }
-
+    
     .book-club {
         display: flex;
         justify-content: space-evenly;
@@ -808,15 +819,11 @@ input[type=submit]:hover, input[type=reset]:hover {
         line-height: 20px;
     }
 
-    /* Community Picks */
 
-    .community-picks {
-        display: flex;
-        justify-content: space-evenly;
-    }
+    /* Event Section */
 
-    .community-picks>div {
-        width: 30%;
+    .event-img {
+        width: 400px;
     }
 
     /* Form */
@@ -850,10 +857,6 @@ input[type=submit]:hover, input[type=reset]:hover {
         height: 100px;
         margin-top: 20px;
     }
-
-    /* Events */
-
-    
 }
 
 
@@ -870,7 +873,6 @@ input[type=submit]:hover, input[type=reset]:hover {
         line-height: 40px;
     }
 }
-
 
 
 /* Media query: large tablets and laptop (992px and up) */
@@ -928,14 +930,6 @@ input[type=submit]:hover, input[type=reset]:hover {
     #quote>p {
         line-height: 40px;
     }
-
-    /* Media page */
-
-    /* Form Page */
-
-    /* Form Banner */
-
-
 }
 
 
@@ -977,19 +971,21 @@ input[type=submit]:hover, input[type=reset]:hover {
         margin: 25px;
         font-size: 90%;
         justify-content: center;
+        margin: 100px;
+        padding: 50px 0;
+        align-items: center;
     }
 
     .media-description {
         max-width: 400px;
         font-size: 60%;
         letter-spacing: 1px;
+        padding: 20px;
     }
 
     .media-description>a {
         display: none;
     }
-
-
 
     /* Community */
 
@@ -997,6 +993,17 @@ input[type=submit]:hover, input[type=reset]:hover {
         padding: 100px;
     }
 
+    /* Events */
+
+    .event-box {
+        margin-bottom: 120px;
+    }
+
+    .event-description {
+        margin: 70px 150px;
+    }
+
+    
     /* Form */
 
     .form-banner>h2 {
@@ -1006,17 +1013,6 @@ input[type=submit]:hover, input[type=reset]:hover {
 
     #contact-info {
         line-height: 50px;
-    }
-
-    /* Events */
-
-    .events>div {
-        display: flex;
-    }
-
-    .events>.large-display>div {
-        width: 40%;
-        margin: 50px;
     }
 }
 
@@ -1104,35 +1100,46 @@ input[type=submit]:hover, input[type=reset]:hover {
 
     /* Media Page */
 
+    .media-banner, .community-banner {
+        font-size: 140%;
+        padding: 140px;
+    }
+
     .media-section {
         padding-top: 40px;
     }
 
     .media-box {
-        margin-bottom: 50px;
+        margin: 100px 200px;
     }
-
+    
+    /*
     .large-display {
-            display: flex;
-            justify-content: space-evenly;
+        display: flex;
+        justify-content: space-evenly;
         gap: 50px;
-    }
+    } */
 
     .media-description {
-        max-width: 450px;
-        max-height: 450px;
-        overflow: auto;
+        font-size: 85%;
+        padding: 50px;
     }
 
     /* Community Page */
 
     /* Book Club */
 
-    #map {
-        max-width: 400px;
+    .book-club {
+        align-items: center;
     }
 
-   
+    .book-club> div {
+        font-size: 100%;
+    }
+
+    #map {
+        width: 400px;
+    } 
 }
 
 /* Media query: wide screen (1550px and up) */
@@ -1149,10 +1156,11 @@ input[type=submit]:hover, input[type=reset]:hover {
         font-size: 100%;
     }
 
+    /* Main */
+
     .banner {
         padding: 120px;
     }
-
 
     /*Creator section */
 
@@ -1186,13 +1194,13 @@ input[type=submit]:hover, input[type=reset]:hover {
     .community-banner {
         padding: 175px;
     }
-
 }
 
 /* Media query: wide screen (1900px and up) */
 
 @media screen and (min-width: 1900px) {
 
+    /* Home Page Main */
 
     .banner {
         padding: 175px;
@@ -1201,7 +1209,6 @@ input[type=submit]:hover, input[type=reset]:hover {
     .banner h2 {
         font-size: 200%;
     }
-
 
     .creator-letter {
         margin-top: 150px;
@@ -1215,14 +1222,13 @@ input[type=submit]:hover, input[type=reset]:hover {
         font-size: 200%;
     }
 
-    
+    /* Media Page */
+
     .media-banner, .community-banner {
         padding: 200px;
     }
 
     .media-banner h2, .community-banner h2 {
         font-size: 200%;
-    }
-
-    
+    } 
 }
