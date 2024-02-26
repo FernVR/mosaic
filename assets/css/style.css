@@ -208,7 +208,7 @@ button a:hover {
 /* Footer */
 
 footer {
-    background-color: #B17560;
+    background-color: #803e26;
 }
 
 footer ul {
@@ -229,10 +229,6 @@ footer ul a {
 
 /* Media Page */
 
-.media-section>h2 {
-    text-align: center;
-    margin-top: 50px;
-}
 
 .media-banner {
     background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(../images/media/media-banner.jpg);
@@ -283,6 +279,18 @@ footer ul a {
     margin: 20px 0;
 }
 
+.media-section {
+    padding-top: 20px;
+}
+
+.media-section>h2 {
+    text-align: center;
+    padding: 25px ;
+    border-bottom: 1px solid #a25a40;
+    margin: 30px 10px;
+    font-weight: 400;
+}
+
 .media-box {
     padding: 10px 0;
     font-size: 70%; 
@@ -295,23 +303,23 @@ footer ul a {
 .media-description {
     background-color: #FFECE3;
     padding: 15px;
-    margin: 10px;
+    margin: 10px 5px;
     border-radius: 2rem;
 }
 
 .media-description h2 {
     text-align: center;
-    margin: 20px 5px; 
+    margin: 20px 0; 
 }
 
 .media-img {
     max-width: 200px;
-    margin: 0 10px;
-    border-radius: 2rem;
+    margin: 10px 15px;
+    
 }
 
 .bg-contrast {
-    margin: 30px;
+    margin: 40px 10px;
 }
 
 /* Community Page */
@@ -501,7 +509,8 @@ form>div {
     margin-top: 20px;
     padding: 20px 7px;
     text-align: center;
-    font-weight: 400;
+    font-weight: 600;
+    color: #fff;
 }
 
 #form-box {
@@ -514,7 +523,7 @@ form>div {
     line-height: 25px;
     font-size: 75%;
     font-weight: 500; 
-    border-radius: 2%;
+    border-radius: 2rem;
 }
 
 label>span, #radio>p>span {
@@ -598,6 +607,20 @@ input[type=submit]:hover, input[type=reset]:hover {
     #quote {
         padding: 15px;
     }
+
+    /* Media Page */
+
+    .media-banner-nav ul li {
+        font-size: 100%;
+    }
+
+    .bg-contrast {
+        margin: 50px 15px;
+    }
+
+    .media-description {
+        margin: 10px;
+    }
 }
 
 
@@ -661,6 +684,16 @@ input[type=submit]:hover, input[type=reset]:hover {
         align-items: center;
         justify-content: space-between;
         font-size: larger;
+    }
+
+    /* Media Page */
+
+    .media-box {
+        width: 500px;
+    }
+
+    .media-description {
+        
     }
 
     /* Community Page */
@@ -774,6 +807,15 @@ input[type=submit]:hover, input[type=reset]:hover {
         font-size: 100%;
    }
 
+   .media-section {
+        margin-bottom: 100px;
+        padding-top: 20px;
+   }
+
+   .media-section h2 {
+    margin: 70px;
+   }
+
     .media-description {
         font-size: 70%;
     }
@@ -783,6 +825,7 @@ input[type=submit]:hover, input[type=reset]:hover {
         margin: 50px;
         padding: 30px ;
         align-items: center;
+        width: fit-content;
     }
 
     /* Community */
