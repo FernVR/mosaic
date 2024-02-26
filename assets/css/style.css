@@ -491,7 +491,7 @@ form>div {
 }
 
 .form-banner {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../images/form-banner.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../images/community/form-banner.jpg);
     padding: 40px 10px;
     color: #FFECE3;
     background-size: cover;
