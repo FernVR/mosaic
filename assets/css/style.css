@@ -88,7 +88,7 @@ main {
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/home/home-banner.jpg);
     background-position: center; 
     color: #fff;
-    padding: 60px 0;
+    padding: 100px 0;
     font-size: 85%;
 }
 
@@ -358,7 +358,7 @@ footer ul a {
 
 .community-banner>nav {
     font-size: 75%;
-    padding: 15px;
+    margin: 15px;
 }
 
 .community-banner>nav>ul {
@@ -504,7 +504,7 @@ form>div {
 
 .form-banner {
     background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../images/community/form-banner.jpg);
-    padding: 40px 10px;
+    padding: 50px 10px;
     color: #FFECE3;
     background-size: cover;
 }
@@ -736,10 +736,6 @@ input[type=submit]:hover, input[type=reset]:hover {
         width: 500px;
     }
 
-    .media-description {
-        
-    }
-
     /* Community Page */
 
     /* Community Picks */
@@ -812,6 +808,7 @@ input[type=submit]:hover, input[type=reset]:hover {
 
     .banner {
         padding: 55px;
+        font-size: 100%;
     }
 
     .banner>h2 {
@@ -848,7 +845,15 @@ input[type=submit]:hover, input[type=reset]:hover {
     /* Media Page*/
 
    .media-banner {
-        font-size: 100%;
+        font-size: 100%;   
+   }
+
+   .media-banner-content {
+    margin: 50px;
+   }
+
+   .media-banner-nav {
+    margin: 0 100px;
    }
 
    .media-section {
@@ -875,6 +880,19 @@ input[type=submit]:hover, input[type=reset]:hover {
     /* Community */
 
      /* Community Picks */
+
+     .community-banner {
+        line-height: 45px;
+     }
+
+     .community-banner>nav>ul {
+        margin: 0 100px;
+     }
+
+     .community-banner>nav>ul>li {
+        font-size: 120%;
+        margin: 0 20px;
+     }
 
      .community-picks {
         display: flex;
@@ -1140,7 +1158,7 @@ input[type=submit]:hover, input[type=reset]:hover {
         content: '';
         height: 2px;
         width: 0;
-        background: #803e26;
+        background: #5d2611;
         position: absolute;
         left: 0;
         bottom: -3px;
@@ -1199,8 +1217,12 @@ input[type=submit]:hover, input[type=reset]:hover {
     /* Media Page */
 
     .media-banner, .community-banner {
-        font-size: 140%;
+        font-size: 120%;
         padding: 140px;
+    }
+
+    .media-banner-content {
+        line-height: 60px;
     }
 
     .media-section {
