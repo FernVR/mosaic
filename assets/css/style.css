@@ -21,7 +21,7 @@ body {
 /* Header */
 
 header {
-    background-color: #bd8d4d;
+    background-color: #9a6621;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -45,7 +45,7 @@ header a {
 }
 
 #active {
-    color: #803e26;
+    color: #5d2611;
 }
 
 .menu {
@@ -67,7 +67,7 @@ header a {
 }
 
 .menu a:hover {
-    color: #803e26;
+    color: #5d2611;
 }
 
 /* Main content */
@@ -197,12 +197,12 @@ button a:hover {
 }
 
 #quote p a {
-    color: #fac98a;
+    color: #ffd9a8;
     text-decoration: none;
 }
 
 #quote p a:hover {
-    color: #f4b6a0;
+    color: #ffb59a;
 }
 
 /* Footer */
