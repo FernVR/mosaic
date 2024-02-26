@@ -312,6 +312,10 @@ footer ul a {
     margin: 20px 0; 
 }
 
+.media-description ul li {
+    margin: 20px;
+}
+
 .media-img {
     max-width: 200px;
     margin: 10px 15px;
