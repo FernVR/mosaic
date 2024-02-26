@@ -491,7 +491,7 @@ form>div {
 }
 
 .form-banner {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../images/pp1-books-2.avif);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../images/form-banner.jpg);
     padding: 40px 10px;
     color: #FFECE3;
     background-size: cover;
