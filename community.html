@@ -44,11 +44,11 @@
         <section id="community">
 
             <!-- Community Banner -->
-            <section class="community-banner">
+            <section class="community-banner" aria-label="community banner">
 
                 <h2>Welcome to our Community</h2>
                 <p>looking for anything specific? Scroll down for content.</p>
-                <nav>
+                <nav aria-label="navigation">
                     <ul>
                         <li><a href="#community-picks">Community Picks</a></li>
                         <li><a href="#book-club">Book Club</a></li>
@@ -65,31 +65,37 @@
                 <div class="community-picks">
                     <div class="community-box">
                         <div class="community-img">
-                            <img src="./assets/images/community/community-picks-1.jpg">
+                            <img src="./assets/images/community/community-picks-1.jpg"
+                                alt="first lady of neo soul book cover">
                         </div>
                         <div class="community-title">
                             <h3>The First Lady of Neo Soul
-                                <br>- Eryka Badu</h3>
+                                <br>- Eryka Badu
+                            </h3>
                             <h4>Hannah K, Kilkenny</h4>
                         </div>
                     </div>
                     <div class="community-box">
                         <div class="community-img">
-                            <img src="./assets/images/community/community-picks-2.jpg">
+                            <img src="./assets/images/community/community-picks-2.jpg"
+                                alt="how to get over a boy book cover">
                         </div>
                         <div class="community-title">
                             <h3>How to Get Over a Boy
-                                <br>- Chidera Eggerue</h3>
+                                <br>- Chidera Eggerue
+                            </h3>
                             <h4>Max B, Dublin</h4>
                         </div>
                     </div>
                     <div class="community-box">
                         <div class="community-img">
-                            <img src="./assets/images/community/community-picks-3.jpg">
+                            <img src="./assets/images/community/community-picks-3.jpg"
+                                alt="women don't owe you pretty book cover">
                         </div>
                         <div class="community-title">
                             <h3>Women Don't Owe You Pretty
-                                <br>- Florence Given</h3>
+                                <br>- Florence Given
+                            </h3>
                             <h4>Tasha W, Cork</h4>
                         </div>
                     </div>
@@ -102,13 +108,14 @@
                 <div class="book-club">
                     <div class="description club-box">
                         <p>Welcome to our book club. We gather twice a month in Dublin City Center,
-                            to discuss books we're reading that we've chosen together, drink tea and 
-                            enjoy the atmosphere of temple bar. It's a great  way to meet kind people 
+                            to discuss books we're reading that we've chosen together, drink tea and
+                            enjoy the atmosphere of temple bar. It's a great way to meet kind people
                             and build community.
                         </p>
                     </div>
                     <div class="club-box">
-                        <img id="map" src="./assets/images/community/community-map.jpg">
+                        <img id="map" src="./assets/images/community/community-map.jpg"
+                            alt="screenshot of google maps cafe location">
                     </div>
                     <div class="club-details club-box">
                         <h3>Details</h3>
@@ -131,13 +138,14 @@
                     <div class="large-display">
                         <div class="event-box">
                             <div>
-                                <img class="event-img" src="./assets/images/community/events-img-1.jpg">
+                                <img class="event-img" src="./assets/images/community/events-img-1.jpg"
+                                    alt="image for Emodiment event">
                             </div>
                             <div class="event-description">
                                 <h3>Embodiment; Disability and the body in art</h3>
                                 <h4>09 March 2024</h4>
                                 <h5>
-                                    Tickets: €16/€13 | Free Online 
+                                    Tickets: €16/€13 | Free Online
                                 </h5>
                                 <h5>Show Time: 6pm</h5>
                                 <p>An evening of work which is a frank, humorous and moving account of the disabled body
@@ -149,7 +157,8 @@
                         </div>
                         <div class="event-box">
                             <div>
-                                <img class="event-img" src="./assets/images/community/events-img-2.jpg">
+                                <img class="event-img" src="./assets/images/community/events-img-2.jpg"
+                                    alt="image for Dis-gender event">
                             </div>
                             <div class="event-description">
                                 <h3>Dis-Gender; Disability and Gender Identity</h3>
@@ -172,7 +181,8 @@
                     <div class="large-display">
                         <div class="event-box">
                             <div>
-                                <img class="event-img" src="./assets/images/community/events-img-3.jpg">
+                                <img class="event-img" src="./assets/images/community/events-img-3.jpg"
+                                    alt="image of music current festival poster">
                             </div>
                             <div class="event-description">
                                 <h3>Music Current Festival</h3>
@@ -192,7 +202,8 @@
                         </div>
                         <div class="event-box">
                             <div>
-                                <img class="event-img" src="./assets/images/community/events-img-4.jpg">
+                                <img class="event-img" src="./assets/images/community/events-img-4.jpg"
+                                    alt="image of dublin Film festival">
                             </div>
                             <div class="event-description">
                                 <h3>Dublin International Film Festival</h3>
@@ -210,13 +221,13 @@
             </section>
             <section id="form-banner" class="form-banner">
                 <h2>Subscribe to our monthly newsletter today</h2>
-                <div id="form">
+                <div id="form" aria-label="form">
                     <section id="form-box">
                         <!-- Sign Up Form -->
                         <form method="get" action="thankyou.html" id="signup-form">
 
                             <!-- Maybe think of doing a mockup newsletter? -->
-                            <div id="contact-info">
+                            <div id="contact-info" aria-label="contact-info">
                                 <label for="first-name">First Name<span>*</span></label>
                                 <input type="text" id="first-name" name="first-name" required>
                                 <br>
@@ -246,8 +257,8 @@
                                 <textarea></textarea>
                             </div>
                             <div id="form-button">
-                                <input type="submit" value="Send">
-                                <input type="reset" value="Clear">
+                                <input type="submit" value="Send" aria-label="submit">
+                                <input type="reset" value="Clear" aria-label="clear">
                             </div>
                         </form>
                     </section>
@@ -266,10 +277,14 @@
     <!-- Footer -->
     <footer>
         <ul>
-            <li><a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-square-facebook"></i></a></li>
-            <li><a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
-            <li><a href="https://www.tiktok.com" target="_blank"><i class="fa-brands fa-tiktok"></i></a></li>
-            <li><a href="https://www.youtube.com" target="_blank"><i class="fa-brands fa-square-youtube"></i></a></li>
+            <li><a href="https://www.facebook.com" target="_blank" aria-label="facebook"><i
+                        class="fa-brands fa-square-facebook"></i></a></li>
+            <li><a href="https://www.instagram.com" target="_blank" aria-label="instagram"><i
+                        class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="https://www.tiktok.com" target="_blank" aria-label="tik-tok"><i
+                        class="fa-brands fa-tiktok"></i></a></li>
+            <li><a href="https://www.youtube.com" target="_blank" aria-label="youtube"><i
+                        class="fa-brands fa-square-youtube"></i></a></li>
         </ul>
     </footer>
 
