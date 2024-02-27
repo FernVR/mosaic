@@ -191,18 +191,18 @@ button a:hover {
 #quote>p {
     line-height: 35px;
     padding-bottom: 5px;
-    font-size: 80%;
+    font-size: 100%;
     margin: 0 10px;
     padding-bottom: 20px;
 }
 
 #quote p a {
-    color: #ffe7c9;
+    color: #fec074;
     text-decoration: none;
 }
 
 #quote p a:hover {
-    color: #ffccba;
+    color: #f9dbb7;
 }
 
 /* Footer */
@@ -281,12 +281,13 @@ footer ul a {
 
 .media-section {
     padding-top: 20px;
+    color: #803e26;
 }
 
 .media-section>h2 {
     text-align: center;
     padding: 25px ;
-    border-bottom: 1px solid #a25a40;
+    border-bottom: 1px solid #5d2611;
     margin: 30px 10px;
     font-weight: 400;
 }
@@ -394,7 +395,8 @@ footer ul a {
 .community-section h2 {
     padding: 25px ;
     margin: 30px ;
-    border-bottom: 1px solid #a25a40;
+    border-bottom: 1px solid #5d2611;
+    font-weight: 400;
 }
 
 .community-box {
@@ -1090,11 +1092,11 @@ input[type=submit]:hover, input[type=reset]:hover {
     }
 
     .media-box {
-        margin: 25px;
+        margin: 0;
         font-size: 90%;
         justify-content: center;
         margin: 100px;
-        padding: 50px 0;
+        padding: 50px;
         align-items: center;
     }
 
@@ -1107,6 +1109,10 @@ input[type=submit]:hover, input[type=reset]:hover {
 
     .media-description>a {
         display: none;
+    }
+
+    .media-box {
+        width: fit-content;
     }
 
     /* Community */
@@ -1239,12 +1245,6 @@ input[type=submit]:hover, input[type=reset]:hover {
         margin: 100px 200px;
     }
     
-    /*
-    .large-display {
-        display: flex;
-        justify-content: space-evenly;
-        gap: 50px;
-    } */
 
     .media-description {
         font-size: 85%;
@@ -1252,6 +1252,12 @@ input[type=submit]:hover, input[type=reset]:hover {
     }
 
     /* Community Page */
+
+    /* Community Picks */
+
+    .community-box {
+        margin: 30px 50px;
+    }
 
     /* Book Club */
 
@@ -1357,4 +1363,20 @@ input[type=submit]:hover, input[type=reset]:hover {
     .media-banner h2, .community-banner h2 {
         font-size: 200%;
     } 
+
+    /* Community Page */
+
+    .community-box {
+        margin: 30px 120px;
+    }
+
+    .event-box {
+        margin: 100px;
+    }
+
+    .event-img {
+        width: 600px;
+    }
+
+   
 }
