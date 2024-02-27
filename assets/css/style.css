@@ -110,7 +110,7 @@ button {
     width: 200px;
     padding: 12px 0;
     text-align: center;
-    margin: 30px 5px;
+    margin: 20px 5px;
     border-radius: 25px;
     border: 2px solid #FFECE3;
     background: transparent;
@@ -140,7 +140,7 @@ button a:hover {
 
 #creator-section {
     margin: 20px 0;
-    padding: 20px 0;
+    padding: 40px 0;
 }
 
 .creator-img>img {
@@ -164,7 +164,7 @@ button a:hover {
 }
 
 .creator-letter>h2 {
-    margin-bottom: 20px;
+    margin: 35px 0;
     border-bottom: 1px solid #803e26;
     padding-bottom: 20px;
 }
