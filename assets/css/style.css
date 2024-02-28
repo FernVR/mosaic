@@ -18,6 +18,10 @@ body {
     flex-direction: column;
 }
 
+.hidden-heading {
+    display: none;
+}
+
 /* Header */
 
 header {
