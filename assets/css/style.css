@@ -875,6 +875,10 @@ input[type=submit]:hover, input[type=reset]:hover {
         display: none;
     }
 
+    #quote h2 {
+        margin: 20px ;
+    }
+
     /* Media Page*/
 
    .media-banner {
