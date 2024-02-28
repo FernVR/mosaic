@@ -11,7 +11,7 @@ You can find the live site [here](https://fernvr.github.io/mosaic/)
 
 * add contents here 
 
-## User Experience (UX)
+# User Experience (UX)
 
 -   ### User stories
 
@@ -39,44 +39,43 @@ You can find the live site [here](https://fernvr.github.io/mosaic/)
         2. See if there's any new events, demonstrations or blog posts added to the community page.
         3. Sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
 
--   ### Design
+# Design
 
-    -   #### Colour Scheme
+### Colour Scheme
 
-        -   I wanted the colours to display a warm and neutral theme, with some brighter colours to add flare and art to the site.
+*   I wanted the colours to display a warm and neutral theme, with some brighter colours to add flare and art to the site.
 
-        ( Screenshot of colour palletes here)
+    ( Screenshot of colour palletes here)
+### Typography
 
-    -   #### Typography
+*   The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font. Montserrat is a clean font and is both attractive and appropriate.
 
-        -   The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font. Montserrat is a clean font and is both attractive and appropriate.
+*   I varied between font weights and letter spacing for titles and written content, to make everything clear and easy to read.
 
-        -   I varied between font weights and letter spacing for titles and written content, to make everything clear and easy to read.
+### Imagery
 
-    -   #### Imagery
+*   I worked hard to make sure the imagery was consistent with the layout and theme for the site. I wanted the colours and images to have an artistic and minimal design theme as to not distract from the content.
 
-        -   I worked hard to make sure the imagery was consistent with the layout and theme for the site. I wanted the colours and images to have an artistic and minimal design theme as to not distract from the content.
+*   The hero image was selected to provide an inviting introduction to the site using a spiral black and white mosaic photo to reflect the name of the site. 
 
-        -   The hero image was selected to provide an inviting introduction to the site using a spiral black and white mosaic photo to reflect the name of the site. 
+*   Photos with text on them have darker overlay to ensure legibility to the text.
 
-        -   Photos with text on them have darker overlay to ensure legibility to the text.
+### Effects 
 
-    -    #### Effects 
+*   Hover styles added to all links and buttons so they change colour or display an underline when they're being highlighted to indicate they are clickable for a user.
 
-        -   Hover styles added to all links and buttons so they change colour or display an underline when they're being highlighted to indicate they are clickable for a user.
+### Design Choices 
 
-    -    #### Design Choices 
+*   The design is intentionally minimalistic, elegant and warm, to convery a soft, safe and cosy atmosphere for the site as providing a safe space for users is one of the main goals of the site. 
 
-        -   The design is intentionally minimalistic, elegant and warm, to convery a soft, safe and cosy atmosphere for the site as providing a safe space for users is one of the main goals of the site. 
+*   The layout and design of the website is consistent across all screen sizes.
 
-        -   The layout and design of the website is consistent across all screen sizes.
+### Wireframes
 
-*   ### Wireframes
-
-    I didnt use any wireframe programmes. I started the project with a clear idea of what I wanted it to look like, then as I moved through the project I realised there were sections that were a bit too complex and took too much time to build. I then compressed the site a great deal to save on time, overall I think next time I will be using wireframes as it was quite time consuming to change each section. 
+I didnt use any wireframe programmes. I started the project with a clear idea of what I wanted it to look like, then as I moved through the project I realised there were sections that were a bit too complex and took too much time to build. I then compressed the site a great deal to save on time, overall I think next time I will be using wireframes as it was quite time consuming to change each section. 
     
-    I did some sketches throughout the project of different parts which I've left here for your reference:
-    (Screenshots of wireframe)
+I did some sketches throughout the project of different parts which I've left here for your reference:
+(Screenshots of wireframe)
 
 # Features
 
@@ -257,6 +256,8 @@ I planned to include versions of these features in the original structure, but d
 
 # Testing
 
+## Validation
+
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
 -   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) 
@@ -264,18 +265,27 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
     (screenshot)
 
+## Lighthouse Testing
+
+(screenshot of lighthouse test results)
 
 ## Further Testing
 
+### Test Grid 
+
+(screenshot of test grid from ipad- grid will have a breakdown of each link/button on each page )
+
 -   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
 
--   The website was viewed and tested on a variety of devices such as Desktop, Laptop, iPhone 10, iPhone 12, iPhone 14 Pro and iPad Pro.
+-   The website was viewed and tested on a variety of devices such as Desktop, Laptop, iPhone 10, iPhone 12, iPhone 14 Pro and iPad Pro. (screenshot of each one with title + landscape view)
 
 -   A large amount of testing was done to ensure that all pages were linking correctly, as well as buttons and form submition and inputs. (screenshot of all tests on   form)
 
 -   I also did a good amount of testing the responsiveness of the website on different phone screens vertical and horizontal view, to make sure all the images and text are the correct size and position.
 
 -   Friends and family members were asked to review the site and documentation to point out any bugs or user experience issues.
+
+-   Tested on all devices available on chrome dev tools.
 
 ## Known Bugs
 
