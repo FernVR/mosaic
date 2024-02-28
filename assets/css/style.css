@@ -505,6 +505,18 @@ footer ul a {
     font-weight: 400;
 }
 
+.ticket-link {
+    margin: 20px;
+}
+
+.ticket-link li {
+    font-weight: 700;
+}
+
+.ticket-link a {
+    color: #fff;
+}
+
 /* Form */
 
 form>div {
