@@ -216,11 +216,13 @@ You can find the live site [here](https://fernvr.github.io/mosaic/)
 
 ## Future Features
 
+I planned to include versions of these features in the original structure, but decided to exclude them for this project and focus more on the media and art sections to keep to MVP standards and also not over complicate or clutter the webpage.
+
 -   A blog page, where a group of writers contribute their work such as think pieces, historical or scientific essays or local/inernational news stories. 
 
 -   Reviews, the current media page will have an option to click to a full review of the material, as well as the brief description. This is so users have the option to only read some of the description and avoid any spoilers. The reviews would be targetted at users who have already engaged in this material and a spoilers warning will show. 
 
--   An Activist section that activism groups can use to advertise and organise demonstrations, protests or fundraisers. 
+-   An Activist section that activism groups can use to advertise and organise demonstrations, protests or fundraisers. This section would also contain any political/government news and movements, changes in legistlation and upcoming election information.
 
 # Technologies Used
 
