@@ -227,6 +227,16 @@ footer ul a {
     font-size: 1.5em;
 }
 
+#footer-contact {
+    text-align: center;
+    color: #fff;
+}
+
+#footer-contact p {
+    letter-spacing: 1px;
+    margin: 20px 10px;
+}
+
 /* Media Page */
 
 

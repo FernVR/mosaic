@@ -49,14 +49,27 @@ You can find the live site [here](https://fernvr.github.io/mosaic/)
 
     -   #### Typography
 
-        -   The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font and is both attractive and appropriate.
+        -   The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font. Montserrat is a clean font and is both attractive and appropriate.
 
         -   I varied between font weights and letter spacing for titles and written content, to make everything clear and easy to read.
 
     -   #### Imagery
 
-        -   I worked hard to make sure the imagery was consistent with the layout and theme for the site. I wanted the colours and images to have an artistic and minimal
-            design theme as to not distract from the content.
+        -   I worked hard to make sure the imagery was consistent with the layout and theme for the site. I wanted the colours and images to have an artistic and minimal design theme as to not distract from the content.
+
+        -   The hero image was selected to provide an inviting introduction to the site using a spiral black and white mosaic photo to reflect the name of the site. 
+
+        -   Photos with text on them have darker overlay to ensure legibility to the text.
+
+    -    #### Effects 
+
+        -   Hover styles added to all links and buttons so they change colour or display an underline when they're being highlighted to indicate they are clickable for a user.
+
+    -    #### Design Choices 
+
+        -   The design is intentionally minimalistic, elegant and warm, to convery a soft, safe and cosy atmosphere for the site as providing a safe space for users is one of the main goals of the site. 
+
+        -   The layout and design of the website is consistent across all screen sizes.
 
 *   ### Wireframes
 
@@ -65,7 +78,7 @@ You can find the live site [here](https://fernvr.github.io/mosaic/)
     I did some sketches throughout the project of different parts which I've left here for your reference:
     (Screenshots of wireframe)
 
-## Features
+# Features
 
 -   Responsive on all device sizes.
 
@@ -73,7 +86,143 @@ You can find the live site [here](https://fernvr.github.io/mosaic/)
 
 -   Header with navigation is fixed on the top of the screen so users can easily navigate to different parts.
 
-## Technologies Used
+## Home Page
+
+### Navigation Bar 
+
+-   The logo on the top left is easy to locate and links to the home page landing banner to ensure easy navigation for a user.
+
+-   Text is smaller on smaller screen sizes so the links all fit on the navigation bar nicely. 
+
+-   On larger screen sizes, the navigation links display a growing underline when being higlighted as well as changing the color of the text to show a user the links are clickable.
+
+-   Link of the page you're on will have a different colour text to show that a user is on that page.
+
+(screenshot navbar on mobile and laptop)
+
+### Hero Image 
+
+-   The hero image is a spiralled black and white tiled mosaic design, to match the name and theme of the site. 
+
+-   A black transparent overlay is used to enhance the contrast and make the text more legible.
+
+(screenshot of hero on mobile, tablet, laptop)
+
+### Our Mission Section 
+
+-   Highlights a bief description, overview and origin of the site addressed to potetial users of the site to connect to site users.
+
+-   There are three images displayed alongside the statement, displaying all 3, 2 or 1 depending on the screen size and how the statement fits.
+(screenshot all 3 images and show how they look all displayed)
+
+### Quote Section 
+
+-   A meaningful quote about the importance of creativity, followed by a statment giving the user an option to subscribe to the monthly newsletter with links that take you to the form section. 
+
+-   Links change colour when hovered to demonstrate they are clickable.
+
+(screenshot)
+
+### Footer 
+
+-   Contact information displayed with icon. (screenshot)
+
+-   Social media links with the @ tag for the page shown below the links.
+
+-   'don't hesitate to get in touch' statement at the bottom as a warm invitation for users to get involved.
+
+(screenshot of footer on all sizes)
+
+## Media Page 
+
+### Media Banner 
+
+-   Inviting image with text overlay, with a darker opacity to ensure the text is readable. 
+
+-   Heading used for quote on the banner, followed by a brief description of the page content and a navigation element separated by a border line. 
+
+-   Navigation section has bolder font-weight to ensure the text is clear. Hover styles added to the links in the text to show a user can click on them.
+
+(screenshot, mobile and laptop)
+
+### Media Section 
+
+-   Headings of each section separate the content from the heading using a border line across the page. This is to show structure to the page.
+
+-   Media boxes are a stand-out colour with clear contrast for accessibility purposes. 
+
+-   Media boxes are styled with a border-radius of 2rem to give the look a softer and more inviting feeling. 
+
+-   Links in each section to take you to another page to either purchase a book, stream an artist or watch a film/tv-series. 
+
+(screenshot of mobile and laptop)
+
+## Community Page 
+
+### Community Banner 
+
+-   Similar styles to media banner in terms of the layout and the colour contrast, this is to maintain a consistent feel of the design across different pages. 
+
+-   Image of a silhouette of a group of friends on top of a peak, this is to accomodate the overall theme of friendship and community on the page.
+
+(screenshot mobile and laptop)
+
+### Community Picks 
+
+-   Similar styles to the media box, but without a description of the material. Instead it just displays the cover, title, author's name, the name and city of the person who submitted it, and a rating out of 10.
+
+-   Community picks boxes will display next to each other on a larger screen so the section fits appropriately on a wider screen.
+
+(screenshot mobile and tablet)
+
+### Book Club Section 
+
+-   A brief description of the club and what happens, accompanied by a image of the loction of the meeting spot on google maps, as well as an unordered list with all the detaila of the club and how to get involved. 
+
+-   Contact information for the club-runner is displayed at the bottom with some motivational words to encourage users to get in touch. 
+
+-   Mobile screens will have the information of the book club display one after the other, but on larger screens will display next to each other so the section fits nicely on a wide screen.
+
+(mobile and tablet screenshot)
+
+
+### Events Section 
+
+-   Image of event, followed by information box containing a description, date, time and ticket information as well as a link to purchase the ticket.
+
+-   Styled with bright and warm colours to match the images. 
+
+-   Titles and important information are written with bolder font-weight to highlight that its important information. 
+
+(screenshot mobile and laptop)
+
+### Form Banner Section 
+
+-   Colour of form box is bright and inviting for a user. The box floats on a pretty image of a desk with a coffee cup and books on it. The colours in the photo match the colour pallete of the site.
+
+-   White * star symbols are next to inputs that are required to fill out the form. 
+
+-   The buttons have hover styles so the buttons change colour when being higlighted. 
+
+(screenshot of mobile, tablet, laptop, desktop)
+
+### ThankYou Page
+
+-   A user is redirected to thankyou.html page that shows text thanking the user for their submition as well as a link to 'Go back' to the homepage landing banner. 
+
+-   Home page banner image of mosaic is used as the background image for the thank you page, this is to keep to the theme of the site and enforce the branding. 
+
+(screenshot mobile, tablet, laptop)
+
+## Future Features
+
+-   A blog page, where a group of writers contribute their work such as think pieces, historical or scientific essays or local/inernational news stories. 
+
+-   Reviews, the current media page will have an option to click to a full review of the material, as well as the brief description. This is so users have the option to only read some of the description and avoid any spoilers. The reviews would be targetted at users who have already engaged in this material and a spoilers warning will show. 
+
+-   An Activist section that activism groups can use to advertise and organise demonstrations, protests or fundraisers. 
+
+# Technologies Used
 
 ### Languages Used
 
@@ -104,7 +253,7 @@ You can find the live site [here](https://fernvr.github.io/mosaic/)
 1. [ColorSpace:](https://mycolor.space/)
     - ColorSpace was used to generate the colour palletes for the site.
 
-## Testing
+# Testing
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
@@ -114,7 +263,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     (screenshot)
 
 
-### Further Testing
+## Further Testing
 
 -   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
 
@@ -126,7 +275,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 -   Friends and family members were asked to review the site and documentation to point out any bugs or user experience issues.
 
-### Known Bugs
+## Known Bugs
 
 -   There is an issue with the underline hover style on the navigation, this is because of an issue with the size that I haven't been able to rectify.
 (screenshots).
@@ -145,7 +294,7 @@ The project was deployed to GitHub Pages using the following steps:
 6. Scroll back down through the page to locate the now published site in the "GitHub Pages" section.
 
 
-## Credits
+# Credits
 
 ### Code
 
@@ -164,7 +313,7 @@ The project was deployed to GitHub Pages using the following steps:
 
 -   The map on the Book Club section of the community page is a screenshot from google images. (screenshot the map)
 
-### Acknowledgements
+## Acknowledgements
 
 I would like to express my gratitute to my mentor Sandeep Aggarwal for continuous helpful feedback, advice and resources. Tutor support at Code Institute for their support, as well as the Slack Community, and my class group for always replying to my messages within minutes of being sent! I would also like to thank Code Institute for all the course material I've read and re-read during this process.
 
