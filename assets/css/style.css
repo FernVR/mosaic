@@ -215,6 +215,7 @@ footer ul {
     display: flex;
     justify-content: center;
     padding: 2%;
+    margin: 20px 0;
 }
 
 footer ul li {
@@ -230,11 +231,13 @@ footer ul a {
 #footer-contact {
     text-align: center;
     color: #fff;
+    padding-top: 10px;
 }
 
 #footer-contact p {
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     margin: 20px 10px;
+    font-weight: 300;
 }
 
 /* Media Page */
