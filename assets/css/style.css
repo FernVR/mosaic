@@ -265,7 +265,7 @@ footer ul a {
 /* Media Page */
 
 .media-banner {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(../images/media/media-banner.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(../images/media/media-banner.webp);
     background-position: center;
     padding: 100px 0;
     color: #FFECE3;
@@ -375,7 +375,7 @@ footer ul a {
 /* Community Banner */
 
 .community-banner {
-    background-image: url(../images/community/community-banner.jpg);
+    background-image: url(../images/community/community-banner.webp);
     background-position: center;
     padding: 100px 0;
     color: #FFECE3;
@@ -559,7 +559,7 @@ form>div {
 }
 
 .form-banner {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../images/community/form-banner.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../images/community/form-banner.webp);
     padding: 50px 10px;
     color: #FFECE3;
     background-size: cover;
@@ -641,7 +641,7 @@ input[type=reset]:hover {
 /* Thank You Page */
 
 #thank-you {
-    background-image: url(../images/home/home-banner.jpg);
+    background-image: url(../images/home/home-banner.webp);
     background-size: cover;
     padding: 200px 0 300px 0;
 }
