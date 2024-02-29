@@ -110,11 +110,16 @@ main {
 
 /* Button */
 
-button {
+.banner-buttons {
+    display: grid;
+    justify-content: center;
+}
+
+.button {
     width: 200px;
-    padding: 12px 0;
+    padding: 12px;
     text-align: center;
-    margin: 20px 5px;
+    margin: 20px;
     border-radius: 2rem;
     border: 2px solid #FFECE3;
     background: transparent;
@@ -125,18 +130,20 @@ button {
     font-size: larger;
     font-weight: 500;
     text-transform: uppercase;
+    text-decoration: none;
 }
 
-button>a {
+.button>a {
     text-decoration: none;
     color: #FFECE3;
 }
 
-button:hover {
+.button:hover {
     border: 2px solid #f6ad93;
+    color: #f6ad93;
 }
 
-button a:hover {
+.button a:hover {
     color: #f6ad93;
 }
 
@@ -757,6 +764,12 @@ input[type=reset]:hover {
 
     .banner {
         padding: 15px 70px;
+    }
+
+    .banner-buttons {
+        display: flex;
+        justify-content: center;
+        margin: 20px 0;
     }
 
     /* Creator Section */
