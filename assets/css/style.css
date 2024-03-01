@@ -1181,20 +1181,17 @@ input[type=reset]:hover {
         margin-top: 90px;
     }
 
+    #quote h2 {
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
     /* Media Page */
 
     .media-banner {
         padding: 100px;
     }
 
-    .media-box {
-        margin: 0;
-        font-size: 90%;
-        justify-content: center;
-        margin: 100px;
-        padding: 50px;
-        align-items: center;
-    }
 
     .media-description {
         max-width: 400px;
@@ -1205,10 +1202,6 @@ input[type=reset]:hover {
 
     .media-description>a {
         display: none;
-    }
-
-    .media-box {
-        width: fit-content;
     }
 
     /* Community Page */
@@ -1338,7 +1331,7 @@ input[type=reset]:hover {
     }
 
     .media-box {
-        margin: 100px 200px;
+        padding: 30px 0;
     }
 
     .media-description {
@@ -1416,6 +1409,20 @@ input[type=reset]:hover {
 
     .media-banner {
         padding: 175px;
+    }
+
+    .large-display {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 70px;
+    }
+
+    .media-box {
+        font-size: 75%;
+        justify-content: center;
+        align-items: center;
+        margin: 25px;
+        padding: 0;
     }
 
     .community-banner {
