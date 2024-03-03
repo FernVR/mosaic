@@ -89,7 +89,7 @@ main {
 .banner {
     text-align: center;
     /* found linear-gradient style in youtube tutorial credited in ReadMe document */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/home/home-banner.webp);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/home/home-banner-small.webp);
     background-position: center;
     background-size: cover;
     color: #fff;
@@ -337,7 +337,7 @@ footer ul a {
 
 .media-icon {
     margin: 20px;
-} 
+}
 
 .media-box {
     padding: 10px 0;
@@ -958,7 +958,7 @@ input[type=reset]:hover {
     }
 
     .media-banner-nav ul li {
-        margin:  20px;
+        margin: 20px;
     }
 
     /* Media Content*/
@@ -1166,6 +1166,10 @@ input[type=reset]:hover {
     /* Main Content */
 
     /* Home Banner */
+
+    .banner {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/home/home-banner-large.webp);
+    }
 
     .banner>h2 {
         line-height: 55px;
