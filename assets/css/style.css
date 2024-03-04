@@ -271,8 +271,9 @@ footer ul a {
 /* Media Banner */
 
 .media-banner {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(../images/media/media-banner.webp);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(../images/media/media-banner-small.webp);
     background-position: center;
+    background-size: cover;
     padding: 100px 0;
     color: #FFECE3;
     text-align: center;
@@ -388,7 +389,7 @@ footer ul a {
 /* Community Banner */
 
 .community-banner {
-    background-image: url(../images/community/community-banner.webp);
+    background-image: url(../images/community/community-banner-small.webp);
     background-position: center;
     padding: 100px 0;
     color: #FFECE3;
@@ -572,7 +573,7 @@ form>div {
 }
 
 .form-banner {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../images/community/form-banner.webp);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../images/community/form-banner-small.webp);
     padding: 50px 10px;
     color: #FFECE3;
     background-size: cover;
@@ -1201,6 +1202,8 @@ input[type=reset]:hover {
     /* Media Page */
 
     .media-banner {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(../images/media/media-banner.webp);
+        background-size: cover;
         padding: 100px;
     }
 
@@ -1223,6 +1226,9 @@ input[type=reset]:hover {
     /* Community Page */
 
     .community-banner {
+        background-image: url(../images/community/community-banner.webp);
+        background-size: cover;
+        background-position: center;
         padding: 100px;
     }
 
@@ -1237,6 +1243,10 @@ input[type=reset]:hover {
     }
 
     /* Form */
+
+    .form-banner {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../images/community/form-banner.webp);
+    }
 
     .form-banner>h2 {
         font-weight: 400;
