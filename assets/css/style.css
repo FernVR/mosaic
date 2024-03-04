@@ -449,7 +449,7 @@ footer ul a {
 }
 
 .community-box {
-    background-color: #f6ad93;
+    background-color: #e78765;
     margin: 20px 10px;
     border-radius: 2rem;
     color: #fff;
@@ -479,7 +479,7 @@ footer ul a {
 /* Book Club */
 
 #book-club {
-    background-color: #be6e51;
+    background-color: #85391d;
     color: #fff;
 }
 
@@ -518,7 +518,7 @@ footer ul a {
 }
 
 .event-description {
-    background-color: #f6ad93;
+    background-color: #ff946d;
     color: #fff;
     margin: 20px 10px;
     padding: 20px;
@@ -986,6 +986,10 @@ input[type=reset]:hover {
 
     /* Community Page */
 
+    .community-section>h2 {
+        margin-top: 65px;
+    }
+
     /* Community Picks */
 
     .community-banner {
@@ -1013,7 +1017,7 @@ input[type=reset]:hover {
     /* Book Club */
 
     #book-club {
-        padding: 20px;
+        padding: 50px 20px;
     }
 
     .book-club {
@@ -1031,6 +1035,10 @@ input[type=reset]:hover {
     }
 
     /* Event Section */
+
+    #events {
+        padding-top: 50px;
+    }
 
     .event-img {
         width: 400px;
@@ -1492,6 +1500,10 @@ input[type=reset]:hover {
     }
 
     /* Community Page */
+
+    .community-section>h2 {
+        font-size: 200%;
+    }
 
     .community-box {
         margin: 30px 120px;
