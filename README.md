@@ -237,7 +237,8 @@ I did some sketches throughout the project of different parts which I've left he
 
 -   Home page banner image of mosaic is used as the background image for the thank you page, this is to keep to the theme of the site and enforce the branding. 
 
-(screenshot mobile, tablet, laptop)
+    ![thank-you-section](./assets/images/readme/thank-you-ipad.jpg)
+    ![thank-you-section](./assets/images/readme/thank-you-mobile.jpg)
 
 ## Future Features
 
@@ -301,13 +302,17 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ## Lighthouse Testing
 
-(screenshot of lighthouse test results)
+![lighthouse-testing-home](./assets/images/readme/index-lighthouse.png)
 
 ## Further Testing
 
 ### Test Grid 
 
-(screenshot of test grid from ipad- grid will have a breakdown of each link/button on each page )
+I created a testing grid on Apple Numbers which I used throughout the process of building this site. The grids have categories for each link/button to ensure all of them work correctly and redirect to a new tab if needed. There is also a grid to test responsive design for each section of the page, the different sections are outlined below. I included a screenshot of a blank grid to show the template I used during the project, as I have fixed anything broken from my previous grid. 
+
+![test-grid-template](./assets/images/readme/test-grid-1.jpg)
+![test-grid-template](./assets/images/readme/test-grid-2.jpg)
+
 
 -   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
 
@@ -327,10 +332,13 @@ Throughout the process of building this site, I came across many different error
 
 ## Known Bugs
 
--   There is an issue with the underline hover style on the navigation, this is because of an issue with the size/padding/margin that I haven't been able to rectify.
-(screenshots).
+-   There is an issue with the underline hover style on the navigation, this is because of an issue with the size/padding/margin that I haven't been able to identify or rectify. The underline appears too large on both home and media links, on the community link it fits.
 
--   A white border displays when I try to view the site on landscape mode on my phone. I have tested on other devices and it seems to be only my phone (iphone 12 Pro) that is having this issue. (screenshot)
+![navigation-bug](./assets/images/readme/nav-bug.png)
+
+-   A white border displays when I try to view the site on landscape mode on my phone. I have tested on other devices and it seems to be only my phone (iphone 12 Pro) that is having this issue.
+
+![mobile-bug](./assets/images/readme/mobile-bug.jpg)
 
 ## Deployment
 
