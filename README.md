@@ -428,12 +428,12 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 
 ## Code
 
--   The hover styles for the navigation to display the underline when highlighted were taken from a Youtube tutorial: (link to video)
+-   The hover styles for the navigation to display the underline when highlighted were taken from [GreatStack tutorial](https://www.youtube.com/watch?v=PgAZ8KzfhO8)
 
 
 ## Content
 
--   Some media sections have descriptions taken from these review sites (links) as well as wikipedia (link). 
+-   Some media sections have descriptions taken from these review sites []() as well as wikipedia (link). 
 
 -   The events from the event section of the community page were copied from (link). 
 

@@ -49,7 +49,7 @@ header a {
 }
 
 #active {
-    color: #421402;
+    color: #331407;
 }
 
 .menu {
@@ -71,7 +71,7 @@ header a {
 }
 
 .menu a:hover {
-    color: #421402;
+    color: #331407;
 }
 
 /* Main content */
@@ -342,7 +342,7 @@ footer ul a {
 
 .media-box {
     padding: 10px 0;
-    font-size: 70%;
+    font-size: 90%;
     letter-spacing: 1px;
     line-height: 25px;
     background-color: #f4b6a0;
@@ -1211,9 +1211,10 @@ input[type=reset]:hover {
 
     .media-description {
         max-width: 400px;
-        font-size: 90%;
         letter-spacing: 1px;
         padding: 20px;
+        font-size: 110%;
+        font-weight: 500;
     }
 
     .media-description>a {
@@ -1281,7 +1282,7 @@ input[type=reset]:hover {
         content: '';
         height: 2px;
         width: 0;
-        background: #421402;
+        background: #331407;
         position: absolute;
         left: 0;
         bottom: -3px;
