@@ -108,7 +108,7 @@ I did some sketches throughout the project of different parts which I've left he
 
 -   Link of the page you're on will have a different colour text to show that a user is on that page.
 
-    ![Navigation-mobile](./assets/images/readme/header-navigation-mobile.jpg)
+    ![Navigation-mobile](./assets/images/readme/header-nav-mobile.jpg)
 
 ### Hero Image 
 
