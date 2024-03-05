@@ -1,19 +1,71 @@
 
 # Mosaic Media
 
+## Overview
+
+I created this site to act as a community and blog for reviewing and recommending art and media that celebrates inclusivity and diversity through LGBT+ and BIPOC writers and creators. I had the idea for this project when I first decided to pursue coding as I am a writer and musician as well as a proud member of both LGBT+ and BIPOC communities. All the material and media provided was selected by myself and my friends because we connected to this art in ways that guided our perspectives and provided support to our own issues and experiences. I wanted to use this idea for this project as it is a concept close to my heart, and I feel it reflects a kind of work I want to do within this industry in the future. I would love to be able to do what I can to create positive and inclusive change to the world around me through the technologies that we use.
+
+[You can find the site here](https://fernvr.github.io/mosaic/)
+
 ![Am-I-Responsive](./assets/images/readme/readme-am-i-responsive.png)
-
-I created this site to act as a community and blog for reviewing and recommending art and media that celebrates inclusivity and diversity through LGBT+ and BIPOC writers and creators. I had the idea for this project when I first decided to pursue coding. I wanted to use this idea for this project as it is a concept close to my heart, and I feel it reflects the kind of work I want to do within this industry in the future. I want to do everything I can to create positive and inclusive change to the world around me through the everyday technologies that we use.
-
-You can find the live site [here](https://fernvr.github.io/mosaic/)
 
 ## Contents
 
-* add contents here 
+* [Overview](#overview)
+* [User Experience (UX)](#user-experience-ux)
+    * [User Stories](#user-stories)
+        * [First Time Visitor Goals](#first-time-visitor-goals)
+        * [Returning Visitor Goals](#returning-visitor-goals)
+        * [Frequent User Goals](#frequent-user-goals)
+* [Design](#design)
+    * [Color Scheme](#colour-scheme)
+    * [Typography](#typography)
+    * [Imagery](#imagery)
+    * [Effects](#effects)
+    * [Design Choices](#design-choices)
+    * [Wireframes](#wireframes)
+* [Features](#features)
+    * [Home Page](#home-page)
+        * [Navigation Bar](#navigation-bar)
+        * [Hero Image](#hero-image)
+        * [Our Mission Section](#our-mission-section)
+        * [Quote Section](#quote-section)
+        * [Footer](#footer)
+    * [Media Page](#media-page)
+        * [Media Banner](#media-banner)
+        * [Media Section](#media-section)
+    * [Community Page](#community-page)
+        * [Community Banner](#community-banner)
+        * [Community Picks](#community-picks)
+        * [Book Club Section](#book-club-section)
+        * [Events Section](#events-section)
+        * [Form Section](#form-section)
+        * [Thank You Page](#thankyou-page)
+    * [Future Features](#future-features)
+* [Technologies Used](#technologies-used)
+    * [Languages Used](#languages-used)
+    * [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
+* [Testing](#testing)
+    * [Validation](#validation)
+    * [Lighthouse Testing](#lighthouse-testing)
+    * [Further Testing](#further-testing)
+        * [Test Grid](#test-grid)
+    * [Fixed Bugs](#fixed-bugs)
+    * [Known Bugs](#known-bugs)
+* [Deployment](#deployment)
+    * [Github Pages](#github-pages)
+    * [Forking the GitHub Repository](#forking-the-github-repository)
+    * [Making a Local Clone](#making-a-local-clone)
+* [Credits](#credits)
+    * [Code](#code)
+    * [Content](#content)
+    * [Media](#media)
+* [Ackowledgements](#acknowledgements)
+
 
 # User Experience (UX)
 
--   ### User stories
+-   ### User Stories
 
     -   #### First Time Visitor Goals
 
@@ -41,19 +93,19 @@ You can find the live site [here](https://fernvr.github.io/mosaic/)
 
 # Design
 
-### Colour Scheme
+## Colour Scheme
 
 *   I wanted the colours to display a warm and neutral theme, with some brighter colours to add flare and art to the site.
 
     ![Colour-pallete](./assets/images/readme/readme-color-pallete.png)
 
-### Typography
+## Typography
 
 *   The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font. Montserrat is a clean font and is both attractive and appropriate.
 
 *   I varied between font weights and letter spacing for titles and written content, to make everything clear and easy to read.
 
-### Imagery
+## Imagery
 
 *   I worked hard to make sure the imagery was consistent with the layout and theme for the site. I wanted the colours and images to have an artistic and minimal design theme as to not distract from the content.
 
@@ -66,19 +118,19 @@ You can find the live site [here](https://fernvr.github.io/mosaic/)
 
 *   Photos with text on them have darker overlay to ensure legibility to the text.
 
-### Effects 
+## Effects 
 
 *   Hover styles added to all links and buttons so they change colour or display an underline when they're being highlighted to indicate they are clickable for a user.
 
     ![imagery](./assets/images/readme/hover-effects.png)
 
-### Design Choices 
+## Design Choices 
 
 *   The design is intentionally minimalistic, elegant and warm, to convery a soft, safe and cosy atmosphere for the site as providing a safe space for users is one of the main goals of the site. 
 
 *   The layout and design of the website is consistent across all screen sizes.
 
-### Wireframes
+## Wireframes
 
 I didnt use any wireframe programmes. I started the project with a clear idea of what I wanted it to look like, then as I moved through the project I realised there were sections that were a bit too complex and took too much time to build. I then compressed the site a great deal to save on time, overall I think next time I will be using wireframes as it was quite time consuming to change each section. 
     
@@ -189,9 +241,9 @@ I did some sketches throughout the project of different parts which I've left he
 
 ### Community Picks 
 
--   Similar styles to the media box, but without a description of the material. Instead it just displays the cover, title, author's name, the name and city of the person who submitted it, and a rating out of 10.
+-   Similar styles to the media box, but without a description of the material. Instead it just displays the cover, title, author's name and the name and city of the person who submitted it.
 
--   Community picks boxes will display next to each other on a larger screen so the section fits appropriately on a wider screen.
+-   Community picks boxes display next to each other on a larger screen so the section fits appropriately on a wider screen.
 
     ![community-picks](./assets/images/readme/community-picks-mobile.jpg)
     ![community-picks](./assets/images/readme/community-picks-ipad.png)
@@ -221,7 +273,7 @@ I did some sketches throughout the project of different parts which I've left he
     ![event-section](./assets/images/readme/event-box-mobile-2.jpg)
     
 
-### Form Banner Section 
+### Form Section 
 
 -   Colour of form box is bright and inviting for a user. The box floats on a pretty image of a desk with a coffee cup and books on it. The colours in the photo match the colour pallete of the site.
 
@@ -252,12 +304,12 @@ I planned to include versions of these features in the original structure, but d
 
 # Technologies Used
 
-### Languages Used
+## Languages Used
 
 -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 
-### Frameworks, Libraries & Programs Used
+## Frameworks, Libraries & Programs Used
 
 
 1. [Google Fonts:](https://fonts.google.com/)
@@ -342,9 +394,9 @@ Throughout the process of building this site, I came across many different error
 
 ![mobile-bug](./assets/images/readme/mobile-bug.jpg)
 
-## Deployment
+# Deployment
 
-### GitHub Pages
+## GitHub Pages
 
 The project was deployed to GitHub Pages using the following steps:
 
@@ -355,7 +407,7 @@ The project was deployed to GitHub Pages using the following steps:
 5. The page will automatically refresh.
 6. Scroll back down through the page to locate the now published site in the "GitHub Pages" section.
 
-### Forking the GitHub Repository
+## Forking the GitHub Repository
 
 By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
 
@@ -363,7 +415,7 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
 3. You should now have a copy of the original repository in your GitHub account.
 
-### Making a Local Clone
+## Making a Local Clone
 
 1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
 2. Under the repository name, click "Clone or download".
@@ -374,24 +426,24 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 
 # Credits
 
-### Code
+## Code
 
 -   The hover styles for the navigation to display the underline when highlighted were taken from a Youtube tutorial: (link to video)
 
 
-### Content
+## Content
 
 -   Some media sections have descriptions taken from these review sites (links) as well as wikipedia (link). 
 
 -   The events from the event section of the community page were copied from (link). 
 
-### Media
+## Media
 
 -   Images were taken from Unsplash (link), the images used for the media sections were the posters taken from google images.
 
 -   The map on the Book Club section of the community page is a screenshot from google images. (screenshot the map)
 
-## Acknowledgements
+# Acknowledgements
 
 I would like to express my gratitute to my mentor Sandeep Aggarwal for continuous helpful feedback, advice and resources. Tutor support at Code Institute for their support, as well as the Slack Community, and my class group for always replying to my messages within minutes of being sent! I would also like to thank Code Institute for all the course material I've read and re-read during this process.
 
