@@ -391,6 +391,7 @@ footer ul a {
 .community-banner {
     background-image: url(../images/community/community-banner-small.webp);
     background-position: center;
+    background-size: cover;
     padding: 100px 0;
     color: #FFECE3;
 }

@@ -1,11 +1,11 @@
 
 # Mosaic Media
 
+![Am-I-Responsive](./assets/images/readme-images/readme-am-i-responsive.png)
+
 I created this site to act as a community and blog for reviewing and recommending art and media that celebrates inclusivity and diversity through LGBT+ and BIPOC writers and creators. I had the idea for this project when I first decided to pursue coding. I wanted to use this idea for this project as it is a concept close to my heart, and I feel it reflects the kind of work I want to do within this industry in the future. I want to do everything I can to create positive and inclusive change to the world around me through the everyday technologies that we use.
 
 You can find the live site [here](https://fernvr.github.io/mosaic/)
-
-(image of site on  all screen sizes)
 
 ## Contents
 
@@ -45,7 +45,8 @@ You can find the live site [here](https://fernvr.github.io/mosaic/)
 
 *   I wanted the colours to display a warm and neutral theme, with some brighter colours to add flare and art to the site.
 
-    ( Screenshot of colour palletes here)
+    ![Colour-pallete](./assets/images/readme-images/readme-color-pallete.png)
+
 ### Typography
 
 *   The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font. Montserrat is a clean font and is both attractive and appropriate.
@@ -56,13 +57,20 @@ You can find the live site [here](https://fernvr.github.io/mosaic/)
 
 *   I worked hard to make sure the imagery was consistent with the layout and theme for the site. I wanted the colours and images to have an artistic and minimal design theme as to not distract from the content.
 
+    ![imagery](./assets/images/home/creator-img-3.webp)
+
 *   The hero image was selected to provide an inviting introduction to the site using a spiral black and white mosaic photo to reflect the name of the site. 
+
+
+    ![imagery](./assets/images/home/home-banner-small.webp)
 
 *   Photos with text on them have darker overlay to ensure legibility to the text.
 
 ### Effects 
 
 *   Hover styles added to all links and buttons so they change colour or display an underline when they're being highlighted to indicate they are clickable for a user.
+
+    ![imagery](./assets/images/readme-images/hover-effects.png)
 
 ### Design Choices 
 
@@ -75,7 +83,10 @@ You can find the live site [here](https://fernvr.github.io/mosaic/)
 I didnt use any wireframe programmes. I started the project with a clear idea of what I wanted it to look like, then as I moved through the project I realised there were sections that were a bit too complex and took too much time to build. I then compressed the site a great deal to save on time, overall I think next time I will be using wireframes as it was quite time consuming to change each section. 
     
 I did some sketches throughout the project of different parts which I've left here for your reference:
-(Screenshots of wireframe)
+    ![Wireframe-sketch](./assets/images/readme-images/wireframe-sketch-1.jpg)
+    ![Wireframe-sketch](./assets/images/readme-images/wireframe-sketch-2.jpg)
+    ![Wireframe-sketch](./assets/images/readme-images/wireframe-sketch-3.jpeg)
+    ![Wireframe-sketch](./assets/images/readme-images/wireframe-sketch-4.jpg)
 
 # Features
 
@@ -248,11 +259,17 @@ I planned to include versions of these features in the original structure, but d
 1. [Design.com:](https://design.com/)
     - Design.com was used to generate the logo.
 
-1. [Sketchpad:](https://sketchpad.app/)
+1. [Sketchbook:](https://sketchbook.com/)
     - Sketchpad was used to edit the logo.
 
 1. [ColorSpace:](https://mycolor.space/)
     - ColorSpace was used to generate the colour palletes for the site.
+
+1. [Numbers:](https://apple.com/numbers/)
+    - I used the Numbers app on my iPad pro to create my test grid spreadsheets.
+
+1. [Notes:](https://apple.com/notes/)
+    - I used the apple notes app on both my iPad and my iPhone for sketches, or any other planning/checklists used for this project.
 
 # Testing
 
@@ -260,10 +277,12 @@ I planned to include versions of these features in the original structure, but d
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) 
-    (screenshot)
+-   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - Received No errors/warnings for each page, Home, Media and Community.
+    ![HTML-validator](./assets/images/readme-images/index-html-validator.png)
+    
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
-    (screenshot)
+    ![CSS-validator](./assets/images/readme-images/css-validator.png)
+    
 
 ## Lighthouse Testing
 
@@ -287,10 +306,16 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 -   Tested on all devices available on chrome dev tools.
 
+## Fixed Bugs 
+
+Throughout the process of building this site, I came across many different errors, bugs or warnings that I have since fixed. Mostly syntax/spelling errors, as well as a few issues trying to navigate flexbox. The html validators were a good tool in identifying any errors with syntax or otherwise, and I was able to fix all the issues that the validator identified to end with a good result. I am hoping that there aren't anymore unknown bugs I haven't found/fixed!
+
 ## Known Bugs
 
--   There is an issue with the underline hover style on the navigation, this is because of an issue with the size that I haven't been able to rectify.
+-   There is an issue with the underline hover style on the navigation, this is because of an issue with the size/padding/margin that I haven't been able to rectify.
 (screenshots).
+
+-   A white border displays when I try to view the site on landscape mode on my phone. I have tested on other devices and it seems to be only my phone (iphone 12 Pro) that is having this issue. (screenshot)
 
 ## Deployment
 
@@ -305,6 +330,22 @@ The project was deployed to GitHub Pages using the following steps:
 5. The page will automatically refresh.
 6. Scroll back down through the page to locate the now published site in the "GitHub Pages" section.
 
+### Forking the GitHub Repository
+
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+3. You should now have a copy of the original repository in your GitHub account.
+
+### Making a Local Clone
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+2. Under the repository name, click "Clone or download".
+3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+4. Open Git Bash
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type `git clone`, and then paste the URL you copied in Step 3.
 
 # Credits
 
