@@ -656,7 +656,7 @@ input[type=reset]:hover {
 /* Thank You Page */
 
 #thank-you {
-    background-image: url(../images/home/home-banner.webp);
+    background-image: url(../images/home/home-banner-large.webp);
     background-size: cover;
     padding: 200px 0 300px 0;
 }

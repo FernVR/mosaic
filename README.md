@@ -1,7 +1,7 @@
 
 # Mosaic Media
 
-![Am-I-Responsive](./assets/images/readme-images/readme-am-i-responsive.png)
+![Am-I-Responsive](./assets/images/readme/readme-am-i-responsive.png)
 
 I created this site to act as a community and blog for reviewing and recommending art and media that celebrates inclusivity and diversity through LGBT+ and BIPOC writers and creators. I had the idea for this project when I first decided to pursue coding. I wanted to use this idea for this project as it is a concept close to my heart, and I feel it reflects the kind of work I want to do within this industry in the future. I want to do everything I can to create positive and inclusive change to the world around me through the everyday technologies that we use.
 
@@ -45,7 +45,7 @@ You can find the live site [here](https://fernvr.github.io/mosaic/)
 
 *   I wanted the colours to display a warm and neutral theme, with some brighter colours to add flare and art to the site.
 
-    ![Colour-pallete](./assets/images/readme-images/readme-color-pallete.png)
+    ![Colour-pallete](./assets/images/readme/readme-color-pallete.png)
 
 ### Typography
 
@@ -70,7 +70,7 @@ You can find the live site [here](https://fernvr.github.io/mosaic/)
 
 *   Hover styles added to all links and buttons so they change colour or display an underline when they're being highlighted to indicate they are clickable for a user.
 
-    ![imagery](./assets/images/readme-images/hover-effects.png)
+    ![imagery](./assets/images/readme/hover-effects.png)
 
 ### Design Choices 
 
@@ -83,10 +83,10 @@ You can find the live site [here](https://fernvr.github.io/mosaic/)
 I didnt use any wireframe programmes. I started the project with a clear idea of what I wanted it to look like, then as I moved through the project I realised there were sections that were a bit too complex and took too much time to build. I then compressed the site a great deal to save on time, overall I think next time I will be using wireframes as it was quite time consuming to change each section. 
     
 I did some sketches throughout the project of different parts which I've left here for your reference:
-    ![Wireframe-sketch](./assets/images/readme-images/wireframe-sketch-1.jpg)
-    ![Wireframe-sketch](./assets/images/readme-images/wireframe-sketch-2.jpg)
-    ![Wireframe-sketch](./assets/images/readme-images/wireframe-sketch-3.jpeg)
-    ![Wireframe-sketch](./assets/images/readme-images/wireframe-sketch-4.jpg)
+    ![Wireframe-sketch](./assets/images/readme/wireframe-sketch-1.jpg)
+    ![Wireframe-sketch](./assets/images/readme/wireframe-sketch-2.jpg)
+    ![Wireframe-sketch](./assets/images/readme/wireframe-sketch-3.jpg)
+    ![Wireframe-sketch](./assets/images/readme/wireframe-sketch-4.jpg)
 
 # Features
 
@@ -108,7 +108,7 @@ I did some sketches throughout the project of different parts which I've left he
 
 -   Link of the page you're on will have a different colour text to show that a user is on that page.
 
-(screenshot navbar on mobile and laptop)
+    ![Navigation-mobile](./assets/images/readme/header-navigation-mobile.jpg)
 
 ### Hero Image 
 
@@ -116,7 +116,8 @@ I did some sketches throughout the project of different parts which I've left he
 
 -   A black transparent overlay is used to enhance the contrast and make the text more legible.
 
-(screenshot of hero on mobile, tablet, laptop)
+    ![Hero-image](./assets/images/readme/home-banner-ipad.jpg)
+    ![Hero-image](./assets/images/readme/home-banner-mobile.jpg)
 
 ### Our Mission Section 
 
@@ -125,13 +126,18 @@ I did some sketches throughout the project of different parts which I've left he
 -   There are three images displayed alongside the statement, displaying all 3, 2 or 1 depending on the screen size and how the statement fits.
 (screenshot all 3 images and show how they look all displayed)
 
+    ![our-mission](./assets/images/readme/our-mission-ipad.jpg)
+    ![our-mission](./assets/images/readme/our-mission-mobile.jpg)
+    ![our-mission](./assets/images/readme/our-mission-img-mobile.jpg)
+
 ### Quote Section 
 
 -   A meaningful quote about the importance of creativity, followed by a statment giving the user an option to subscribe to the monthly newsletter with links that take you to the form section. 
 
 -   Links change colour when hovered to demonstrate they are clickable.
 
-(screenshot)
+    ![our-mission](./assets/images/readme/quote-ipad.jpg)
+    ![Quote-section](./assets/images/readme/quote-mobile.jpg)
 
 ### Footer 
 
@@ -141,7 +147,8 @@ I did some sketches throughout the project of different parts which I've left he
 
 -   'don't hesitate to get in touch' statement at the bottom as a warm invitation for users to get involved.
 
-(screenshot of footer on all sizes)
+    ![Footer](./assets/images/readme/footer-ipad.jpg)
+    ![Footer](./assets/images/readme/footer-mobile.jpg)
 
 ## Media Page 
 
@@ -153,7 +160,8 @@ I did some sketches throughout the project of different parts which I've left he
 
 -   Navigation section has bolder font-weight to ensure the text is clear. Hover styles added to the links in the text to show a user can click on them.
 
-(screenshot, mobile and laptop)
+    ![media-banner](./assets/images/readme/media-banner-ipad.jpg)
+    ![media-banner](./assets/images/readme/media-banner-mobile.jpg)
 
 ### Media Section 
 
@@ -165,7 +173,9 @@ I did some sketches throughout the project of different parts which I've left he
 
 -   Links in each section to take you to another page to either purchase a book, stream an artist or watch a film/tv-series. 
 
-(screenshot of mobile and laptop)
+    ![media-section](./assets/images/readme/media-section-ipad.jpg)
+    ![media-section](./assets/images/readme/media-box-mobile.jpg)
+    ![media-section](./assets/images/readme/media-box-mobile-2.jpg)
 
 ## Community Page 
 
@@ -175,7 +185,7 @@ I did some sketches throughout the project of different parts which I've left he
 
 -   Image of a silhouette of a group of friends on top of a peak, this is to accomodate the overall theme of friendship and community on the page.
 
-(screenshot mobile and laptop)
+    ![community-banner](./assets/images/readme/community-banner-ipad.jpg)
 
 ### Community Picks 
 
@@ -183,7 +193,8 @@ I did some sketches throughout the project of different parts which I've left he
 
 -   Community picks boxes will display next to each other on a larger screen so the section fits appropriately on a wider screen.
 
-(screenshot mobile and tablet)
+    ![community-picks](./assets/images/readme/community-picks-mobile.jpg)
+    ![community-picks](./assets/images/readme/community-picks-ipad.png)
 
 ### Book Club Section 
 
@@ -193,7 +204,8 @@ I did some sketches throughout the project of different parts which I've left he
 
 -   Mobile screens will have the information of the book club display one after the other, but on larger screens will display next to each other so the section fits nicely on a wide screen.
 
-(mobile and tablet screenshot)
+    ![book-club](./assets/images/readme/book-club-ipad.jpg)
+    ![book-club](./assets/images/readme/book-club-mobile.jpg)
 
 
 ### Events Section 
@@ -204,7 +216,10 @@ I did some sketches throughout the project of different parts which I've left he
 
 -   Titles and important information are written with bolder font-weight to highlight that its important information. 
 
-(screenshot mobile and laptop)
+    ![event-section](./assets/images/readme/event-box-ipad.jpg)
+    ![event-section](./assets/images/readme/event-box-mobile.jpg)
+    ![event-section](./assets/images/readme/event-box-mobile-2.jpg)
+    
 
 ### Form Banner Section 
 
@@ -214,7 +229,7 @@ I did some sketches throughout the project of different parts which I've left he
 
 -   The buttons have hover styles so the buttons change colour when being higlighted. 
 
-(screenshot of mobile, tablet, laptop, desktop)
+    ![form-section](./assets/images/readme/form-ipad.jpg)
 
 ### ThankYou Page
 
@@ -278,10 +293,10 @@ I planned to include versions of these features in the original structure, but d
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
 -   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - Received No errors/warnings for each page, Home, Media and Community.
-    ![HTML-validator](./assets/images/readme-images/index-html-validator.png)
+    ![HTML-validator](./assets/images/readme/index-html-validator.png)
     
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
-    ![CSS-validator](./assets/images/readme-images/css-validator.png)
+    ![CSS-validator](./assets/images/readme/css-validator.png)
     
 
 ## Lighthouse Testing
