@@ -831,7 +831,11 @@ input[type=reset]:hover {
     /* Media Page */
 
     .media-box {
-        width: 500px;
+        display: flex;
+        margin: 50px;
+        padding: 30px;
+        align-items: center;
+        width: fit-content;
     }
 
     /* Community Page */
@@ -976,14 +980,6 @@ input[type=reset]:hover {
 
     .media-description {
         font-size: 80%;
-    }
-
-    .media-box {
-        display: flex;
-        margin: 50px;
-        padding: 30px;
-        align-items: center;
-        width: fit-content;
     }
 
     /* Community Page */
