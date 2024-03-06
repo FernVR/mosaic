@@ -1181,6 +1181,10 @@ input[type=reset]:hover
 		margin-top: 90px;
 	}
 
+	.creator-img>img {
+		margin-top: 90px;
+	}
+
     /* Quote */
 
 	#quote h2 {
@@ -1196,6 +1200,11 @@ input[type=reset]:hover
 		padding: 100px;
 	}
 
+	.media-section>h2 {
+		font-size: 170%;
+		font-weight: 500;
+	}
+
 	.media-box {
 		margin-left: 100px;
 		padding: 60px;
@@ -1206,7 +1215,7 @@ input[type=reset]:hover
 		font-weight: 500;
 		letter-spacing: 1px;
 		max-width: 400px;
-		padding: 20px;
+		padding: 10px;
 	}
 
 	.media-description>a {
@@ -1221,6 +1230,12 @@ input[type=reset]:hover
 		background-size: cover;
 		padding: 100px;
     }
+
+	.community-section>h2 {
+		font-size: 170%;
+		font-weight: 500;
+		margin-bottom: 70px;
+	}
 
 	.event-box {
 		margin-bottom: 120px;
@@ -1319,6 +1334,12 @@ input[type=reset]:hover
 		display: none;
 	}
 
+	/* Quote */
+
+	#quote>p {
+		font-size: 90%;
+	}
+
     /* Media Page */
 
 	.media-banner,
@@ -1337,8 +1358,8 @@ input[type=reset]:hover
 
 	.media-box {
 		margin-bottom: 180px;
-		margin-left: 220px;
-		padding: 20px;
+		margin-left: 270px;
+		padding: 20px 50px 20px 0;
 	}
 
 	.media-description {
@@ -1415,7 +1436,7 @@ input[type=reset]:hover
 
 	.large-display {
 		display: flex;
-		justify-content: space-between;
+		justify-content: space-evenly;
 		margin-bottom: 70px;
 	}
 
