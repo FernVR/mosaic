@@ -1437,6 +1437,8 @@ input[type=reset]:hover
 
 @media screen and (min-width: 1900px) {
 
+	/* Home Page */
+
 	.banner {
 		padding: 175px;
 	}
@@ -1457,6 +1459,8 @@ input[type=reset]:hover
 		font-size: 200%;
 	}
 
+	/* Media Page */
+
 	.media-section h2 {
 		font-size: 200%;
 	}
@@ -1474,6 +1478,8 @@ input[type=reset]:hover
 	 .community-banner h2 {
 		font-size: 200%;
 	}
+
+	/* Community Page */
 
 	.community-section>h2 {
 		font-size: 200%;
