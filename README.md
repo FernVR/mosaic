@@ -3,7 +3,9 @@
 
 ## Overview
 
-I created this site to act as a community and blog for reviewing and recommending art and media that celebrates inclusivity and diversity through LGBT+ and BIPOC writers and creators. I had the idea for this project when I first decided to pursue coding as I am a writer and musician as well as a proud member of both LGBT+ and BIPOC communities. All the material and media provided was selected by myself and my friends because we connected to this art in ways that guided our perspectives and provided support to our own issues and experiences. I wanted to use this idea for this project as it is a concept close to my heart, and I feel it reflects a kind of work I want to do within this industry in the future. I would love to be able to do what I can to create positive and inclusive change to the world around me through the technologies that we use.
+I created this site to act as a community and blog for reviewing and recommending art and media that celebrates inclusivity and diversity through LGBT+ and BIPOC writers and creators in popular culture. I had the idea for this project when I first decided to pursue coding as I am a writer and musician as well as a proud member of both LGBT+ and BIPOC communities. 
+
+All the material and media provided was selected by myself and my friends because we connected to this art in ways that guided our perspectives and provided support to our own issues and experiences. I wanted to use this idea for this project as it is a concept close to my heart, and I feel it reflects a kind of work I want to do within this industry in the future. I would love to be able to do what I can to create positive and inclusive change to the world around me through the technologies that we use.
 
 [You can find the site here](https://fernvr.github.io/mosaic/)
 
