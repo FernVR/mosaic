@@ -338,6 +338,8 @@ footer ul a {
 
 .media-box {
 	background-color: #f4b6a0;
+	border-bottom: 10px solid #ff946d;
+	border-left: 10px solid #ff946d;
 	border-radius: 2rem;
 	font-size: 90%;
 	letter-spacing: 1px;
@@ -1191,7 +1193,7 @@ input[type=reset]:hover
 	.media-box {
 		margin-left: 100px;
 		padding: 60px;
-	}
+	} 
 
 	.media-description {
 		font-size: 110%;
@@ -1330,11 +1332,11 @@ input[type=reset]:hover
 	.media-box {
 		margin-bottom: 180px;
 		margin-left: 220px;
-		padding: 70px;
+		padding: 20px;
 	}
 
 	.media-description {
-		padding: 50px;
+		padding: 30px;
 	}
 
     /* Community Page  */
@@ -1407,16 +1409,20 @@ input[type=reset]:hover
 
 	.large-display {
 		display: flex;
-		justify-content: center;
+		justify-content: space-between;
 		margin-bottom: 70px;
 	}
 
 	.media-box {
 		align-items: center;
-		font-size: 75%;
 		justify-content: center;
 		margin: 25px;
-		padding: 0;
+		padding: 10px;
+	}
+
+	.media-description {
+		font-size: 75%;
+		padding: 20px;
 	}
 
     /* Community Page */
@@ -1452,12 +1458,6 @@ input[type=reset]:hover
 
 	.media-section h2 {
 		font-size: 200%;
-	}
-     
-	.large-display {
-		display: flex;
-		justify-content: center;
-		margin-bottom: 70px;
 	}
 
 	.media-box {
