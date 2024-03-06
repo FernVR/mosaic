@@ -338,8 +338,7 @@ footer ul a {
 
 .media-box {
 	background-color: #f4b6a0;
-	border-bottom: 10px solid #ff946d;
-	border-left: 10px solid #ff946d;
+	border: 10px solid #ff946d;
 	border-radius: 2rem;
 	font-size: 90%;
 	letter-spacing: 1px;
@@ -449,7 +448,8 @@ footer ul a {
 }
 
 .community-box {
-	background-color: #e78765;
+	background-color: #ef794e;
+	border: 10px solid #ffb093;
 	border-radius: 2rem;
 	color: #fff;
 	margin: 20px 10px;
@@ -519,6 +519,7 @@ footer ul a {
 
 .event-description {
 	background-color: #ff946d;
+	border: 10px solid #ffb093;
 	border-radius: 2rem;
 	color: #fff;
 	letter-spacing: 1px;
