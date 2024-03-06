@@ -97,7 +97,7 @@ All the material and media provided was selected by myself and my friends becaus
 
 ## Colour Scheme
 
-*   I wanted the colours to display a warm and neutral theme, with some brighter colours to add flare and art to the site.
+*   I wanted the colours to display a warm and neutral theme, with some brighter colours to add flare and design to the site.
 
     ![Colour-pallete](./assets/images/readme/readme-color-pallete.png)
 
@@ -178,7 +178,6 @@ I did some sketches throughout the project of different parts which I've left he
 -   Highlights a bief description, overview and origin of the site addressed to potetial users of the site to connect to site users.
 
 -   There are three images displayed alongside the statement, displaying all 3, 2 or 1 depending on the screen size and how the statement fits.
-(screenshot all 3 images and show how they look all displayed)
 
     ![our-mission](./assets/images/readme/our-mission-ipad.jpg)
     ![our-mission](./assets/images/readme/our-mission-mobile.jpg)
@@ -186,20 +185,20 @@ I did some sketches throughout the project of different parts which I've left he
 
 ### Quote Section 
 
--   A meaningful quote about the importance of creativity, followed by a statment giving the user an option to subscribe to the monthly newsletter with links that take you to the form section. 
+-   A meaningful quote about the importance of creativity, followed by a statment giving the user an option to subscribe to the monthly newsletter with a link that take you to the form section. 
 
--   Links change colour when hovered to demonstrate they are clickable.
+-   Link changes colour when hovered over to demonstrate it's clickable.
 
     ![our-mission](./assets/images/readme/quote-ipad.jpg)
     ![Quote-section](./assets/images/readme/quote-mobile.jpg)
 
 ### Footer 
 
--   Contact information displayed with icon. (screenshot)
+-   Contact information displayed with icon.
 
--   Social media links with the @ tag for the page shown below the links.
+-   Social media links for a user to easily connect with social media content.
 
--   'don't hesitate to get in touch' statement at the bottom as a warm invitation for users to get involved.
+-   Statement and email address at the bottom to encourage users to get in touch via email.
 
     ![Footer](./assets/images/readme/footer-ipad.jpg)
     ![Footer](./assets/images/readme/footer-mobile.jpg)
@@ -221,7 +220,7 @@ I did some sketches throughout the project of different parts which I've left he
 
 -   Headings of each section separate the content from the heading using a border line across the page. This is to show structure to the page.
 
--   Media boxes are a stand-out colour with clear contrast for accessibility purposes. 
+-   Media boxes are a stand-out colour with clear contrast for good accessibility. 
 
 -   Media boxes are styled with a border-radius of 2rem to give the look a softer and more inviting feeling. 
 
@@ -252,9 +251,7 @@ I did some sketches throughout the project of different parts which I've left he
 
 ### Book Club Section 
 
--   A brief description of the club and what happens, accompanied by a image of the loction of the meeting spot on google maps, as well as an unordered list with all the detaila of the club and how to get involved. 
-
--   Contact information for the club-runner is displayed at the bottom with some motivational words to encourage users to get in touch. 
+-   A brief description of the club and what happens, accompanied by a image of the loction of the meeting spot on google maps, as well as an unordered list with all the details of the club and how to get involved. 
 
 -   Mobile screens will have the information of the book club display one after the other, but on larger screens will display next to each other so the section fits nicely on a wide screen.
 
@@ -300,9 +297,9 @@ I planned to include versions of these features in the original structure, but d
 
 -   A blog page, where a group of writers contribute their work such as think pieces, historical or scientific essays or local/inernational news stories. 
 
--   Reviews, the current media page will have an option to click to a full review of the material, as well as the brief description. This is so users have the option to only read some of the description and avoid any spoilers. The reviews would be targetted at users who have already engaged in this material and a spoilers warning will show. 
+-   Reviews, the current media page will have an option to click to a full review of the material, as well as the brief description. This is so users have the option to only read some of the description and avoid any spoilers. The reviews would be targetted at users who have already engaged in this material and a spoiler warning will show. 
 
--   An Activist section that activism groups can use to advertise and organise demonstrations, protests or fundraisers. This section would also contain any political/government news and movements, changes in legistlation and upcoming election information.
+-   An Activist section that community groups can use to advertise and organise demonstrations, protests or fundraisers. This section would also contain any political/government news and movements, changes in legistlation and upcoming election information.
 
 # Technologies Used
 
@@ -335,7 +332,7 @@ I planned to include versions of these features in the original structure, but d
 1. [ColorSpace:](https://mycolor.space/)
     - ColorSpace was used to generate the colour palletes for the site.
 
-1. [Numbers:](https://apple.com/numbers/)
+1. [Apple Numbers:](https://apple.com/numbers/)
     - I used the Numbers app on my iPad pro to create my test grid spreadsheets.
 
 1. [Notes:](https://apple.com/notes/)
@@ -370,9 +367,9 @@ I created a testing grid on Apple Numbers which I used throughout the process of
 
 -   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
 
--   The website was viewed and tested on a variety of devices such as Desktop, Laptop, iPhone 10, iPhone 12, iPhone 14 Pro and iPad Pro. (screenshot of each one with title + landscape view)
+-   The website was viewed and tested on a variety of devices such as Desktop, Laptop, iPhone 10, iPhone 12, iPhone 14 Pro and iPad Pro.
 
--   A large amount of testing was done to ensure that all pages were linking correctly, as well as buttons and form submition and inputs. (screenshot of all tests on   form)
+-   A large amount of testing was done to ensure that all pages were linking correctly, as well as buttons and form submition and inputs.
 
 -   I also did a good amount of testing the responsiveness of the website on different phone screens vertical and horizontal view, to make sure all the images and text are the correct size and position.
 
@@ -386,7 +383,7 @@ Throughout the process of building this site, I came across many different error
 
 ## Known Bugs
 
--   Background Images on mobile screens appear pixelated since I reduced the size of the images due to lower performance. I've tried reducing the size with different methods to solve this issue, but I've had no luck. I could have kept the larger images but it was slowing down the site and I couldn't get the lighthouse performance score to improve while using the large images. 
+-   Background Images on mobile screens appear pixelated since I reduced the size of the images due to lower performance. I've tried reducing the size with different methods to solve this issue, but I've had no luck. I could have kept the larger images but it was slowing down the site and I couldn't get the lighthouse performance score to improve while using the large images. I asked my mentor for guidance before submitting and he assured me it wasn't that noticeable. I still attempted to fix the issue but I didn't have enough time in the end.
 
 -   There is an issue with the underline hover style on the navigation, this is because of an issue with the size/padding/margin that I haven't been able to identify or rectify. The underline appears too large on both home and media links, on the community link it fits.
 
@@ -430,14 +427,14 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 
 ## Code
 
--   The hover styles for the navigation to display the underline when highlighted were taken from [GreatStack tutorial](https://www.youtube.com/watch?v=PgAZ8KzfhO8)
+-   The hover styles for the navigation to display the underline when highlighted were taken from [GreatStack tutorial](https://www.youtube.com/watch?v=PgAZ8KzfhO8), as well as other small sections I have highlighted in comments in my CSS file.
 
 
 ## Content
 
 -   Some media sections have descriptions taken from these sites: [Electric Lit](https://electricliterature.com/), [The Guardian](https://www.theguardian.com/europe), [Pink News](https://www.thepinknews.com/) and [Conversations about her](https://conversationsabouther.net/) as well as [Wikipedia](https://www.wikipedia.org/). 
 
--   The events from the event section of the community page were copied from [The Project Arts Centre Website](https://projectartscentre.ie/). 
+-   The events from the event section of the community page were taken from [The Project Arts Centre Website](https://projectartscentre.ie/). 
 
 ## Media
 
