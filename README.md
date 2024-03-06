@@ -228,7 +228,6 @@ I did some sketches throughout the project of different parts which I've left he
 
     ![media-section](./assets/images/readme/media-section-ipad.jpg)
     ![media-section](./assets/images/readme/media-box-mobile.jpg)
-    ![media-section](./assets/images/readme/media-box-mobile-2.jpg)
 
 ## Community Page 
 
@@ -247,7 +246,7 @@ I did some sketches throughout the project of different parts which I've left he
 -   Community picks boxes display next to each other on a larger screen so the section fits appropriately on a wider screen.
 
     ![community-picks](./assets/images/readme/community-picks-mobile.jpg)
-    ![community-picks](./assets/images/readme/community-picks-ipad.png)
+    ![community-picks](./assets/images/readme/community-picks-ipad.jpg)
 
 ### Book Club Section 
 
@@ -269,7 +268,6 @@ I did some sketches throughout the project of different parts which I've left he
 
     ![event-section](./assets/images/readme/event-box-ipad.jpg)
     ![event-section](./assets/images/readme/event-box-mobile.jpg)
-    ![event-section](./assets/images/readme/event-box-mobile-2.jpg)
     
 
 ### Form Section 

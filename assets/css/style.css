@@ -1431,6 +1431,12 @@ input[type=reset]:hover
 	.community-banner {
 		padding: 175px;
 	}
+
+	/* Thank You Page */
+
+	#thank-you {
+		padding: 200px;
+	}
 }
 
 /* Media Query for large desktop (1900px and larger) */
