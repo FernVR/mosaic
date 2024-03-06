@@ -381,8 +381,6 @@ Throughout the process of building this site, I came across many different error
 
 ## Known Bugs
 
--   Background Images on mobile screens appear pixelated since I reduced the size of the images due to lower performance. I've tried reducing the size with different methods to solve this issue, but I've had no luck. I could have kept the larger images but it was slowing down the site and I couldn't get the lighthouse performance score to improve while using the large images. I asked my mentor for guidance before submitting and he assured me it wasn't that noticeable. I still attempted to fix the issue but I didn't have enough time in the end.
-
 -   There is an issue with the underline hover style on the navigation, this is because of an issue with the size/padding/margin that I haven't been able to identify or rectify. The underline appears too large on both home and media links, on the community link it fits.
 
 ![navigation-bug](./assets/images/readme/nav-bug.png)
