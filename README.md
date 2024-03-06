@@ -433,19 +433,23 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 
 ## Content
 
--   Some media sections have descriptions taken from these review sites []() as well as wikipedia (link). 
+-   Some media sections have descriptions taken from these sites: [Electric Lit](https://electricliterature.com/), [The Guardian](https://www.theguardian.com/europe), [Pink News](https://www.thepinknews.com/) and [Conversations about her](https://conversationsabouther.net/) as well as [Wikipedia](https://www.wikipedia.org/). 
 
--   The events from the event section of the community page were copied from (link). 
+-   The events from the event section of the community page were copied from [The Project Arts Centre Website](https://projectartscentre.ie/). 
 
 ## Media
 
--   Images were taken from Unsplash (link), the images used for the media sections were the posters taken from google images.
+-   Images were taken from [Unsplash](https://unsplash.com/), the images used for the media sections were the posters taken from [Google Images](https://images.google.com/). 
 
--   The map on the Book Club section of the community page is a screenshot from google images. (screenshot the map)
+-   Images for events section were taken from [The Project Arts Centre Website](https://projectartscentre.ie/) and [Google Images](https://images.google.com/)
+
+-   The map on the Book Club section of the community page is a screenshot from [Google Images](https://images.google.com/).
+
+    ![Book club map](./assets/images/community/community-map.webp)
 
 # Acknowledgements
 
-I would like to express my gratitute to my mentor Sandeep Aggarwal for continuous helpful feedback, advice and resources. Tutor support at Code Institute for their support, as well as the Slack Community, and my class group for always replying to my messages within minutes of being sent! I would also like to thank Code Institute for all the course material I've read and re-read during this process.
+I would like to express my gratitute to my mentor for continuous helpful feedback, advice and resources. Tutor support at Code Institute for their support, as well as the Slack Community, and my class group for always replying to my messages within minutes of being sent! I would also like to thank Code Institute for all the course material I've read and re-read during this process.
 
 
 
