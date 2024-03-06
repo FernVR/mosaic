@@ -5,7 +5,9 @@
 
 I created this site to act as a community and blog for reviewing and recommending art and media that celebrates inclusivity and diversity through LGBT+ and BIPOC writers and creators in popular culture. I had the idea for this project when I first decided to pursue coding as I am a writer and musician as well as a proud member of both LGBT+ and BIPOC communities. 
 
-All the material and media provided was selected by myself and my friends because we connected to this art in ways that guided our perspectives and provided support to our own issues and experiences. I wanted to use this idea for this project as it is a concept close to my heart, and I feel it reflects a kind of work I want to do within this industry in the future. I would love to be able to do what I can to create positive and inclusive change to the world around me through the technologies that we use.
+There is access to media resources and community through different areas of the site. The main goal and objective of Mosaic Media is to provide audiences with inclusive and accessible media that focuses on a diverse perspective. The target audience are people with a love for creativity and art, as well as any person, looking for enjoyable and interesting books, music and cinema.
+
+All the material and media provided was selected by myself and my friends, because we connected to it in ways that guided our perspectives and provided support to our own issues and experiences. I wanted to use the idea for this project, as it is a concept close to my heart and I feel it reflects a kind of work I want to do within this industry in the future. I would love to be able to do what I can to create positive and inclusive change to the world around me, through the technologies that we use.
 
 [You can find the site here](https://fernvr.github.io/mosaic/)
 
@@ -438,7 +440,7 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 
 -   Images for events section were taken from [The Project Arts Centre Website](https://projectartscentre.ie/) and [Google Images](https://images.google.com/)
 
--   The map on the Book Club section of the community page is a screenshot from [Google Images](https://images.google.com/).
+-   The map on the Book Club section of the community page is a screenshot from [Google Maps](https://maps.google.com/).
 
     ![Book club map](./assets/images/community/community-map.webp)
 
