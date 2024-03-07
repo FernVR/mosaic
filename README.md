@@ -473,8 +473,6 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 
 -   The map on the Book Club section of the community page is a screenshot from [Google Maps](https://maps.google.com/).
 
-    ![Book club map](./assets/images/community/community-map.webp)
-
 # Acknowledgements
 
 I would like to express my gratitute to my mentor for continuous helpful feedback, advice and resources. Tutor support at Code Institute for their support, as well as the Slack Community, and my class group for always replying to my messages within minutes of being sent! I would also like to thank Code Institute for all the course material I've read and re-read during this process.
