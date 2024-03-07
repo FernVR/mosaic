@@ -85,6 +85,7 @@ main {
 
 .banner {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/home/home-banner-small.webp);
+	/* Found Linear gradient style in a youtube tutorial I credited in README.md */
 	background-position: center;
 	background-size: cover;
 	color: #fff;
@@ -1277,6 +1278,8 @@ input[type=reset]:hover
 		font-weight: 400;
 		margin-right: 15px;
 	}
+
+	/* hover / after styles on navigation links taken from a youtube tutorial credited in README.md */
 
 	#header-nav ul li::after {
 		background: #331407;
