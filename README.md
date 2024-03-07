@@ -51,7 +51,13 @@ All the material and media provided was selected by myself and my friends, becau
     * [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
 * [Testing](#testing)
     * [Validation](#validation)
+        * [W3C Markup Validator](#w3c-markup-validator)
+        * [W3C CSS Validator](#w3c-css-validator)
     * [Lighthouse Testing](#lighthouse-testing)
+        * [Home Page Result](#home-page-result)
+        * [Media Page Result](#media-page-result)
+        * [Community Page Result](#community-page-result)
+    * [Page Speed Insights](#page-speed-insights)
     * [Further Testing](#further-testing)
         * [Test Grid](#test-grid)
     * [Fixed Bugs](#fixed-bugs)
@@ -101,7 +107,8 @@ All the material and media provided was selected by myself and my friends, becau
 
 *   I wanted the colours to display a warm and neutral theme, with some brighter colours to add flare and design to the site.
 
-    ![Colour-pallete](./assets/images/readme/readme-color-pallete.png)
+    ![Colour-pallete](./assets/images/readme/colour.png)
+    ![Colour-pallete](./assets/images/readme/colour-2.png)
 
 ## Typography
 
@@ -344,8 +351,12 @@ I planned to include versions of these features in the original structure, but d
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - Received No errors/warnings for each page, Home, Media and Community.
+### W3C Markup Validator
+
+-   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - I input the source code from each page into the validator and all pages received no errors or warnings.
     ![HTML-validator](./assets/images/readme/index-html-validator.png)
+
+### W3C CSS Validator
     
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
     ![CSS-validator](./assets/images/readme/css-validator.png)
@@ -353,7 +364,22 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ## Lighthouse Testing
 
-![lighthouse-testing-home](./assets/images/readme/index-lighthouse.png)
+### Home Page Result
+
+![lighthouse-testing-home](./assets/images/readme/home-lighthouse.png)
+
+### Media Page Result
+
+![lighthouse-testing-media](./assets/images/readme/media-lighthouse.png)
+
+### Community Page Result
+
+![lighthouse-testing-community](./assets/images/readme/community-lighthouse.png)
+
+## Page Speed Insights
+
+![Page-speed-insights](./assets/images/readme/page-speed-insights.png)
+
 
 ## Further Testing
 
@@ -387,7 +413,7 @@ Throughout the process of building this site, I came across many different error
 
 ![navigation-bug](./assets/images/readme/nav-bug.png)
 
--   A white border displays when I try to view the site on landscape mode on my phone. I have tested on other devices and it seems to be only my phone (iphone 12 Pro) that is having this issue.
+-   A white border displays when I try to view the site on landscape mode on a mobile device. I'm still not sure how to fix it, googling and reading but can't really find anything that solves it.
 
 ![mobile-bug](./assets/images/readme/mobile-bug.jpg)
 
