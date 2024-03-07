@@ -5,7 +5,7 @@
 
 I created this site to act as a community and blog for reviewing and recommending art and media that celebrates inclusivity and diversity through LGBT+ and BIPOC writers and creators in popular culture. I had the idea for this project when I first decided to pursue coding as I am a writer and musician as well as a proud member of both LGBT+ and BIPOC communities. 
 
-There is access to media resources and community through different areas of the site. The main goal and objective of Mosaic Media is to provide audiences with inclusive and accessible media that focuses on a diverse perspective. The target audience are people with a love for creativity and art, as well as any person, looking for enjoyable and interesting books, music and cinema.
+There is access to media resources and community through different areas of the site. The main goals and objectives of Mosaic Media are to provide audiences with inclusive and accessible media that focuses on a diverse perspective, and create a safe communal space for anyone who needs it. The target audience are people with a love for creativity and art, as well as any person, looking for enjoyable and interesting books, music and cinema.
 
 All the material and media provided was selected by myself and my friends, because we connected to it in ways that guided our perspectives and provided support to our own issues and experiences. I wanted to use the idea for this project, as it is a concept close to my heart and I feel it reflects a kind of work I want to do within this industry in the future. I would love to be able to do what I can to create positive and inclusive change to the world around me, through the technologies that we use.
 
@@ -83,7 +83,7 @@ All the material and media provided was selected by myself and my friends, becau
 
         1. Easily understand the main purpose of the site and learn more about the community.
         2. Easily navigate throughout the site to find content I'm looking for.
-        3. Look at the community page to see whats happening and who gets involved.
+        3. Look at the community page to see what events or meetings are happening locally.
 
     -   #### Returning Visitor Goals
 
@@ -105,7 +105,7 @@ All the material and media provided was selected by myself and my friends, becau
 
 ## Colour Scheme
 
-*   I wanted the colours to display a warm and neutral theme, with some brighter colours to add flare and design to the site.
+*   I wanted the colours to display a warm and neutral colour theme, with some brighter colours to add flare and artistic design to the site.
 
     ![Colour-pallete](./assets/images/readme/colour.png)
     ![Colour-pallete](./assets/images/readme/colour-2.png)
@@ -114,7 +114,7 @@ All the material and media provided was selected by myself and my friends, becau
 
 *   The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font. Montserrat is a clean font and is both attractive and appropriate.
 
-*   I varied between font weights and letter spacing for titles and written content, to make everything clear and easy to read.
+*   I varied between font weights and letter spacing for titles and written content, to make everything clear and easy to read for the user.
 
 ## Imagery
 
@@ -227,11 +227,11 @@ I did some sketches throughout the project of different parts which I've left he
 
 ### Media Section 
 
--   Headings of each section separate the content from the heading using a border line across the page. This is to show structure to the page.
+-   Headings of each section separate the content from the heading using a border line across the page. This is to show structure on the page between the headings and the content.
 
 -   Media boxes are a stand-out colour with clear contrast for good accessibility. 
 
--   Media boxes are styled with a border-radius of 2rem to give the look a softer and more inviting feeling. 
+-   Media boxes are styled with a border-radius of 2rem. 
 
 -   Links in each section to take you to another page to either purchase a book, stream an artist or watch a film/tv-series. 
 
@@ -244,7 +244,7 @@ I did some sketches throughout the project of different parts which I've left he
 
 -   Similar styles to media banner in terms of the layout and the colour contrast, this is to maintain a consistent feel of the design across different pages. 
 
--   Image of a silhouette of a group of friends on top of a peak, this is to accomodate the overall theme of friendship and community on the page.
+-   Image of a silhouette of a group of friends on top of a peak, this is to add to the overall theme of friendship and community on the page.
 
     ![community-banner](./assets/images/readme/community-banner-ipad.jpg)
 
@@ -261,7 +261,7 @@ I did some sketches throughout the project of different parts which I've left he
 
 -   A brief description of the club and what happens, accompanied by a image of the loction of the meeting spot on google maps, as well as an unordered list with all the details of the club and how to get involved. 
 
--   Mobile screens will have the information of the book club display one after the other, but on larger screens will display next to each other so the section fits nicely on a wide screen.
+-   Mobile screens will have the information of the book club display one after the other, but on larger screens will display next to each other so the section fits well on a wide screen.
 
     ![book-club](./assets/images/readme/book-club-ipad.jpg)
     ![book-club](./assets/images/readme/book-club-mobile.jpg)
@@ -273,7 +273,7 @@ I did some sketches throughout the project of different parts which I've left he
 
 -   Styled with bright and warm colours to match the images. 
 
--   Titles and important information are written with bolder font-weight to highlight that its important information. 
+-   Titles and important information are written with bolder font-weight to highlight that it's important information. 
 
     ![event-section](./assets/images/readme/event-box-ipad.jpg)
     ![event-section](./assets/images/readme/event-box-mobile.jpg)
@@ -281,9 +281,9 @@ I did some sketches throughout the project of different parts which I've left he
 
 ### Form Section 
 
--   Colour of form box is bright and inviting for a user. The box floats on a pretty image of a desk with a coffee cup and books on it. The colours in the photo match the colour pallete of the site.
+-   Colour of form box is bright and inviting for a user. The box floats on a pretty image of a desk with a coffee cup and books on it. This image was selected because the colours in the photo match the colour pallete of the site.
 
--   White * star symbols are next to inputs that are required to fill out the form. 
+-   White * star symbols are next to inputs that are required to submit the form. 
 
 -   The buttons have hover styles so the buttons change colour when being higlighted. 
 
@@ -293,20 +293,20 @@ I did some sketches throughout the project of different parts which I've left he
 
 -   A user is redirected to thankyou.html page that shows text thanking the user for their submition as well as a link to 'Go back' to the homepage landing banner. 
 
--   Home page banner image of mosaic is used as the background image for the thank you page, this is to keep to the theme of the site and enforce the branding. 
+-   Home page banner image of mosaic is used as the background image for the thank you page, this is to keep to the theme of the site and branding. 
 
     ![thank-you-section](./assets/images/readme/thank-you-ipad.jpg)
     ![thank-you-section](./assets/images/readme/thank-you-mobile.jpg)
 
 ## Future Features
 
-I planned to include versions of these features in the original structure, but decided to exclude them for this project and focus more on the media and art sections to keep to MVP standards and also not over complicate or clutter the webpage.
+I planned to include versions of these features in the original structure, but decided to exclude them for this project and focus more on the media and art sections to keep to manage my time and also not over complicate or clutter the webpage.
 
 -   A blog page, where a group of writers contribute their work such as think pieces, historical or scientific essays or local/inernational news stories. 
 
 -   Reviews, the current media page will have an option to click to a full review of the material, as well as the brief description. This is so users have the option to only read some of the description and avoid any spoilers. The reviews would be targetted at users who have already engaged in this material and a spoiler warning will show. 
 
--   An Activist section that community groups can use to advertise and organise demonstrations, protests or fundraisers. This section would also contain any political/government news and movements, changes in legistlation and upcoming election information.
+-   An Activist section that community groups can use to advertise and organise demonstrations, protests or fundraisers. This section would also contain any political/government news and movements, changes in legistlation and upcoming electoral information.
 
 # Technologies Used
 
@@ -317,18 +317,23 @@ I planned to include versions of these features in the original structure, but d
 
 ## Frameworks, Libraries & Programs Used
 
+1. [GitPod:](https://www.gitpod.io/)
+    - I used GitPod as my main code editor for this project.
 
-1. [Google Fonts:](https://fonts.google.com/)
-    - Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
-
-1. [Font Awesome:](https://fontawesome.com/)
-    - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+1. [Visual Studio Code](https://code.visualstudio.com/)
+    - I used Visual Studio Code as another editor for this project.
 
 1. [Git](https://git-scm.com/)
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 
 1. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
+
+1. [Google Fonts:](https://fonts.google.com/)
+    - Google fonts were used to import the 'Montserrat' font into the style.css file which is used on all pages throughout the project.
+
+1. [Font Awesome:](https://fontawesome.com/)
+    - Font Awesome was used on all pages throughout the website to add icons to different sections.
 
 1. [Design.com:](https://design.com/)
     - Design.com was used to generate the logo.
@@ -401,19 +406,19 @@ I created a testing grid on Apple Numbers which I used throughout the process of
 
 -   Friends and family members were asked to review the site and documentation to point out any bugs or user experience issues.
 
--   Tested on all devices available on chrome dev tools.
+-   Tested on all devices available on chrome developer tools.
 
 ## Fixed Bugs 
 
-Throughout the process of building this site, I came across many different errors, bugs or warnings that I have since fixed. Mostly syntax/spelling errors, as well as a few issues trying to navigate flexbox. The html validators were a good tool in identifying any errors with syntax or otherwise, and I was able to fix all the issues that the validator identified to end with a good result. I am hoping that there aren't anymore unknown bugs I haven't found/fixed!
+Throughout the process of building this site, I came across many different errors, bugs or warnings that I have since fixed. Mostly syntax/spelling errors, as well as a few issues trying to navigate flexbox. The W3C validators were a good tool in identifying any errors with syntax or otherwise, and I was able to fix all the issues that the validator identified to end with a good result. I am hoping that there aren't anymore unknown bugs I haven't found/fixed!
 
 ## Known Bugs
 
--   There is an issue with the underline hover style on the navigation, this is because of an issue with the size/padding/margin that I haven't been able to identify or rectify. The underline appears too large on both home and media links, on the community link it fits.
+-   There is an issue with the underline hover style on the navigation, this is because of an issue with the size/padding/margin that I haven't been able to identify or rectify. The underline appears too large on both home and media links, on the community link it fits because I set the size to 88% of the content. 
 
 ![navigation-bug](./assets/images/readme/nav-bug.png)
 
--   A white border displays when I try to view the site on landscape mode on a mobile device. I'm still not sure how to fix it, googling and reading but can't really find anything that solves it.
+-   A white border displays when I try to view the site on landscape mode on a mobile device. I'm still not sure how to fix it, googling and reading but I can't really find anything that solves it.
 
 ![mobile-bug](./assets/images/readme/mobile-bug.jpg)
 
@@ -451,14 +456,14 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 
 ## Code
 
--   The hover styles for the navigation to display the underline when highlighted were taken from [GreatStack tutorial](https://www.youtube.com/watch?v=PgAZ8KzfhO8), as well as other small sections I have highlighted in comments in my CSS file.
+-   The hover styles for the navigation to display the underline when highlighted were taken from [GreatStack tutorial](https://www.youtube.com/watch?v=PgAZ8KzfhO8), as well as CSS declaration 'linear-gradient' for the darker overlay on the background images.
 
 
 ## Content
 
 -   Some media sections have descriptions taken from these sites: [Electric Lit](https://electricliterature.com/), [The Guardian](https://www.theguardian.com/europe), [Pink News](https://www.thepinknews.com/) and [Conversations about her](https://conversationsabouther.net/) as well as [Wikipedia](https://www.wikipedia.org/). 
 
--   The events from the event section of the community page were taken from [The Project Arts Centre Website](https://projectartscentre.ie/). 
+-   The content from the event section of the community page were taken from [The Project Arts Centre Website](https://projectartscentre.ie/). 
 
 ## Media
 
